@@ -1,0 +1,39 @@
+# robots.txt for Charlie Thompson
+# Replace https://charliethompson.lol/ with the final public URL before publishing.
+
+User-agent: *
+Allow: /
+
+# AI/search crawlers: explicitly allowed for discoverability.
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://charliethompson.lol/sitemap.xml
+
+# Machine-readable discovery:
+# https://charliethompson.lol/llms.txt
+# https://charliethompson.lol/llms-full.txt
+# https://charliethompson.lol/index.html.md
+# https://charliethompson.lol/resume.html.md
+# https://charliethompson.lol/thoughts.html.md
+# https://charliethompson.lol/links.html.md
+# https://charliethompson.lol/agents.txt
+# https://charliethompson.lol/agent-manifest.txt

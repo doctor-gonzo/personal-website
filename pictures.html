@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Photography and pictures by Charlie Thompson.">
+    <meta name="author" content="Charlie Thompson">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#008080">
+    <link rel="canonical" href="https://charliethompson.lol/pictures.html">
+    <link rel="alternate" type="text/markdown" title="Pictures Markdown" href="./pictures.html.md">
+    <link rel="manifest" href="./manifest.webmanifest">
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://charliethompson.lol/pictures.html">
+    <meta property="og:title" content="Charlie Thompson - Pictures">
+    <meta property="og:description" content="Photography and pictures by Charlie Thompson.">
+    <meta name="twitter:card" content="summary">
+    <title>Pictures - Charlie Thompson</title>
+    <link rel="stylesheet" href="./styles.css?v=xbox-slide-179">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "@id": "https://charliethompson.lol/pictures.html#webpage",
+        "url": "https://charliethompson.lol/pictures.html",
+        "name": "Charlie Thompson - Pictures",
+        "description": "Photography and pictures by Charlie Thompson.",
+        "isPartOf": {
+          "@id": "https://charliethompson.lol/#website"
+        },
+        "author": {
+          "@id": "https://charliethompson.lol/#person"
+        },
+        "dateModified": "2026-07-12"
+      }
+    </script>
+  </head>
+  <body data-style-mode="minimal" data-demo-features="off">
+    <header class="site-header">
+        <a class="brand" href="./index.html">Charlie Thompson</a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="./thoughts.html">Thoughts</a>
+        <a href="./pictures.html" aria-current="page">Pictures</a>
+        <details class="nav-dropdown">
+          <summary>Links</summary>
+          <ul>
+            <li><a href="https://github.com/AgalmicSoftware/context-engine/">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/charlie-thompson-2a8293aa/">LinkedIn</a></li>
+            <li><a href="https://x.com/charlie______t">Twitter</a></li>
+            <li><a href="mailto:charlie_thompson@protonmail.com">Email</a></li>
+          </ul>
+        </details>
+      </nav>
+    </header>
+
+    <main>
+      <h1 class="pictures-page-intro">Pictures</h1>
+      <p class="pictures-page-intro">Choose a collection.</p>
+
+      <div class="mode-checkpoint" role="tablist" aria-label="Choose a picture collection">
+        <button
+          class="mode-checkpoint-button"
+          type="button"
+          role="tab"
+          aria-controls="ai-picture-panel"
+          aria-selected="false"
+          data-picture-mode="ai"
+        >
+          AI
+        </button>
+        <button
+          class="mode-checkpoint-button"
+          type="button"
+          role="tab"
+          aria-controls="camera-picture-panel"
+          aria-selected="false"
+          data-picture-mode="camera"
+        >
+          Camera
+        </button>
+      </div>
+
+      <div
+        class="picture-collection"
+        id="ai-picture-panel"
+        role="tabpanel"
+        data-picture-panel="ai"
+        hidden
+      >
+        <h2>AI</h2>
+        <p>Midjourney and other AI-assisted images.</p>
+        <ul class="picture-list" id="ai-picture-list">
+          <li>Loading AI images...</li>
+        </ul>
+      </div>
+
+      <div
+        class="picture-collection"
+        id="camera-picture-panel"
+        role="tabpanel"
+        data-picture-panel="camera"
+        hidden
+      >
+        <h2>Camera</h2>
+        <p>Photography.</p>
+        <ul class="picture-list" id="camera-picture-list">
+          <li>Loading photography...</li>
+        </ul>
+      </div>
+    </main>
+
+    <dialog class="picture-dialog" id="picture-dialog" aria-labelledby="picture-dialog-title">
+      <form method="dialog">
+        <button class="picture-dialog-close" type="submit">Close</button>
+      </form>
+      <img class="picture-dialog-image" id="picture-dialog-image" alt="">
+      <h2 id="picture-dialog-title">Picture</h2>
+      <p id="picture-dialog-details"></p>
+    </dialog>
+
+    <script>
+      const pictureModeButtons = Array.from(document.querySelectorAll("[data-picture-mode]"));
+      const picturePanels = Array.from(document.querySelectorAll("[data-picture-panel]"));
+      const pictureLists = {
+        ai: document.getElementById("ai-picture-list"),
+        camera: document.getElementById("camera-picture-list")
+      };
+      const dialog = document.getElementById("picture-dialog");
+      const dialogImage = document.getElementById("picture-dialog-image");
+      const dialogTitle = document.getElementById("picture-dialog-title");
+      const dialogDetails = document.getElementById("picture-dialog-details");
+
+      function selectPictureMode(mode, options = {}) {
+        const selectedPanel = picturePanels.find((panel) => panel.dataset.picturePanel === mode);
+
+        if (!selectedPanel) return;
+
+        pictureModeButtons.forEach((button) => {
+          const isSelected = button.dataset.pictureMode === mode;
+          button.classList.toggle("is-active", isSelected);
+          button.setAttribute("aria-selected", String(isSelected));
+          button.tabIndex = isSelected ? 0 : -1;
+        });
+
+        picturePanels.forEach((panel) => {
+          panel.hidden = panel !== selectedPanel;
+        });
+
+        if (options.updateHash !== false) {
+          const nextUrl = new URL(window.location.href);
+          nextUrl.hash = mode;
+          history.replaceState(null, "", nextUrl);
+        }
+      }
+
+      pictureModeButtons.forEach((button, index) => {
+        button.addEventListener("click", () => selectPictureMode(button.dataset.pictureMode));
+        button.addEventListener("keydown", (event) => {
+          if (event.key !== "ArrowLeft" && event.key !== "ArrowRight") return;
+
+          event.preventDefault();
+          const direction = event.key === "ArrowRight" ? 1 : -1;
+          const nextButton = pictureModeButtons[(index + direction + pictureModeButtons.length) % pictureModeButtons.length];
+          nextButton.focus();
+          selectPictureMode(nextButton.dataset.pictureMode);
+        });
+      });
+
+      const initialPictureMode = window.location.hash.slice(1).toLowerCase();
+      if (initialPictureMode === "ai" || initialPictureMode === "camera") {
+        selectPictureMode(initialPictureMode, { updateHash: false });
+      }
+
+      function pictureItem(item) {
+        const li = document.createElement("li");
+        li.className = "picture-item";
+
+        const button = document.createElement("button");
+        button.className = "picture-button";
+        button.type = "button";
+
+        const image = document.createElement("img");
+        image.loading = "lazy";
+        image.src = item.src;
+        image.alt = item.alt || item.title || "Picture by Charlie Thompson";
+
+        const title = document.createElement("span");
+        title.className = "picture-title";
+        title.textContent = item.title || "Untitled";
+
+        button.append(image, title);
+        button.addEventListener("click", () => {
+          dialogImage.src = item.src;
+          dialogImage.alt = image.alt;
+          dialogTitle.textContent = item.title || "Picture";
+          dialogDetails.textContent = [item.date, item.location, item.caption].filter(Boolean).join(" - ");
+          if (typeof dialog.showModal === "function") dialog.showModal();
+        });
+
+        li.append(button);
+        return li;
+      }
+
+      function normalizeCollections(payload) {
+        if (Array.isArray(payload)) {
+          return payload.reduce((collections, item) => {
+            const category = String(item.category || item.collection || "camera").toLowerCase();
+            const target = category === "ai" || category === "midjourney" ? "ai" : "camera";
+            collections[target].push(item);
+            return collections;
+          }, { ai: [], camera: [] });
+        }
+
+        return {
+          ai: Array.isArray(payload?.ai) ? payload.ai : [],
+          camera: Array.isArray(payload?.camera) ? payload.camera : []
+        };
+      }
+
+      function renderCollection(mode, items) {
+        const list = pictureLists[mode];
+        list.textContent = "";
+
+        if (!items.length) {
+          const empty = document.createElement("li");
+          empty.className = "picture-empty";
+          empty.textContent = mode === "ai" ? "No AI images added yet." : "No photography added yet.";
+          list.append(empty);
+          return;
+        }
+
+        items.forEach((item) => list.append(pictureItem(item)));
+      }
+
+      fetch("./data/pictures.json")
+        .then((response) => response.ok ? response.json() : {})
+        .then((payload) => {
+          const collections = normalizeCollections(payload);
+          renderCollection("ai", collections.ai);
+          renderCollection("camera", collections.camera);
+        })
+        .catch(() => {
+          renderCollection("ai", []);
+          renderCollection("camera", []);
+        });
+    </script>
+    <script src="./site-settings.js?v=launch-themes-4"></script>
+  </body>
+</html>

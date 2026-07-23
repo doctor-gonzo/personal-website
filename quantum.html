@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="A personal research page about quantum computing risk to Bitcoin, Ethereum, and elliptic curve cryptography, with an inline Dec 2025 report."
+    >
+    <meta name="author" content="Charlie Thompson">
+    <meta name="robots" content="index, follow">
+    <meta
+      name="keywords"
+      content="quantum computing, Bitcoin, Ethereum, ECDSA, post-quantum cryptography, QRL, quantum resistant ledger"
+    >
+    <meta name="theme-color" content="#008080">
+    <link rel="canonical" href="https://charliethompson.lol/quantum.html">
+    <link rel="alternate" type="application/rss+xml" title="Charlie Thompson" href="./feed.xml">
+    <link rel="alternate" type="text/markdown" title="LLM-readable quantum page" href="./quantum.html.md">
+    <link rel="manifest" href="./manifest.webmanifest">
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://charliethompson.lol/quantum.html">
+    <meta property="og:title" content="Quantum Computing and Bitcoin">
+    <meta
+      property="og:description"
+      content="A research page on quantum computing risk to Bitcoin and elliptic curve cryptography, with an inline Dec 2025 report."
+    >
+    <meta property="og:site_name" content="Charlie Thompson">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Quantum Computing and Bitcoin">
+    <meta
+      name="twitter:description"
+      content="A research page on quantum computing risk to Bitcoin and elliptic curve cryptography, with an inline Dec 2025 report."
+    >
+    <title>Quantum Computing and Bitcoin - Charlie Thompson</title>
+    <link rel="stylesheet" href="./styles.css?v=xbox-slide-179">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://charliethompson.lol/#person",
+            "name": "Charlie Thompson",
+            "url": "https://charliethompson.lol/",
+            "email": "charlie_thompson@protonmail.com",
+            "sameAs": [
+              "https://www.linkedin.com/in/charlie-thompson-2a8293aa/",
+              "https://x.com/charlie______t",
+              "https://github.com/AgalmicSoftware/context-engine/"
+            ]
+          },
+          {
+            "@type": "TechArticle",
+            "@id": "https://charliethompson.lol/quantum.html#article",
+            "headline": "Quantum Computing and Bitcoin",
+            "description": "A personal research page about quantum computing risk to Bitcoin, Ethereum, and elliptic curve cryptography.",
+            "author": {
+              "@id": "https://charliethompson.lol/#person"
+            },
+            "publisher": {
+              "@id": "https://charliethompson.lol/#person"
+            },
+            "datePublished": "2025-08",
+            "dateModified": "2025-12",
+            "url": "https://charliethompson.lol/quantum.html",
+            "about": [
+              "quantum computing",
+              "Bitcoin",
+              "Ethereum",
+              "elliptic curve cryptography",
+              "post-quantum cryptography",
+              "Quantum Resistant Ledger"
+            ],
+            "encoding": [
+              {
+                "@type": "MediaObject",
+                "encodingFormat": "application/pdf",
+                "contentUrl": "https://charliethompson.lol/assets/reports/QC_BTC_Dec2025.pdf",
+                "name": "Quantum Computing / Bitcoin (Report) - Dec 2025 Update"
+              }
+            ],
+            "isPartOf": {
+              "@id": "https://charliethompson.lol/#website"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://charliethompson.lol/#website",
+            "url": "https://charliethompson.lol/",
+            "name": "Charlie Thompson",
+            "publisher": {
+              "@id": "https://charliethompson.lol/#person"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://charliethompson.lol/quantum.html#webpage",
+            "url": "https://charliethompson.lol/quantum.html",
+            "name": "Quantum Computing and Bitcoin",
+            "isPartOf": {
+              "@id": "https://charliethompson.lol/#website"
+            },
+            "mainEntity": {
+              "@id": "https://charliethompson.lol/quantum.html#article"
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body data-style-mode="minimal" data-demo-features="off">
+    <header class="site-header" aria-label="Site header">
+        <a class="brand" href="./index.html">Charlie Thompson</a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="./thoughts.html">Thoughts</a>
+        <a href="./pictures.html">Pictures</a>
+        <details class="nav-dropdown">
+          <summary>Links</summary>
+          <ul>
+            <li><a href="https://github.com/AgalmicSoftware/context-engine/">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/charlie-thompson-2a8293aa/">LinkedIn</a></li>
+            <li><a href="https://x.com/charlie______t">Twitter</a></li>
+            <li><a href="mailto:charlie_thompson@protonmail.com">Email</a></li>
+          </ul>
+        </details>
+      </nav>
+    </header>
+
+    <main id="top" class="quantum-page">
+      <h1 id="quantum-title">Quantum computing and Bitcoin</h1>
+
+      <section class="section quantum-overview">
+        <p class="meta">First published: August 2025. Updated: December 2025.</p>
+        <p>
+          This report argues that the relevant quantum risk for Bitcoin and
+          Ethereum is not SHA-256, but ECDSA: a cryptographically relevant
+          quantum computer running Shor's algorithm could derive private keys
+          from exposed public keys and enable storage or transit attacks.
+        </p>
+        <p>
+          It frames post-quantum migration as a coordination problem across
+          consensus rules, wallets, exchanges, inactive addresses, and user
+          action. It also tracks quantum hardware, error-correction, and
+          algorithmic progress; government and Web2 post-quantum migration; and
+          the Quantum Resistant Ledger as an example of a live
+          quantum-resistant blockchain.
+        </p>
+      </section>
+
+      <details class="agent-panel report-section quantum-pdf-panel" id="report" open>
+        <summary class="agent-panel-label">
+          <span aria-hidden="true">&#9679;</span> PDF
+        </summary>
+        <div class="agent-panel-body">
+          <div class="report-panel">
+            <nav class="report-actions" aria-label="Report formats">
+              <a href="./assets/reports/QC_BTC_Dec2025.pdf" target="_blank" rel="noopener">Open original PDF</a>
+              <a href="./assets/reports/QC_BTC_Dec2025.pdf" download>Download PDF</a>
+              <a href="./quantum-report.html">Read the text version</a>
+            </nav>
+            <div class="report-document" aria-label="Quantum Computing and Bitcoin report, 13 pages">
+              <figure class="report-page">
+                <img src="./assets/reports/qc-btc-dec2025-pages/page-01.jpg" alt="Quantum Computing and Bitcoin report, page 1 of 13" width="1192" height="1684" decoding="async" fetchpriority="high">
+                <figcaption>Page 1 of 13</figcaption>
+              </figure>
+              <figure class="report-page">
+                <img src="./assets/reports/qc-btc-dec2025-pages/page-02.jpg" alt="Quantum Computing and Bitcoin report, page 2 of 13" width="1192" height="1684" loading="lazy" decoding="async">
+                <figcaption>Page 2 of 13</figcaption>
+              </figure>
+              <figure class="report-page">
+                <img src="./assets/reports/qc-btc-dec2025-pages/page-03.jpg" alt="Quantum Computing and Bitcoin report, page 3 of 13" width="1192" height="1684" loading="lazy" decoding="async">
+                <figcaption>Page 3 of 13</figcaption>
+              </figure>
+              <figure class="report-page">
+                <img src="./assets/reports/qc-btc-dec2025-pages/page-04.jpg" alt="Quantum Computing and Bitcoin report, page 4 of 13" width="1192" height="1684" loading="lazy" decoding="async">
+                <figcaption>Page 4 of 13</figcaption>
+              </figure>
+              <figure class="report-page">
+                <img src="./assets/reports/qc-btc-dec2025-pages/page-05.jpg" alt="Quantum Computing and Bitcoin report, page 5 of 13" width="1192" height="1684" loading="lazy" decoding="async">
+                <figcaption>Page 5 of 13</figcaption>
+              </figure>
+              <figure class="report-page">
+                <img src="./assets/reports/qc-btc-dec2025-pages/page-06.jpg" alt="Quantum Computing and Bitcoin report, page 6 of 13" width="1192" height="1684" loading="lazy" decoding="async">
+                <figcaption>Page 6 of 13</figcaption>
+              </figure>
+              <figure class="report-page">
+                <img src="./assets/reports/qc-btc-dec2025-pages/page-07.jpg" alt="Quantum Computing and Bitcoin report, page 7 of 13" width="1192" height="1684" loading="lazy" decoding="async">
+                <figcaption>Page 7 of 13</figcaption>
+              </figure>
+              <figure class="report-page">
+                <img src="./assets/reports/qc-btc-dec2025-pages/page-08.jpg" alt="Quantum Computing and Bitcoin report, page 8 of 13" width="1192" height="1684" loading="lazy" decoding="async">
+                <figcaption>Page 8 of 13</figcaption>
+              </figure>
+              <figure class="report-page">
+                <img src="./assets/reports/qc-btc-dec2025-pages/page-09.jpg" alt="Quantum Computing and Bitcoin report, page 9 of 13" width="1192" height="1684" loading="lazy" decoding="async">
+                <figcaption>Page 9 of 13</figcaption>
+              </figure>
+              <figure class="report-page">
+                <img src="./assets/reports/qc-btc-dec2025-pages/page-10.jpg" alt="Quantum Computing and Bitcoin report, page 10 of 13" width="1192" height="1684" loading="lazy" decoding="async">
+                <figcaption>Page 10 of 13</figcaption>
+              </figure>
+              <figure class="report-page">
+                <img src="./assets/reports/qc-btc-dec2025-pages/page-11.jpg" alt="Quantum Computing and Bitcoin report, page 11 of 13" width="1192" height="1684" loading="lazy" decoding="async">
+                <figcaption>Page 11 of 13</figcaption>
+              </figure>
+              <figure class="report-page">
+                <img src="./assets/reports/qc-btc-dec2025-pages/page-12.jpg" alt="Quantum Computing and Bitcoin report, page 12 of 13" width="1192" height="1684" loading="lazy" decoding="async">
+                <figcaption>Page 12 of 13</figcaption>
+              </figure>
+              <figure class="report-page">
+                <img src="./assets/reports/qc-btc-dec2025-pages/page-13.jpg" alt="Quantum Computing and Bitcoin report, page 13 of 13" width="1192" height="1684" loading="lazy" decoding="async">
+                <figcaption>Page 13 of 13</figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </details>
+    </main>
+
+    <script src="./site-settings.js?v=launch-themes-4"></script>
+  </body>
+</html>

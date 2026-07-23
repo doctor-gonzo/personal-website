@@ -1,0 +1,115 @@
+# Charlie Thompson
+
+Canonical URL: https://charliethompson.lol/
+Language: en-US
+Last updated: 2026-06-10
+
+## Summary
+
+Charlie Thompson is an Ethereum-focused product engineer and researcher building at the intersection of programmable cryptography and AI-assisted deliberation, negotiation, and coordination in large groups for humans and AI agents.
+
+The site is intentionally minimal and static. It includes a homepage, public resume/work-history page, thoughts/posts page, quantum research page, Markdown copies for LLMs and agents, and discovery files for crawlers.
+
+## Contact
+
+Email: charlie_thompson@protonmail.com
+LinkedIn: https://www.linkedin.com/in/charlie-thompson-2a8293aa/
+Twitter: https://x.com/charlie______t
+Context Engine: https://github.com/AgalmicSoftware/context-engine/
+Thoughts: https://charliethompson.lol/thoughts.html
+Pictures: https://charliethompson.lol/pictures.html
+Links: https://charliethompson.lol/links.html
+
+## Public Projects
+
+### Thoughts
+
+URL: https://charliethompson.lol/thoughts.html
+Markdown: https://charliethompson.lol/thoughts.html.md
+
+Two-view page for public writing. Tweets contains a newest-first archive from data/tweets/public-posts.json with search and year filtering. Posts is reserved for longer-form static files added under thoughts/ and linked from the Posts view.
+
+### Pictures
+
+URL: https://charliethompson.lol/pictures.html
+Markdown: https://charliethompson.lol/pictures.html.md
+
+Pictures page with separate AI-generated and camera collections. Images are listed through data/pictures.json and stored under assets/pictures/ai/ or assets/pictures/camera/.
+
+### Context Engine
+
+URL: https://github.com/AgalmicSoftware/context-engine/
+
+An open-source toolkit for large-group deliberation and negotiation (for humans and AI agents)
+
+### Proof of Human
+
+URL: https://github.com/doctor-gonzo/proof-of-human
+
+2018 Winograd Schema Challenge concept for proving humanity of smart-contract callers.
+
+### Quantum Computing and Bitcoin
+
+URL: https://charliethompson.lol/quantum.html
+PDF: https://charliethompson.lol/assets/reports/QC_BTC_Dec2025.pdf
+Transcript: https://charliethompson.lol/quantum-report.html
+Article: https://medium.com/coinmonks/quantum-computers-pose-a-credible-threat-to-the-security-of-bitcoin-4b1dd65944ca
+Prototype for Quantum-Resistant XMSS Signature vault on Ethereum: https://www.theqrl.org/blog/the-qrl-enqlave-project-bringing-post-quantum-security-to-ethereum-and-other-blockchain-platforms/
+
+2018-present quantum computing and Bitcoin work, including a 2025 report on quantum risk to Bitcoin, Ethereum, ECDSA, and post-quantum migration, a 2020 prototype for Quantum-Resistant XMSS Signature vault on Ethereum, and a 2018 article.
+
+### AI Consciousness Report
+
+URL: https://arxiv.org/abs/2308.08708
+
+2023 graphical assistance for the AI Consciousness Report.
+
+### Social Infrastructure for AI on Ethereum
+
+Page: https://charliethompson.lol/zuzalu.html
+Event: https://aixzuzalu.splashthat.com/
+Ideas map: https://charliethompson.lol/assets/ai-safety-map/WebsiteContextEngine_AISafetyIdeasMap_.html
+
+Presented at Zuzalu AI x Crypto in 2023, with a static argument explorer and an embedded Context Engine AI safety ideas map. The explorer frames the notes around four lenses: Ethereum as public infrastructure for AI-era coordination, identity/delegation/provenance risks from more capable agents, crypto tools such as signatures and attestations, and open questions about public/private records and agent delegation.
+
+### Liberal Radicalism: A Flexible Design for Philanthropic Matching Funds
+
+URL: https://arxiv.org/abs/1809.06421
+
+Provided research assistance connected to quadratic funding and helped connect Democracy Earth and RadicalxChange around a quadratic voting pilot in the Colorado State House.
+
+## Work History
+
+### Independent Product Engineer and Researcher - Context Engine
+
+2023-present
+
+Product, engineering, docs, releases, user/deployer flows, AI-assisted deliberation/negotiation/coordination features for large groups of humans and AI agents, and public/private deployment design.
+
+### Solidity Developer - The Quantum Resistant Ledger
+
+2020
+
+QRL contributor page: https://www.theqrl.org/team/charlie/
+
+Contributed to a post-quantum XMSS Ethereum vault prototype and translated cryptographic constraints into Solidity/EVM trade-offs.
+
+### Research Assistant - Glen Weyl
+
+2019
+
+Research assistance around quadratic funding, RadicalxChange, and civic experimentation.
+
+### Independent Researcher
+
+2018
+
+Designed an early proof-of-humanity smart contract concept using natural-language challenges resistant to AI.
+
+## Education
+
+Cornell University - B.A., Computer Science, 2021. Focus: cryptography, natural language processing, AI.
+
+## Technical Notes
+
+The visible homepage is index.html. The resume page is resume.html, with a Markdown copy at resume.html.md. The thoughts page is thoughts.html, with a Markdown copy at thoughts.html.md, a Tweets/Posts first-step switch, post templates under thoughts/, a newest-first archive of static imported tweets at data/tweets/public-posts.json, and search and year filters. The pictures page is pictures.html, with a Markdown copy at pictures.html.md and separate AI-generated and camera entries loaded from data/pictures.json. The public links page is links.html, with a Markdown copy at links.html.md. The 2023 talk/map page is zuzalu.html, with a Markdown summary at zuzalu.html.md, a static argument explorer, and an embedded exported document at assets/ai-safety-map/WebsiteContextEngine_AISafetyIdeasMap_.html. The quantum report page is quantum.html, with one short explanation and a collapsible PDF at assets/reports/QC_BTC_Dec2025.pdf; text extraction and an HTML transcript remain available at assets/reports/QC_BTC_Dec2025.txt and quantum-report.html for crawler/agent use. There is no build step. AI/search crawlers are explicitly allowed in robots.txt, and Markdown/plain-text versions exist to make scraping easier. The public theme choices are Windows 95 Desktop (default), Xbox 360 Blades, and minimal; pages embedded inside the desktop shell force minimal mode.

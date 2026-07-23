@@ -1,0 +1,43 @@
+{
+  "ai": [
+    {
+      "src": "./assets/pictures/ai/midjourney-chromatic-profile.png",
+      "title": "Chromatic profile",
+      "alt": "Abstract translucent profile in pink, green, blue, and yellow.",
+      "caption": "Created with Midjourney"
+    },
+    {
+      "src": "./assets/pictures/ai/midjourney-circuit-medallion.png",
+      "title": "Circuit medallion",
+      "alt": "Gold and green circular medallion patterned like a circuit board.",
+      "caption": "Created with Midjourney"
+    },
+    {
+      "src": "./assets/pictures/ai/midjourney-pastel-interior.png",
+      "title": "Pastel interior",
+      "alt": "Pastel modern living room opening onto an immense cloud-filled sky.",
+      "caption": "Created with Midjourney"
+    },
+    {
+      "src": "./assets/pictures/ai/midjourney-robot-hearing.png",
+      "title": "Robot at a hearing",
+      "alt": "Friendly CRT-headed robot seated at a formal hearing table.",
+      "caption": "Created with Midjourney"
+    }
+  ],
+  "camera": [
+    {
+      "src": "./assets/pictures/camera/boat-from-above.jpg",
+      "title": "Boat from above",
+      "alt": "White rowboat seen from above in dark green water.",
+      "caption": "Photograph by Charlie Thompson"
+    },
+    {
+      "src": "./assets/pictures/camera/french-harbor.jpg",
+      "title": "French harbor",
+      "alt": "Harbor village in France with white houses, boats, and a suspension bridge.",
+      "location": "France",
+      "caption": "Photograph by Charlie Thompson"
+    }
+  ]
+}

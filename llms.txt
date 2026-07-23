@@ -1,0 +1,46 @@
+# Charlie Thompson
+
+> Minimal public website for Charlie Thompson: selected work, resume, links, thoughts, pictures, and research notes.
+
+This is a static site designed for GitHub Pages, IPFS, and ENS contenthash hosting. AI/search crawlers are allowed in `robots.txt`; Markdown and plain-text versions are provided for easier retrieval.
+
+## Primary Content
+
+- [Homepage](https://charliethompson.lol/): One-list public profile.
+- [Homepage Markdown](https://charliethompson.lol/index.html.md): Clean Markdown copy of the homepage.
+- [Resume](https://charliethompson.lol/resume.html): Public resume and work history.
+- [Resume Markdown](https://charliethompson.lol/resume.html.md): LLM-readable public resume.
+- [Thoughts](https://charliethompson.lol/thoughts.html): Separate Tweets and Posts views; Tweets contains a newest-first archive from `data/tweets/public-posts.json` with search and year filtering, while Posts is reserved for longer-form writing.
+- [Thoughts Markdown](https://charliethompson.lol/thoughts.html.md): LLM-readable posts index.
+- [Pictures](https://charliethompson.lol/pictures.html): AI-generated and camera picture collections by Charlie Thompson.
+- [Pictures Markdown](https://charliethompson.lol/pictures.html.md): LLM-readable pictures page summary.
+- [Links](https://charliethompson.lol/links.html): GitHub, LinkedIn, Twitter, and email.
+- [Links Markdown](https://charliethompson.lol/links.html.md): LLM-readable links.
+- [Quantum page](https://charliethompson.lol/quantum.html): Research page with one short explanation and a collapsible PDF report on quantum computing, Bitcoin, Ethereum, ECDSA, and post-quantum migration.
+- [Quantum page Markdown](https://charliethompson.lol/quantum.html.md): Clean Markdown summary of the quantum page.
+
+## Public Projects
+
+- [Context Engine](https://github.com/AgalmicSoftware/context-engine/): An open-source toolkit for large-group deliberation and negotiation (for humans and AI agents)
+- [AI Consciousness Report](https://arxiv.org/abs/2308.08708): 2023 graphical assistance for the report.
+- [Zuzalu 2023 talk and AI safety ideas map](https://charliethompson.lol/zuzalu.html): Talk link, static argument explorer, and embedded exported ideas map.
+- [Context Engine AI Safety Ideas Map](https://charliethompson.lol/assets/ai-safety-map/WebsiteContextEngine_AISafetyIdeasMap_.html): Exported interactive document.
+- Quantum computing and Bitcoin, 2018-present:
+  - 2025: [Quantum Computing / Bitcoin page](https://charliethompson.lol/quantum.html): report on quantum risk to Bitcoin, Ethereum, ECDSA, and post-quantum migration.
+  - 2020: [Prototype for Quantum-Resistant XMSS Signature vault on Ethereum](https://www.theqrl.org/blog/the-qrl-enqlave-project-bringing-post-quantum-security-to-ethereum-and-other-blockchain-platforms/).
+  - 2018: [Quantum Computers Pose a Credible Threat to the Security of Bitcoin](https://medium.com/coinmonks/quantum-computers-pose-a-credible-threat-to-the-security-of-bitcoin-4b1dd65944ca): Article.
+  - [Quantum Computing / Bitcoin PDF](https://charliethompson.lol/assets/reports/QC_BTC_Dec2025.pdf): Dec 2025 report.
+- [Quantum Computing / Bitcoin HTML transcript](https://charliethompson.lol/quantum-report.html): Inline text extraction from the PDF.
+- [Quantum Computing / Bitcoin plain text](https://charliethompson.lol/assets/reports/QC_BTC_Dec2025.txt): Plain-text extraction from the PDF.
+- [Liberal Radicalism: A Flexible Design for Philanthropic Matching Funds](https://arxiv.org/abs/1809.06421): Research assistance context.
+- [Proof of Human](https://github.com/doctor-gonzo/proof-of-human): 2018 Winograd Schema Challenge concept for proving humanity of smart-contract callers.
+
+## Discovery
+
+- [Sitemap](https://charliethompson.lol/sitemap.xml): Search crawler sitemap.
+- [Robots policy](https://charliethompson.lol/robots.txt): Crawl policy and AI crawler allowances.
+- [Full LLM context](https://charliethompson.lol/llms-full.txt): Expanded text summary.
+- [Agent policy](https://charliethompson.lol/agents.txt): Human-readable AI agent policy.
+- [Agent manifest](https://charliethompson.lol/agent-manifest.txt): Draft capability-style agent discovery manifest.
+- [RSS feed](https://charliethompson.lol/feed.xml): Update feed.
+- [Humans file](https://charliethompson.lol/humans.txt): Site ownership and technology notes.

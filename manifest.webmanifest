@@ -1,0 +1,27 @@
+{
+  "name": "Charlie Thompson",
+  "short_name": "Charlie Thompson",
+  "description": "The personal website of Charlie Thompson",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#008080",
+  "theme_color": "#000080",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "./assets/social/charlie-thompson-preview.png",
+      "sizes": "1200x630",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "The personal website of Charlie Thompson"
+    }
+  ]
+}

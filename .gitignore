@@ -1,0 +1,19 @@
+.DS_Store
+TODO/
+arweave-redirect/generated/
+twitter-archive/
+x-archive/
+data/tweets/raw/
+x-scrape-profile/
+
+# Private/local NFT experiments. Keep these available for future work without
+# publishing them as part of the static site.
+/nfts/
+/nfts.html
+/nfts.html.md
+/featured-nfts.js
+/future/
+
+/.codex/
+/.claude/
+/.vscode/

@@ -1,0 +1,12 @@
+/* TEAM */
+Owner: Charlie Thompson
+Contact: charlie_thompson@protonmail.com
+Site: https://charliethompson.lol/
+LinkedIn: https://www.linkedin.com/in/charlie-thompson-2a8293aa/
+Twitter: https://x.com/charlie______t
+
+/* SITE */
+Language: English
+Standards: HTML, CSS, JavaScript, JSON-LD, RSS, robots.txt, sitemap.xml, llms.txt, agents.txt
+Hosting: Static files, GitHub Pages compatible, IPFS/ENS compatible
+Last update: 2026-07-22

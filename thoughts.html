@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Tweets and longer-form posts by Charlie Thompson.">
+    <meta name="author" content="Charlie Thompson">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#008080">
+    <link rel="canonical" href="https://charliethompson.lol/thoughts.html">
+    <link rel="alternate" type="text/markdown" title="Thoughts Markdown" href="./thoughts.html.md">
+    <link rel="alternate" type="application/json" title="Public tweet archive" href="./data/tweets/public-posts.json">
+    <link rel="alternate" type="application/rss+xml" title="Charlie Thompson" href="./feed.xml">
+    <link rel="manifest" href="./manifest.webmanifest">
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://charliethompson.lol/thoughts.html">
+    <meta property="og:title" content="Charlie Thompson - Thoughts">
+    <meta property="og:description" content="Tweets and longer-form posts by Charlie Thompson.">
+    <meta name="twitter:card" content="summary">
+    <title>Thoughts - Charlie Thompson</title>
+    <link rel="stylesheet" href="./styles.css?v=xbox-slide-179">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "@id": "https://charliethompson.lol/thoughts.html#webpage",
+        "url": "https://charliethompson.lol/thoughts.html",
+        "name": "Charlie Thompson - Thoughts",
+        "description": "Tweets and longer-form posts by Charlie Thompson.",
+        "isPartOf": {
+          "@id": "https://charliethompson.lol/#website"
+        },
+        "author": {
+          "@id": "https://charliethompson.lol/#person"
+        },
+        "dateModified": "2026-07-17"
+      }
+    </script>
+  </head>
+  <body data-style-mode="minimal" data-demo-features="off">
+    <header class="site-header">
+        <a class="brand" href="./index.html">Charlie Thompson</a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="./thoughts.html" aria-current="page">Thoughts</a>
+        <a href="./pictures.html">Pictures</a>
+        <details class="nav-dropdown">
+          <summary>Links</summary>
+          <ul>
+            <li><a href="https://github.com/AgalmicSoftware/context-engine/">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/charlie-thompson-2a8293aa/">LinkedIn</a></li>
+            <li><a href="https://x.com/charlie______t">Twitter</a></li>
+            <li><a href="mailto:charlie_thompson@protonmail.com">Email</a></li>
+          </ul>
+        </details>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Thoughts</h1>
+
+      <div class="mode-checkpoint" role="tablist" aria-label="Choose a thoughts page">
+        <button
+          class="mode-checkpoint-button"
+          id="tweets-tab"
+          type="button"
+          role="tab"
+          aria-controls="tweets-panel"
+          aria-selected="false"
+          data-thought-mode="tweets"
+        >
+          Tweets
+        </button>
+        <button
+          class="mode-checkpoint-button"
+          id="posts-tab"
+          type="button"
+          role="tab"
+          aria-controls="posts-panel"
+          aria-selected="false"
+          data-thought-mode="posts"
+        >
+          Posts
+        </button>
+      </div>
+
+      <section
+        class="thought-collection"
+        id="tweets-panel"
+        role="tabpanel"
+        aria-labelledby="tweets-tab"
+        data-thought-panel="tweets"
+        hidden
+      >
+        <details class="tweet-filter-disclosure">
+          <summary>Filter</summary>
+          <form class="tweet-filter" data-tweet-filter>
+            <label>
+              Search
+              <input type="search" autocomplete="off" placeholder="Search tweets" data-tweet-search>
+            </label>
+            <label>
+              Year
+              <select data-tweet-year>
+                <option value="">All years</option>
+              </select>
+            </label>
+            <button type="button" data-tweet-clear>Clear</button>
+            <output aria-live="polite" data-tweet-filter-count></output>
+          </form>
+        </details>
+
+        <ul class="tweet-list" data-tweet-list data-src="./data/tweets/public-posts.json?v=tweet-pages-1">
+          <li>Loading tweets...</li>
+        </ul>
+      </section>
+
+      <section
+        class="thought-collection"
+        id="posts-panel"
+        role="tabpanel"
+        aria-labelledby="posts-tab"
+        data-thought-panel="posts"
+        hidden
+      >
+        <ul>
+          <li>
+            <a href="https://contextengine.xyz/posts/agent-village-wrapped-2026">
+              Agent Village Wrapped 2026
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <script src="./thoughts.js?v=tweet-pages-1"></script>
+    <script src="./site-settings.js?v=launch-themes-4"></script>
+  </body>
+</html>

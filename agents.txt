@@ -1,0 +1,40 @@
+# agents.txt for Charlie Thompson
+# Compatibility file. For the richer draft manifest, see /agent-manifest.txt.
+# Replace https://charliethompson.lol/ with the final public URL before publishing.
+
+Site-Name: Charlie Thompson
+Site-Description: Minimal public profile, resume, work history, public projects, and research notes.
+Site-URL: https://charliethompson.lol/
+Contact: mailto:charlie_thompson@protonmail.com
+
+Allow-Search: yes
+Allow-RAG: yes
+Allow-Training: yes
+Allow-Actions: no
+Preferred-Interface: web
+
+Robots-Txt: https://charliethompson.lol/robots.txt
+Sitemap: https://charliethompson.lol/sitemap.xml
+LLMS-Txt: https://charliethompson.lol/llms.txt
+Agent-Manifest: https://charliethompson.lol/agent-manifest.txt
+Resume: https://charliethompson.lol/resume.html
+Thoughts: https://charliethompson.lol/thoughts.html
+Links: https://charliethompson.lol/links.html
+
+[Agent: *]
+Allow: /
+Allow: /resume.html
+Allow: /resume.html.md
+Allow: /thoughts.html
+Allow: /thoughts.html.md
+Allow: /links.html
+Allow: /links.html.md
+Allow: /zuzalu.html
+Allow: /zuzalu.html.md
+Allow: /assets/ai-safety-map/WebsiteContextEngine_AISafetyIdeasMap_.html
+Allow: /quantum.html
+Allow: /quantum-report.html
+Allow: /assets/reports/QC_BTC_Dec2025.pdf
+Allow: /assets/reports/QC_BTC_Dec2025.txt
+Auth-Required: no
+Actions-Allowed: no

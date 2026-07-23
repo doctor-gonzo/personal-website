@@ -1,0 +1,4 @@
+Contact: mailto:charlie_thompson@protonmail.com
+Preferred-Languages: en
+Canonical: https://charliethompson.lol/.well-known/security.txt
+Expires: 2027-06-10T00:00:00Z

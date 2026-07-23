@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Charlie Thompson</title>
+    <link>https://charliethompson.lol/</link>
+    <description>Public work, resume, and research notes for Charlie Thompson.</description>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Jul 2026 21:49:20 GMT</lastBuildDate>
+    <atom:link href="https://charliethompson.lol/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Thoughts</title>
+      <link>https://charliethompson.lol/thoughts.html</link>
+      <guid isPermaLink="true">https://charliethompson.lol/thoughts.html</guid>
+      <pubDate>Fri, 17 Jul 2026 21:49:20 GMT</pubDate>
+      <description>Separate Tweets and Posts views, with a newest-first searchable tweet archive and space for longer-form writing.</description>
+    </item>
+    <item>
+      <title>Public links</title>
+      <link>https://charliethompson.lol/links.html</link>
+      <guid isPermaLink="true">https://charliethompson.lol/links.html</guid>
+      <pubDate>Wed, 10 Jun 2026 16:00:00 GMT</pubDate>
+      <description>GitHub, LinkedIn, X/Twitter, and email links for Charlie Thompson.</description>
+    </item>
+    <item>
+      <title>Zuzalu AI x Crypto 2023</title>
+      <link>https://charliethompson.lol/zuzalu.html</link>
+      <guid isPermaLink="true">https://charliethompson.lol/zuzalu.html</guid>
+      <pubDate>Wed, 10 Jun 2026 16:00:00 GMT</pubDate>
+      <description>Talk context and linked Context Engine AI safety ideas map.</description>
+    </item>
+    <item>
+      <title>Public resume and work history</title>
+      <link>https://charliethompson.lol/resume.html</link>
+      <guid isPermaLink="true">https://charliethompson.lol/resume.html</guid>
+      <pubDate>Wed, 10 Jun 2026 16:00:00 GMT</pubDate>
+      <description>Minimal public resume focused on public projects and work history.</description>
+    </item>
+    <item>
+      <title>Quantum Computing and Bitcoin report</title>
+      <link>https://charliethompson.lol/quantum.html</link>
+      <guid isPermaLink="true">https://charliethompson.lol/quantum.html</guid>
+      <pubDate>Wed, 10 Jun 2026 16:00:00 GMT</pubDate>
+      <description>A page with an inline Dec 2025 report on quantum computing risk to Bitcoin, Ethereum, and elliptic curve cryptography.</description>
+    </item>
+  </channel>
+</rss>
