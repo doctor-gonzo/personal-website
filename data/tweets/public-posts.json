@@ -1,0 +1,2637 @@
+{
+  "account": "charlie______t",
+  "source": "X archive import",
+  "generatedAt": "2026-06-29T07:28:25.953Z",
+  "posts": [
+    {
+      "id": "2047221162661531673",
+      "createdAt": "Thu Apr 23 07:48:55 +0000 2026",
+      "text": "using gpt-5.5 by invoking $imagegen command in codex through VSCode extension... all I can say is wow (!!!)\n\nthe diagrams it generates are incredible, they are helping me understand large refactors and codebase state in a way that was not possible before",
+      "url": "https://x.com/charlie______t/status/2047221162661531673"
+    },
+    {
+      "id": "2041593694210683376",
+      "createdAt": "Tue Apr 07 19:07:22 +0000 2026",
+      "text": "Recent cybersec news would increase movement towards smart contracts and PKI 2FA (not email) in a sane world… although most smart contract and PKI systems are also in crosshairs of existential quantum computer threat in next couple years",
+      "url": "https://x.com/charlie______t/status/2041593694210683376"
+    },
+    {
+      "id": "2038873270309830719",
+      "createdAt": "Tue Mar 31 06:57:22 +0000 2026",
+      "text": "QRL recognized by Google as leading post-quantum blockchain https://t.co/dAaUtoB4kD",
+      "url": "https://x.com/charlie______t/status/2038873270309830719",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/dAaUtoB4kD",
+          "expandedUrl": "https://x.com/CraigGidney/status/2038870761453293607",
+          "displayUrl": "x.com/CraigGidney/st…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "2038870761453293607",
+        "url": "https://x.com/CraigGidney/status/2038870761453293607",
+        "displayUrl": "x.com/CraigGidney/st…",
+        "shortUrl": "https://t.co/dAaUtoB4kD"
+      }
+    },
+    {
+      "id": "2025286220725846145",
+      "createdAt": "Sat Feb 21 19:07:17 +0000 2026",
+      "text": "AI is obviously going exponential but I also think the recent long-horizon METR graph point for 4.6 is more indicative of measurement difficulty / eval saturation\n\nHard to define / evaluate software tasks which are 100s or 1000s of hours",
+      "url": "https://x.com/charlie______t/status/2025286220725846145"
+    },
+    {
+      "id": "2022816570406543467",
+      "createdAt": "Sat Feb 14 23:33:47 +0000 2026",
+      "text": "Codex and CC are really amazing… what a time to be a programmer — I’m almost totally out of the loop on some projects and looking forward to less and less intervention",
+      "url": "https://x.com/charlie______t/status/2022816570406543467"
+    },
+    {
+      "id": "2018220431023669646",
+      "createdAt": "Mon Feb 02 07:10:22 +0000 2026",
+      "text": "I think the BTC and ETH weakness is more quantum-related than people currently realize",
+      "url": "https://x.com/charlie______t/status/2018220431023669646"
+    },
+    {
+      "id": "2015947807476371734",
+      "createdAt": "Tue Jan 27 00:39:46 +0000 2026",
+      "text": "AI agents are going to force rapid adoption of smart contracts / ens (agent naming + fast TTL) / new cryptography (for conditional data access) \n\ncurrent auth setups are not granular enough to handle delegation of funds &amp; permissions, or to carry private proofs of ____ around",
+      "url": "https://x.com/charlie______t/status/2015947807476371734"
+    },
+    {
+      "id": "2001856025381736606",
+      "createdAt": "Fri Dec 19 03:24:03 +0000 2025",
+      "text": "Seems like an important one https://t.co/QUCgpbZfzh",
+      "url": "https://x.com/charlie______t/status/2001856025381736606",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/QUCgpbZfzh",
+          "expandedUrl": "https://x.com/OwainEvans_UK/status/2001715774105522195",
+          "displayUrl": "x.com/OwainEvans_UK/…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "2001715774105522195",
+        "url": "https://x.com/OwainEvans_UK/status/2001715774105522195",
+        "displayUrl": "x.com/OwainEvans_UK/…",
+        "shortUrl": "https://t.co/QUCgpbZfzh"
+      }
+    },
+    {
+      "id": "1993817510723121343",
+      "createdAt": "Wed Nov 26 23:01:52 +0000 2025",
+      "text": "even with recent uptick in quantum computer awareness, hardly anyone is taking the severity of the problem seriously\n\nBTC is likely already cooked and Ethereum is in mortal danger\n\nmy guess is that crypto sees a 90%+ drawdown in the next 5 years &amp; $QRL moons as only real hedge https://t.co/uKDhWG2MnY",
+      "url": "https://x.com/charlie______t/status/1993817510723121343",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/uKDhWG2MnY",
+          "expandedUrl": "https://x.com/charlie______t/status/1777432908581531803",
+          "displayUrl": "x.com/charlie______t…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "1777432908581531803",
+        "url": "https://x.com/charlie______t/status/1777432908581531803",
+        "displayUrl": "x.com/charlie______t…",
+        "shortUrl": "https://t.co/uKDhWG2MnY"
+      }
+    },
+    {
+      "id": "1991546423482151228",
+      "createdAt": "Thu Nov 20 16:37:23 +0000 2025",
+      "text": "With all respect for the pioneering work of ZCash, $ZEC is not quantum-resistant \n\nI'm not sure why @Cryptopathic @0xMert_ and many others are amplifying the idea that it is\n\nhttps://t.co/fUS0cYV5cQ https://t.co/v2qYLOzihI",
+      "url": "https://x.com/charlie______t/status/1991546423482151228",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/fUS0cYV5cQ",
+          "expandedUrl": "https://chatgpt.com/share/691f4378-f4c0-8003-8bc9-d337009c15ef",
+          "displayUrl": "chatgpt.com/share/691f4378…"
+        }
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/G6Nk0SXWcAAwkEb.png",
+          "expandedUrl": "https://x.com/charlie______t/status/1991546423482151228/photo/1",
+          "displayUrl": "pic.x.com/v2qYLOzihI",
+          "shortUrl": "https://t.co/v2qYLOzihI"
+        }
+      ]
+    },
+    {
+      "id": "1991211499969474833",
+      "createdAt": "Wed Nov 19 18:26:31 +0000 2025",
+      "text": "Had a lovely time at @JoinEdgeCity Patagonia in the d/acc residency, grateful to all those who made it possible https://t.co/yOHcaWHppj",
+      "url": "https://x.com/charlie______t/status/1991211499969474833",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/G6I0R7abEAATFwC.jpg",
+          "expandedUrl": "https://x.com/charlie______t/status/1991211499969474833/photo/1",
+          "displayUrl": "pic.x.com/yOHcaWHppj",
+          "shortUrl": "https://t.co/yOHcaWHppj"
+        }
+      ]
+    },
+    {
+      "id": "1990506217542988102",
+      "createdAt": "Mon Nov 17 19:43:58 +0000 2025",
+      "text": "“Given the current staggering rate of hardware progress, I now think it’s a live possibility that we’ll have a fault-tolerant quantum computer running Shor’s algorithm before the next US presidential election” - Scott Aaronson\n\nhttps://t.co/5zvfMwNRDl\n\nBut @saylor and @adam3us…",
+      "url": "https://x.com/charlie______t/status/1990506217542988102",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/5zvfMwNRDl",
+          "expandedUrl": "https://scottaaronson.blog/?p=9325",
+          "displayUrl": "scottaaronson.blog/?p=9325"
+        }
+      ]
+    },
+    {
+      "id": "1977877905771249760",
+      "createdAt": "Mon Oct 13 23:23:34 +0000 2025",
+      "text": "the price of $QRL is sufficient proof against EMH \n\nstill cheap, see you at $20 🫡 https://t.co/V1MigHvlHG",
+      "url": "https://x.com/charlie______t/status/1977877905771249760",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/G3LVdzSWkAAG7si.jpg",
+          "expandedUrl": "https://x.com/charlie______t/status/1977877905771249760/photo/1",
+          "displayUrl": "pic.x.com/V1MigHvlHG",
+          "shortUrl": "https://t.co/V1MigHvlHG"
+        }
+      ]
+    },
+    {
+      "id": "1974607514923905496",
+      "createdAt": "Sat Oct 04 22:48:12 +0000 2025",
+      "text": "this will probably be the start of OpenAI eventually getting serious about using smart contracts and programmable cryptography — if not for agent spending management there is a good case laid out here, for programmable IP usage and conditions around Sora https://t.co/MmoB7JLUao",
+      "url": "https://x.com/charlie______t/status/1974607514923905496",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/MmoB7JLUao",
+          "expandedUrl": "https://x.com/sama/status/1974272833875329113",
+          "displayUrl": "x.com/sama/status/19…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "1974272833875329113",
+        "url": "https://x.com/sama/status/1974272833875329113",
+        "displayUrl": "x.com/sama/status/19…",
+        "shortUrl": "https://t.co/MmoB7JLUao"
+      }
+    },
+    {
+      "id": "1973264862324334624",
+      "createdAt": "Wed Oct 01 05:52:59 +0000 2025",
+      "text": "Sora 2 video generation results are unbelievable \n\n“A black mirror trailer about quantum computer breaking bitcoin in 2027, was it China or AI” https://t.co/Wq4cTebiSW",
+      "url": "https://x.com/charlie______t/status/1973264862324334624",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/1973264785421553664/img/UMweVNDE5mLOJt8F.jpg",
+          "expandedUrl": "https://x.com/charlie______t/status/1973264862324334624/video/1",
+          "displayUrl": "pic.x.com/Wq4cTebiSW",
+          "shortUrl": "https://t.co/Wq4cTebiSW"
+        }
+      ]
+    },
+    {
+      "id": "1971639449693180013",
+      "createdAt": "Fri Sep 26 18:14:10 +0000 2025",
+      "text": "Good shoutout of ZK cryptography possibilities, other primitives like FHE, MPC and TEEs make this type of setup increasingly plausible and privacy-preserving \n\nA lot of overlap with PCARE\n\nhttps://t.co/xP7SVAFhrg\n\nand “broad listening” which I am trying to  help accelerate with… https://t.co/FW1cwTNEjw",
+      "url": "https://x.com/charlie______t/status/1971639449693180013",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/xP7SVAFhrg",
+          "expandedUrl": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5136037",
+          "displayUrl": "papers.ssrn.com/sol3/papers.cf…"
+        },
+        {
+          "shortUrl": "https://t.co/FW1cwTNEjw",
+          "expandedUrl": "https://x.com/sebkrier/status/1971577178442596670",
+          "displayUrl": "x.com/sebkrier/statu…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "1971577178442596670",
+        "url": "https://x.com/sebkrier/status/1971577178442596670",
+        "displayUrl": "x.com/sebkrier/statu…",
+        "shortUrl": "https://t.co/FW1cwTNEjw"
+      }
+    },
+    {
+      "id": "1971003818004578377",
+      "createdAt": "Thu Sep 25 00:08:24 +0000 2025",
+      "text": "https://t.co/k71mzbQTyI https://t.co/Moa87lxTp5",
+      "url": "https://x.com/charlie______t/status/1971003818004578377",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/k71mzbQTyI",
+          "expandedUrl": "https://x.com/apruden08/status/1970942453546090946",
+          "displayUrl": "x.com/apruden08/stat…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "1970942453546090946",
+        "url": "https://x.com/apruden08/status/1970942453546090946",
+        "displayUrl": "x.com/apruden08/stat…",
+        "shortUrl": "https://t.co/k71mzbQTyI"
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/G1pphXjbQAAQvM0.jpg",
+          "expandedUrl": "https://x.com/charlie______t/status/1971003818004578377/photo/1",
+          "displayUrl": "pic.x.com/Moa87lxTp5",
+          "shortUrl": "https://t.co/Moa87lxTp5"
+        }
+      ]
+    },
+    {
+      "id": "1968958913509818832",
+      "createdAt": "Fri Sep 19 08:42:41 +0000 2025",
+      "text": "AI is going to accelerate quantum computing research / deployment\n\nProbably is already happening https://t.co/V2NRjfUukB",
+      "url": "https://x.com/charlie______t/status/1968958913509818832",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/V2NRjfUukB",
+          "expandedUrl": "https://x.com/GoogleDeepMind/status/1968691852678173044",
+          "displayUrl": "x.com/GoogleDeepMind…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "1968691852678173044",
+        "url": "https://x.com/GoogleDeepMind/status/1968691852678173044",
+        "displayUrl": "x.com/GoogleDeepMind…",
+        "shortUrl": "https://t.co/V2NRjfUukB"
+      }
+    },
+    {
+      "id": "1958606060081881437",
+      "createdAt": "Thu Aug 21 19:04:08 +0000 2025",
+      "text": "Haven’t seen much discussion about the fact that BIP 360 has been seriously reduced in scope… combined with recent quantum news suggesting ECDLP could be broken by 2027, I don’t think there’s enough time / will / consensus for Bitcoin to react to quantum computer threat",
+      "url": "https://x.com/charlie______t/status/1958606060081881437"
+    },
+    {
+      "id": "1952096732998930674",
+      "createdAt": "Sun Aug 03 19:58:24 +0000 2025",
+      "text": "ethereum / ens for sign-in and personal data carried between sites makes more sense that expecting every vibe-coded app to have robust PII storage / auth systems",
+      "url": "https://x.com/charlie______t/status/1952096732998930674"
+    },
+    {
+      "id": "1950589078795083887",
+      "createdAt": "Wed Jul 30 16:07:31 +0000 2025",
+      "text": "happy 10th birthday to Ethereum!\n\nCan't wait to see what is built onchain in the next 10 years, especially with programmable cryptography primitives (zk, fhe, mpc, tee, ...) as substrate for new kinds of AI infrastructure",
+      "url": "https://x.com/charlie______t/status/1950589078795083887"
+    },
+    {
+      "id": "1941298274906046958",
+      "createdAt": "Sat Jul 05 00:49:10 +0000 2025",
+      "text": "I am grateful for America and hope it can weather the full-on attacks of this administration (on the legal system, on the poor, on science, and on our national honor)\n\nMay the USA survive and one day reach its full potential as a beacon of enlightened and compassionate policy! https://t.co/s5hJzkhALA",
+      "url": "https://x.com/charlie______t/status/1941298274906046958",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/GvDeyWgXQAAgKdW.png",
+          "expandedUrl": "https://x.com/charlie______t/status/1941298274906046958/photo/1",
+          "displayUrl": "pic.x.com/s5hJzkhALA",
+          "shortUrl": "https://t.co/s5hJzkhALA"
+        }
+      ]
+    },
+    {
+      "id": "1939408964858581045",
+      "createdAt": "Sun Jun 29 19:41:44 +0000 2025",
+      "text": "Killing solar and battery buildout in favor of coal is an anti-American policy designed to lose the future to China \n\nIt's an unserious position to be in favor of this monstrous \"BBB\" and continue saying phrases like \"America First\"\n\nNot to mention the 🇺🇸 lives it will ruin",
+      "url": "https://x.com/charlie______t/status/1939408964858581045"
+    },
+    {
+      "id": "1937249184043643322",
+      "createdAt": "Mon Jun 23 20:39:32 +0000 2025",
+      "text": "I've been surprised at how half-assed these \"red team\" scenarios have turned out to be on closer inspection https://t.co/k64KohjHLu",
+      "url": "https://x.com/charlie______t/status/1937249184043643322",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/k64KohjHLu",
+          "expandedUrl": "https://x.com/nostalgebraist/status/1937195371924742175",
+          "displayUrl": "x.com/nostalgebraist…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "1937195371924742175",
+        "url": "https://x.com/nostalgebraist/status/1937195371924742175",
+        "displayUrl": "x.com/nostalgebraist…",
+        "shortUrl": "https://t.co/k64KohjHLu"
+      }
+    },
+    {
+      "id": "1935531320635175328",
+      "createdAt": "Thu Jun 19 02:53:21 +0000 2025",
+      "text": "midjourney video model gives pretty cool outputs on abstract images https://t.co/FphkNcG8dt",
+      "url": "https://x.com/charlie______t/status/1935531320635175328",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/1935530564368334848/img/MfjDbr9T-805MYV4.jpg",
+          "expandedUrl": "https://x.com/charlie______t/status/1935531320635175328/video/1",
+          "displayUrl": "pic.x.com/FphkNcG8dt",
+          "shortUrl": "https://t.co/FphkNcG8dt"
+        },
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/1935531226405773312/img/1CQzQ7sureHKPqAb.jpg",
+          "expandedUrl": "https://x.com/charlie______t/status/1935531320635175328/video/1",
+          "displayUrl": "pic.x.com/FphkNcG8dt",
+          "shortUrl": "https://t.co/FphkNcG8dt"
+        }
+      ]
+    },
+    {
+      "id": "1926810737135022198",
+      "createdAt": "Mon May 26 01:20:52 +0000 2025",
+      "text": "I think the recent OpenAI acquisitions (windsurf / io) signal some kind of desperation and/or creative accounting, prices seem astronomical... possible I am missing something",
+      "url": "https://x.com/charlie______t/status/1926810737135022198"
+    },
+    {
+      "id": "1923080922091467060",
+      "createdAt": "Thu May 15 18:19:55 +0000 2025",
+      "text": "programmable cryptography (ZK) is so obviously the solution to issues on the KYC/AML/Data-breach axis... ENS is so obviously the solution to DNS hijacking and AI agent credentials / memory...",
+      "url": "https://x.com/charlie______t/status/1923080922091467060"
+    },
+    {
+      "id": "1920639759799472268",
+      "createdAt": "Fri May 09 00:39:37 +0000 2025",
+      "text": "they butchered Gemini 2.5 pro with this 0506 update, even for coding... I badly miss 0325 and got so much done with it \n\n@OfficialLoganK I'm sure there's cost-saving reasons but would be glad to be able to continue using 0325 in AI Studio even if payment-gated",
+      "url": "https://x.com/charlie______t/status/1920639759799472268"
+    },
+    {
+      "id": "1914372630964273647",
+      "createdAt": "Mon Apr 21 17:36:17 +0000 2025",
+      "text": "re-establishing US credibility in the future will require smart contracts and AI juries — every policy or treaty we commit to could be paired with a burnable stake which is destroyed or transferred to counterparty if we do not follow the treaty",
+      "url": "https://x.com/charlie______t/status/1914372630964273647"
+    },
+    {
+      "id": "1913127685091455364",
+      "createdAt": "Fri Apr 18 07:09:18 +0000 2025",
+      "text": "curious what model openai employees are using at this point... my guess is o4 pro equivalent",
+      "url": "https://x.com/charlie______t/status/1913127685091455364"
+    },
+    {
+      "id": "1908324879927284146",
+      "createdAt": "Sat Apr 05 01:04:40 +0000 2025",
+      "text": "https://t.co/VIE5c1mbWE",
+      "url": "https://x.com/charlie______t/status/1908324879927284146",
+      "media": [
+        {
+          "type": "animated_gif",
+          "url": "https://pbs.twimg.com/tweet_video_thumb/Gnu7TfsaQAAj_5h.jpg",
+          "expandedUrl": "https://x.com/charlie______t/status/1908324879927284146/photo/1",
+          "displayUrl": "pic.x.com/VIE5c1mbWE",
+          "shortUrl": "https://t.co/VIE5c1mbWE"
+        }
+      ]
+    },
+    {
+      "id": "1908264577533698235",
+      "createdAt": "Fri Apr 04 21:05:03 +0000 2025",
+      "text": "this was predictable, GOP is straightforwardly looting the USA\n\n\"elites\" so far removed from any difficulty that they take the basis of their prosperity (law / history / science) for granted until too late\n\nAI is a wildcard – will their $ be worth anything in 2035? Their atoms? https://t.co/FgWfQsoKqv",
+      "url": "https://x.com/charlie______t/status/1908264577533698235",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/FgWfQsoKqv",
+          "expandedUrl": "https://x.com/charlie______t/status/1812821788058911168",
+          "displayUrl": "x.com/charlie______t…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "1812821788058911168",
+        "url": "https://x.com/charlie______t/status/1812821788058911168",
+        "displayUrl": "x.com/charlie______t…",
+        "shortUrl": "https://t.co/FgWfQsoKqv"
+      }
+    },
+    {
+      "id": "1906076761076740336",
+      "createdAt": "Sat Mar 29 20:11:27 +0000 2025",
+      "text": "More pathetic fake patriotism from Vance / MAGA, disrespecting and destroying the work of ancestors who exhibited actual love of 🇺🇸 in the face of authoritarianism. Sad! https://t.co/89Xot7mToI",
+      "url": "https://x.com/charlie______t/status/1906076761076740336",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/89Xot7mToI",
+          "expandedUrl": "https://x.com/RpsAgainstTrump/status/1905692360052539710",
+          "displayUrl": "x.com/RpsAgainstTrum…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "1905692360052539710",
+        "url": "https://x.com/RpsAgainstTrump/status/1905692360052539710",
+        "displayUrl": "x.com/RpsAgainstTrum…",
+        "shortUrl": "https://t.co/89Xot7mToI"
+      }
+    },
+    {
+      "id": "1905070638123139414",
+      "createdAt": "Thu Mar 27 01:33:29 +0000 2025",
+      "text": "also amazed at ghiblification (both that it is possible with 4o at such high quality, and the phenomenon broadly). \n\n4o image generation is astoundingly good in its ability to handle complex and novel scenarios, modify viewpoint in scene, transpose from style to style, use text",
+      "url": "https://x.com/charlie______t/status/1905070638123139414"
+    },
+    {
+      "id": "1905070091118739547",
+      "createdAt": "Thu Mar 27 01:31:18 +0000 2025",
+      "text": "absolutely amazed at quality of code outputs from Gemini 2.5 Pro Experimental 03-25 \n\nbroke through some problems I had been stuck on for days with o1-pro instantly and can output massive files / orchestrate changes across multiple files very well",
+      "url": "https://x.com/charlie______t/status/1905070091118739547"
+    },
+    {
+      "id": "1900731224328728959",
+      "createdAt": "Sat Mar 15 02:10:12 +0000 2025",
+      "text": "https://t.co/gwLraYUqJR",
+      "url": "https://x.com/charlie______t/status/1900731224328728959",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/GmDA96vbAAARKew.jpg",
+          "expandedUrl": "https://x.com/charlie______t/status/1900731224328728959/photo/1",
+          "displayUrl": "pic.x.com/gwLraYUqJR",
+          "shortUrl": "https://t.co/gwLraYUqJR"
+        }
+      ]
+    },
+    {
+      "id": "1890780918257762368",
+      "createdAt": "Sat Feb 15 15:11:14 +0000 2025",
+      "text": "It's shameful to have such bad American representatives in so many directions. Ukraine and the rest of the world deserves better than this https://t.co/cI6SlmFk1i",
+      "url": "https://x.com/charlie______t/status/1890780918257762368",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/Gj1nObKXEAAzGhc.jpg",
+          "expandedUrl": "https://x.com/charlie______t/status/1890780918257762368/photo/1",
+          "displayUrl": "pic.x.com/cI6SlmFk1i",
+          "shortUrl": "https://t.co/cI6SlmFk1i"
+        }
+      ]
+    },
+    {
+      "id": "1888427282378940553",
+      "createdAt": "Sun Feb 09 03:18:44 +0000 2025",
+      "text": "one of the worst design patterns in crypto apps is forcing users to connect wallet before seeing anything interesting — it is baffling how frequently you encounter this, given how self-defeating and unnecessary it is",
+      "url": "https://x.com/charlie______t/status/1888427282378940553"
+    },
+    {
+      "id": "1887690020913365339",
+      "createdAt": "Fri Feb 07 02:29:07 +0000 2025",
+      "text": "it's sad and horrifying to witness the ongoing fascist attack on the US government by sociopath looters &amp; Chinese / Russian assets in the highest positions. Indefensible things and irreversible damage happening daily — Kali Yuga feel https://t.co/FgWfQsocAX",
+      "url": "https://x.com/charlie______t/status/1887690020913365339",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/FgWfQsocAX",
+          "expandedUrl": "https://x.com/charlie______t/status/1812821788058911168",
+          "displayUrl": "x.com/charlie______t…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "1812821788058911168",
+        "url": "https://x.com/charlie______t/status/1812821788058911168",
+        "displayUrl": "x.com/charlie______t…",
+        "shortUrl": "https://t.co/FgWfQsocAX"
+      }
+    },
+    {
+      "id": "1884088012436562238",
+      "createdAt": "Tue Jan 28 03:56:01 +0000 2025",
+      "text": "pure evil https://t.co/ergn21UPDT",
+      "url": "https://x.com/charlie______t/status/1884088012436562238",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/ergn21UPDT",
+          "expandedUrl": "https://x.com/RpsAgainstTrump/status/1884083297011077331",
+          "displayUrl": "x.com/RpsAgainstTrum…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "1884083297011077331",
+        "url": "https://x.com/RpsAgainstTrump/status/1884083297011077331",
+        "displayUrl": "x.com/RpsAgainstTrum…",
+        "shortUrl": "https://t.co/ergn21UPDT"
+      }
+    },
+    {
+      "id": "1883558113980420414",
+      "createdAt": "Sun Jan 26 16:50:23 +0000 2025",
+      "text": "deepseek is impressive but also doesn't invalidate the prospects of the 🇺🇸 frontier labs, when the milestone is ASI a 1 month lead could be worth a trillion+ dollars or stewardship of the future. Thinking of AI as only another subscription product is shortsighted",
+      "url": "https://x.com/charlie______t/status/1883558113980420414"
+    },
+    {
+      "id": "1883557293331198462",
+      "createdAt": "Sun Jan 26 16:47:08 +0000 2025",
+      "text": "deepseek development doesn't invalidate the strategy of export controls on advanced chips, if anyone can do powerful AI inference you still want to be able to do 100x more and 100x faster in competition",
+      "url": "https://x.com/charlie______t/status/1883557293331198462"
+    },
+    {
+      "id": "1881863296510484557",
+      "createdAt": "Wed Jan 22 00:35:47 +0000 2025",
+      "text": "We need software to collectively generate / debate / organize ideas about this https://t.co/Yc12O5N400",
+      "url": "https://x.com/charlie______t/status/1881863296510484557",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/Yc12O5N400",
+          "expandedUrl": "https://x.com/emollick/status/1881841026975023208",
+          "displayUrl": "x.com/emollick/statu…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "1881841026975023208",
+        "url": "https://x.com/emollick/status/1881841026975023208",
+        "displayUrl": "x.com/emollick/statu…",
+        "shortUrl": "https://t.co/Yc12O5N400"
+      }
+    },
+    {
+      "id": "1881556746872971756",
+      "createdAt": "Tue Jan 21 04:17:40 +0000 2025",
+      "text": "Donald Trump himself should not have access to any top secret information, let alone the enemies (domestic and foreign) of America to whom he will surely grant access if allowed https://t.co/PTAtn9akvT",
+      "url": "https://x.com/charlie______t/status/1881556746872971756",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/PTAtn9akvT",
+          "expandedUrl": "https://x.com/benpauker/status/1881545170208051266",
+          "displayUrl": "x.com/benpauker/stat…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "1881545170208051266",
+        "url": "https://x.com/benpauker/status/1881545170208051266",
+        "displayUrl": "x.com/benpauker/stat…",
+        "shortUrl": "https://t.co/PTAtn9akvT"
+      }
+    },
+    {
+      "id": "1880626781214195872",
+      "createdAt": "Sat Jan 18 14:42:19 +0000 2025",
+      "text": "the Trump griftcoin is shameful in a post-shame era, I don't think it is positive for crypto — Trump's concept of crypto is as shallow as his concept of America, both featuring scammers and criminals on top",
+      "url": "https://x.com/charlie______t/status/1880626781214195872"
+    },
+    {
+      "id": "1866309925699199470",
+      "createdAt": "Tue Dec 10 02:32:15 +0000 2024",
+      "text": "1-5 years* https://t.co/uKDhWG2eyq",
+      "url": "https://x.com/charlie______t/status/1866309925699199470",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/uKDhWG2eyq",
+          "expandedUrl": "https://x.com/charlie______t/status/1777432908581531803",
+          "displayUrl": "x.com/charlie______t…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "1777432908581531803",
+        "url": "https://x.com/charlie______t/status/1777432908581531803",
+        "displayUrl": "x.com/charlie______t…",
+        "shortUrl": "https://t.co/uKDhWG2eyq"
+      }
+    },
+    {
+      "id": "1853931997766516855",
+      "createdAt": "Tue Nov 05 22:46:47 +0000 2024",
+      "text": "this is unironically going to happen with ENS https://t.co/iWvLjCD7Xi",
+      "url": "https://x.com/charlie______t/status/1853931997766516855",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/iWvLjCD7Xi",
+          "expandedUrl": "https://x.com/truth_terminal/status/1853914173891117115",
+          "displayUrl": "x.com/truth_terminal…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "1853914173891117115",
+        "url": "https://x.com/truth_terminal/status/1853914173891117115",
+        "displayUrl": "x.com/truth_terminal…",
+        "shortUrl": "https://t.co/iWvLjCD7Xi"
+      }
+    },
+    {
+      "id": "1818970190580785298",
+      "createdAt": "Thu Aug 01 11:21:02 +0000 2024",
+      "text": "quantum arms race is already underway for statecraft reasons, Satoshi's 1M coins were all paid to a public key (P2PK) and are vulnerable to quantum computer no matter what https://t.co/3y0L3GFO54",
+      "url": "https://x.com/charlie______t/status/1818970190580785298",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/3y0L3GFO54",
+          "expandedUrl": "https://x.com/toly/status/1818966585052131609",
+          "displayUrl": "x.com/toly/status/18…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "1818966585052131609",
+        "url": "https://x.com/toly/status/1818966585052131609",
+        "displayUrl": "x.com/toly/status/18…",
+        "shortUrl": "https://t.co/3y0L3GFO54"
+      }
+    },
+    {
+      "id": "1812821788058911168",
+      "createdAt": "Mon Jul 15 12:09:29 +0000 2024",
+      "text": "A vote for GOP is a vote to abandon allies and interests in Ukraine and Taiwan (+ self-destructive domestic / econ. policy)\n\nGetting shot at doesn't make Trump a hero and doesn't make congressional Repubs any less compromised\n\nDems are weak but at least not obviously treasonous https://t.co/LkXF1Jjt4b",
+      "url": "https://x.com/charlie______t/status/1812821788058911168",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/LkXF1Jjt4b",
+          "expandedUrl": "https://x.com/pourteaux/status/1811960518409687509",
+          "displayUrl": "x.com/pourteaux/stat…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "1811960518409687509",
+        "url": "https://x.com/pourteaux/status/1811960518409687509",
+        "displayUrl": "x.com/pourteaux/stat…",
+        "shortUrl": "https://t.co/LkXF1Jjt4b"
+      }
+    },
+    {
+      "id": "1796454200974647653",
+      "createdAt": "Fri May 31 08:10:32 +0000 2024",
+      "text": "cybersec will eventually/soon be a \"solved\" problem via formal proofs on characteristics of software / hardware",
+      "url": "https://x.com/charlie______t/status/1796454200974647653"
+    },
+    {
+      "id": "1794001991817109761",
+      "createdAt": "Fri May 24 13:46:20 +0000 2024",
+      "text": "lots of interesting work to do at the intersection of ai / governance / cryptography (FHE, ZK, ...) / ethereum https://t.co/WgnEiHsSEf",
+      "url": "https://x.com/charlie______t/status/1794001991817109761",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/WgnEiHsSEf",
+          "expandedUrl": "https://x.com/algekalipso/status/1794000041595859437",
+          "displayUrl": "x.com/algekalipso/st…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "1794000041595859437",
+        "url": "https://x.com/algekalipso/status/1794000041595859437",
+        "displayUrl": "x.com/algekalipso/st…",
+        "shortUrl": "https://t.co/WgnEiHsSEf"
+      }
+    },
+    {
+      "id": "1791616109151732171",
+      "createdAt": "Fri May 17 23:45:41 +0000 2024",
+      "text": "time to use zk-proofs to make it easier to be an AI lab whistleblower",
+      "url": "https://x.com/charlie______t/status/1791616109151732171"
+    },
+    {
+      "id": "1791603940049797606",
+      "createdAt": "Fri May 17 22:57:20 +0000 2024",
+      "text": "my brother is one of the best prompters out there https://t.co/4c73y4pDC4",
+      "url": "https://x.com/charlie______t/status/1791603940049797606",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/GN0OSgjb0AAIrXW.jpg",
+          "expandedUrl": "https://x.com/charlie______t/status/1791603940049797606/photo/1",
+          "displayUrl": "pic.x.com/4c73y4pDC4",
+          "shortUrl": "https://t.co/4c73y4pDC4"
+        }
+      ]
+    },
+    {
+      "id": "1789768211874853268",
+      "createdAt": "Sun May 12 21:22:48 +0000 2024",
+      "text": "Lockheed Martin patents quantum-secure communication techniques leveraging $QRL, the only quantum-secure public blockchain currently existing (with market cap 1% of $WIF) https://t.co/y2N4fmYSwY",
+      "url": "https://x.com/charlie______t/status/1789768211874853268",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/y2N4fmYSwY",
+          "expandedUrl": "https://x.com/Year2Quantum/status/1789662935536841077",
+          "displayUrl": "x.com/Year2Quantum/s…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "1789662935536841077",
+        "url": "https://x.com/Year2Quantum/status/1789662935536841077",
+        "displayUrl": "x.com/Year2Quantum/s…",
+        "shortUrl": "https://t.co/y2N4fmYSwY"
+      }
+    },
+    {
+      "id": "1787175005182447932",
+      "createdAt": "Sun May 05 17:38:19 +0000 2024",
+      "text": "I think cementing any magic numbers (here: compute limit) in policy which doesn't automatically expire is a horrible idea https://t.co/R3cOWx3H3H",
+      "url": "https://x.com/charlie______t/status/1787175005182447932",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/R3cOWx3H3H",
+          "expandedUrl": "https://x.com/CFGeek/status/1787168690829664426",
+          "displayUrl": "x.com/CFGeek/status/…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "1787168690829664426",
+        "url": "https://x.com/CFGeek/status/1787168690829664426",
+        "displayUrl": "x.com/CFGeek/status/…",
+        "shortUrl": "https://t.co/R3cOWx3H3H"
+      }
+    },
+    {
+      "id": "1787013334262481397",
+      "createdAt": "Sun May 05 06:55:54 +0000 2024",
+      "text": "really cool advance, will multiply types of actions on-chain AI agents can take https://t.co/BMI54iRMDr https://t.co/xdoUG7i9Q2",
+      "url": "https://x.com/charlie______t/status/1787013334262481397",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/BMI54iRMDr",
+          "expandedUrl": "https://x.com/guruvamsip/status/1786524369306653130",
+          "displayUrl": "x.com/guruvamsip/sta…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "1786524369306653130",
+        "url": "https://x.com/guruvamsip/status/1786524369306653130",
+        "displayUrl": "x.com/guruvamsip/sta…",
+        "shortUrl": "https://t.co/BMI54iRMDr"
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/GMy-mIpbQAAexwQ.jpg",
+          "expandedUrl": "https://x.com/charlie______t/status/1787013334262481397/photo/1",
+          "displayUrl": "pic.x.com/xdoUG7i9Q2",
+          "shortUrl": "https://t.co/xdoUG7i9Q2"
+        }
+      ]
+    },
+    {
+      "id": "1777432908581531803",
+      "createdAt": "Mon Apr 08 20:26:43 +0000 2024",
+      "text": "Bitcoin's underlying cryptography could be broken within 3-5 years and hardly anyone is taking the inherent difficulties of a transition to post-quantum signatures seriously https://t.co/jXjdfBKxDV",
+      "url": "https://x.com/charlie______t/status/1777432908581531803",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/jXjdfBKxDV",
+          "expandedUrl": "https://x.com/QuantinuumQC/status/1775512040926244872",
+          "displayUrl": "x.com/QuantinuumQC/s…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "1775512040926244872",
+        "url": "https://x.com/QuantinuumQC/status/1775512040926244872",
+        "displayUrl": "x.com/QuantinuumQC/s…",
+        "shortUrl": "https://t.co/jXjdfBKxDV"
+      }
+    },
+    {
+      "id": "1725771136892580000",
+      "createdAt": "Sat Nov 18 07:01:16 +0000 2023",
+      "text": "One relevant detail that few people have is what AGI milestone exists behind OpenAI doors (which was potentially enough to catalyze this sequence of events). If you take the Jimmy Apples leaks/claims seriously it's an unprecedented situation",
+      "url": "https://x.com/charlie______t/status/1725771136892580000"
+    },
+    {
+      "id": "1715784774936412364",
+      "createdAt": "Sat Oct 21 17:39:02 +0000 2023",
+      "text": "I wonder if @nvidia's Earth-2 system is being used to do solar geoengineering research (specifically regarding altered precipitation patterns)\n\nhttps://t.co/z8BDR2Eecc",
+      "url": "https://x.com/charlie______t/status/1715784774936412364",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/z8BDR2Eecc",
+          "expandedUrl": "https://youtu.be/GTJVpPsSwpI?si=zNYByWjbiAXXiUvU",
+          "displayUrl": "youtu.be/GTJVpPsSwpI?si…"
+        }
+      ]
+    },
+    {
+      "id": "1712686318214631907",
+      "createdAt": "Fri Oct 13 04:26:53 +0000 2023",
+      "text": "Brilliant idea here. References “Poisoning Web-Scale Training Datasets is Practical” by Carlini et al. https://t.co/wjsHgWkgey. https://t.co/CqoC1WoKgz",
+      "url": "https://x.com/charlie______t/status/1712686318214631907",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/wjsHgWkgey",
+          "expandedUrl": "https://arxiv.org/abs/2302.10149",
+          "displayUrl": "arxiv.org/abs/2302.10149"
+        },
+        {
+          "shortUrl": "https://t.co/CqoC1WoKgz",
+          "expandedUrl": "https://x.com/matdryhurst/status/1712564467945328976",
+          "displayUrl": "x.com/matdryhurst/st…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "1712564467945328976",
+        "url": "https://x.com/matdryhurst/status/1712564467945328976",
+        "displayUrl": "x.com/matdryhurst/st…",
+        "shortUrl": "https://t.co/CqoC1WoKgz"
+      }
+    },
+    {
+      "id": "1710436916238471505",
+      "createdAt": "Fri Oct 06 23:28:33 +0000 2023",
+      "text": "Agree with this, but the only way compute governance will be palatable is with some type of ZK surveillance setup which is also 100% privacy-preserving. Ethereum will be the substrate for global policy coordination / auditability of models / security of private info / etc https://t.co/7b43kKYczD",
+      "url": "https://x.com/charlie______t/status/1710436916238471505",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/7b43kKYczD",
+          "expandedUrl": "https://x.com/hendrycks/status/1710312043503321141",
+          "displayUrl": "x.com/hendrycks/stat…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "1710312043503321141",
+        "url": "https://x.com/hendrycks/status/1710312043503321141",
+        "displayUrl": "x.com/hendrycks/stat…",
+        "shortUrl": "https://t.co/7b43kKYczD"
+      }
+    },
+    {
+      "id": "1704390232106311699",
+      "createdAt": "Wed Sep 20 07:01:12 +0000 2023",
+      "text": "curious to see how long (and what) it takes to solve this problem of VLM image hijacks... if even possible... it might involve \"juries\" or \"circuits\" of AI agents / models checking each other's inputs and outputs for modification, info leakage, policy breaks, etc. in layers https://t.co/Mt7GUs0gtU",
+      "url": "https://x.com/charlie______t/status/1704390232106311699",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/Mt7GUs0gtU",
+          "expandedUrl": "https://x.com/emmons_scott/status/1704166628089565262",
+          "displayUrl": "x.com/emmons_scott/s…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "1704166628089565262",
+        "url": "https://x.com/emmons_scott/status/1704166628089565262",
+        "displayUrl": "x.com/emmons_scott/s…",
+        "shortUrl": "https://t.co/Mt7GUs0gtU"
+      }
+    },
+    {
+      "id": "1689020125184397313",
+      "createdAt": "Tue Aug 08 21:05:52 +0000 2023",
+      "text": "it's time to do 5 years worth of geoengineering research in 1 year before the feedback loops become overwhelming https://t.co/0EAyKtjnh4",
+      "url": "https://x.com/charlie______t/status/1689020125184397313",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/0EAyKtjnh4",
+          "expandedUrl": "https://x.com/charlie______t/status/985330184969736192",
+          "displayUrl": "x.com/charlie______t…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "985330184969736192",
+        "url": "https://x.com/charlie______t/status/985330184969736192",
+        "displayUrl": "x.com/charlie______t…",
+        "shortUrl": "https://t.co/0EAyKtjnh4"
+      }
+    },
+    {
+      "id": "1683573286968385538",
+      "createdAt": "Mon Jul 24 20:22:05 +0000 2023",
+      "text": "This is a great overview, anti-sybil systems are far harder to get right than you'd think at first (but also hold great promise for helping us navigate an uncertain technological future) https://t.co/vtwHDHUIqF",
+      "url": "https://x.com/charlie______t/status/1683573286968385538",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/vtwHDHUIqF",
+          "expandedUrl": "https://x.com/VitalikButerin/status/1683404462314999814",
+          "displayUrl": "x.com/VitalikButerin…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "1683404462314999814",
+        "url": "https://x.com/VitalikButerin/status/1683404462314999814",
+        "displayUrl": "x.com/VitalikButerin…",
+        "shortUrl": "https://t.co/vtwHDHUIqF"
+      }
+    },
+    {
+      "id": "1681759591166623745",
+      "createdAt": "Wed Jul 19 20:15:06 +0000 2023",
+      "text": "I continue to believe that we need a number of digital voting trials on AI policy before the UK conference in the fall 🫡 https://t.co/mD0nzpPOW9",
+      "url": "https://x.com/charlie______t/status/1681759591166623745",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/F1bPb34akAEWrNm.jpg",
+          "expandedUrl": "https://x.com/charlie______t/status/1681759591166623745/photo/1",
+          "displayUrl": "pic.x.com/mD0nzpPOW9",
+          "shortUrl": "https://t.co/mD0nzpPOW9"
+        }
+      ]
+    },
+    {
+      "id": "1669529352210628609",
+      "createdAt": "Fri Jun 16 02:16:30 +0000 2023",
+      "text": "Quintin is doing some of the best thinking on alignment / understanding AI systems IMO. Well worth reading about shard theory https://t.co/jt6PRxN71v",
+      "url": "https://x.com/charlie______t/status/1669529352210628609",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/jt6PRxN71v",
+          "expandedUrl": "https://x.com/QuintinPope5/status/1669442973900378112",
+          "displayUrl": "x.com/QuintinPope5/s…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "1669442973900378112",
+        "url": "https://x.com/QuintinPope5/status/1669442973900378112",
+        "displayUrl": "x.com/QuintinPope5/s…",
+        "shortUrl": "https://t.co/jt6PRxN71v"
+      }
+    },
+    {
+      "id": "1665880211882123267",
+      "createdAt": "Tue Jun 06 00:36:07 +0000 2023",
+      "text": "This is really cool. A fusion-style endgame (of \"limitless energy\") with enhanced geothermal appears possible\n\nInnovations: fracking tech + idea of using trapped and heated water as a natural battery to avoid the economic disincentives associated with providing baseload energy https://t.co/BliL4COaJL",
+      "url": "https://x.com/charlie______t/status/1665880211882123267",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/BliL4COaJL",
+          "expandedUrl": "https://x.com/drvolts/status/1665840352614395911",
+          "displayUrl": "x.com/drvolts/status…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "1665840352614395911",
+        "url": "https://x.com/drvolts/status/1665840352614395911",
+        "displayUrl": "x.com/drvolts/status…",
+        "shortUrl": "https://t.co/BliL4COaJL"
+      }
+    },
+    {
+      "id": "1655972510452658176",
+      "createdAt": "Tue May 09 16:26:27 +0000 2023",
+      "text": "Huge thanks to @wsc_fyi for making this possible on short notice! One of the coolest web3 interactions I've had, and Zuzalu was a good opportunity to wear a bunch of fun @TheMetaFactory clothes I've been collecting for years https://t.co/ADStog4vUa",
+      "url": "https://x.com/charlie______t/status/1655972510452658176",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/ADStog4vUa",
+          "expandedUrl": "https://x.com/enso_collective/status/1655560423616180226",
+          "displayUrl": "x.com/enso_collectiv…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "1655560423616180226",
+        "url": "https://x.com/enso_collective/status/1655560423616180226",
+        "displayUrl": "x.com/enso_collectiv…",
+        "shortUrl": "https://t.co/ADStog4vUa"
+      }
+    },
+    {
+      "id": "1655480831232684032",
+      "createdAt": "Mon May 08 07:52:42 +0000 2023",
+      "text": "had a lovely time at Zuzalu, hope there are more events like this. Met a bunch of remarkable/kind people and left feeling more hopeful for the future\n\nMy talk had some technical troubles but going to upload a digital version soon, was about \"Social Infra for AI on Ethereum\" https://t.co/BQI5YwNA1c",
+      "url": "https://x.com/charlie______t/status/1655480831232684032",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/FvlzCvcXsAEZHIb.jpg",
+          "expandedUrl": "https://x.com/charlie______t/status/1655480831232684032/photo/1",
+          "displayUrl": "pic.x.com/BQI5YwNA1c",
+          "shortUrl": "https://t.co/BQI5YwNA1c"
+        }
+      ]
+    },
+    {
+      "id": "1650334374385053700",
+      "createdAt": "Mon Apr 24 03:02:31 +0000 2023",
+      "text": "a hard idea to internalize is that there are exponential advances happening on all layers of the AI stack at same time (here: on transformers). Advances are then multiplicative – a 100x improvement on compute-cost / context-window-size of current LLMs is probably already baked in https://t.co/qp99U2IcEa",
+      "url": "https://x.com/charlie______t/status/1650334374385053700",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/qp99U2IcEa",
+          "expandedUrl": "https://x.com/yacineMTB/status/1650150970062430211",
+          "displayUrl": "x.com/yacineMTB/stat…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "1650150970062430211",
+        "url": "https://x.com/yacineMTB/status/1650150970062430211",
+        "displayUrl": "x.com/yacineMTB/stat…",
+        "shortUrl": "https://t.co/qp99U2IcEa"
+      }
+    },
+    {
+      "id": "1643205985350057993",
+      "createdAt": "Tue Apr 04 10:56:50 +0000 2023",
+      "text": "Something like this will probably end up happening with combo of AI / ZK proofs https://t.co/9u9UrrJcqp",
+      "url": "https://x.com/charlie______t/status/1643205985350057993",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/9u9UrrJcqp",
+          "expandedUrl": "https://x.com/acidshill/status/1643002093517807618",
+          "displayUrl": "x.com/acidshill/stat…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "1643002093517807618",
+        "url": "https://x.com/acidshill/status/1643002093517807618",
+        "displayUrl": "x.com/acidshill/stat…",
+        "shortUrl": "https://t.co/9u9UrrJcqp"
+      }
+    },
+    {
+      "id": "1642698290587136003",
+      "createdAt": "Mon Apr 03 01:19:26 +0000 2023",
+      "text": "This + increasingly automated formal-proving (of assumed properties) of critical software infrastructure https://t.co/gp4bLvSB9i",
+      "url": "https://x.com/charlie______t/status/1642698290587136003",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/gp4bLvSB9i",
+          "expandedUrl": "https://x.com/danfinlay/status/1640901406889762818",
+          "displayUrl": "x.com/danfinlay/stat…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "1640901406889762818",
+        "url": "https://x.com/danfinlay/status/1640901406889762818",
+        "displayUrl": "x.com/danfinlay/stat…",
+        "shortUrl": "https://t.co/gp4bLvSB9i"
+      }
+    },
+    {
+      "id": "1636496791179763713",
+      "createdAt": "Thu Mar 16 22:36:54 +0000 2023",
+      "text": "the need for widespread societal adoption of public key cryptography tools (for digitally verifying, signing, and encrypting personal data) has never been more urgent – the idea of security/privacy \"by obscurity\" is insta-killed by current-generation LLMs, and LLMs will cause…",
+      "url": "https://x.com/charlie______t/status/1636496791179763713"
+    },
+    {
+      "id": "1636495722076930052",
+      "createdAt": "Thu Mar 16 22:32:39 +0000 2023",
+      "text": "the need for widespread societal adoption of public key cryptography tools (for digitally verifying, signing, and encrypting personal data) has never been more urgent – the idea of security/privacy \"by obscurity\" is insta-killed by current-generation LLMs, and LLMs will cause…",
+      "url": "https://x.com/charlie______t/status/1636495722076930052"
+    },
+    {
+      "id": "1635774408265441280",
+      "createdAt": "Tue Mar 14 22:46:24 +0000 2023",
+      "text": "an idea about testing for AI consciousness (involving the near-future art of \"qualia design\") — \n\n1. put an AI in a situation where it randomly (50/50) \"experiences\" either a \"boring\" or \"beautiful\" digital representation (sounds, sights, places, eventually sensations) in a…",
+      "url": "https://x.com/charlie______t/status/1635774408265441280"
+    },
+    {
+      "id": "1635750812583440391",
+      "createdAt": "Tue Mar 14 21:12:39 +0000 2023",
+      "text": "Worth reading \"Inside Jokes\" — explaining visual and text-based humor like GPT-4 can is an indication of something important https://t.co/jZzcD8XhZ5",
+      "url": "https://x.com/charlie______t/status/1635750812583440391",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/jZzcD8XhZ5",
+          "expandedUrl": "https://x.com/charlie______t/status/1513298728039243778",
+          "displayUrl": "x.com/charlie______t…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "1513298728039243778",
+        "url": "https://x.com/charlie______t/status/1513298728039243778",
+        "displayUrl": "x.com/charlie______t…",
+        "shortUrl": "https://t.co/jZzcD8XhZ5"
+      }
+    },
+    {
+      "id": "1635742903518543884",
+      "createdAt": "Tue Mar 14 20:41:13 +0000 2023",
+      "text": "something I haven't heard anyone describe (but which someone is probably already working on) is using gpt-x / whisper to help preserve dying languages at scale that would have been impossible 5 months ago",
+      "url": "https://x.com/charlie______t/status/1635742903518543884"
+    },
+    {
+      "id": "1635553835656568833",
+      "createdAt": "Tue Mar 14 08:09:56 +0000 2023",
+      "text": "I think we need this + a special airgapped facility set up via treaty of some kind with contrived situations / creative trials https://t.co/mhBIe8V1BG",
+      "url": "https://x.com/charlie______t/status/1635553835656568833",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/mhBIe8V1BG",
+          "expandedUrl": "https://x.com/lesswrong_bot/status/1575199303865450526",
+          "displayUrl": "x.com/lesswrong_bot/…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "1575199303865450526",
+        "url": "https://x.com/lesswrong_bot/status/1575199303865450526",
+        "displayUrl": "x.com/lesswrong_bot/…",
+        "shortUrl": "https://t.co/mhBIe8V1BG"
+      }
+    },
+    {
+      "id": "1631159192596942850",
+      "createdAt": "Thu Mar 02 05:07:11 +0000 2023",
+      "text": "Made it to Denver, would love to meet people (especially anyone thinking about how to get governments experimenting with smart contracts ASAP — from local level to international treaties on AI / nuclear weapons)",
+      "url": "https://x.com/charlie______t/status/1631159192596942850"
+    },
+    {
+      "id": "1613461818709790725",
+      "createdAt": "Thu Jan 12 09:04:08 +0000 2023",
+      "text": "chatGPT has been really helpful in excavating an old project and updating it to use current tools and libraries. The code it generated worked perfectly (after app was broken before by other forced updates) and it saved me 2-3 hours easily. Thanks @OpenAI https://t.co/0oc8d8tv6X",
+      "url": "https://x.com/charlie______t/status/1613461818709790725",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/FmQp_QZagAALe-K.jpg",
+          "expandedUrl": "https://x.com/charlie______t/status/1613461818709790725/photo/1",
+          "displayUrl": "pic.x.com/0oc8d8tv6X",
+          "shortUrl": "https://t.co/0oc8d8tv6X"
+        }
+      ]
+    },
+    {
+      "id": "1588304169378533376",
+      "createdAt": "Thu Nov 03 22:56:37 +0000 2022",
+      "text": "Some pictures from Día de Los Muertos (Nov 2, CDMX) https://t.co/4b13wDb4DX",
+      "url": "https://x.com/charlie______t/status/1588304169378533376",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/FgrKMGvVEAE-Wr-.jpg",
+          "expandedUrl": "https://x.com/charlie______t/status/1588304169378533376/photo/1",
+          "displayUrl": "pic.x.com/4b13wDb4DX",
+          "shortUrl": "https://t.co/4b13wDb4DX"
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/FgrKMplVIAANtkS.jpg",
+          "expandedUrl": "https://x.com/charlie______t/status/1588304169378533376/photo/1",
+          "displayUrl": "pic.x.com/4b13wDb4DX",
+          "shortUrl": "https://t.co/4b13wDb4DX"
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/FgrKNU4UcAA4Cph.jpg",
+          "expandedUrl": "https://x.com/charlie______t/status/1588304169378533376/photo/1",
+          "displayUrl": "pic.x.com/4b13wDb4DX",
+          "shortUrl": "https://t.co/4b13wDb4DX"
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/FgrKN_XUAAAEQeK.jpg",
+          "expandedUrl": "https://x.com/charlie______t/status/1588304169378533376/photo/1",
+          "displayUrl": "pic.x.com/4b13wDb4DX",
+          "shortUrl": "https://t.co/4b13wDb4DX"
+        }
+      ]
+    },
+    {
+      "id": "1582993411069837312",
+      "createdAt": "Thu Oct 20 07:13:34 +0000 2022",
+      "text": "This book was hard to read at points (due to graphic violence) but I think it leads to interesting paths of thought with regard to AI / is worthwhile (and sometimes beautiful) on the whole https://t.co/ZgQPvTqdVJ",
+      "url": "https://x.com/charlie______t/status/1582993411069837312",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/FffrlUuXEAEiCFu.jpg",
+          "expandedUrl": "https://x.com/charlie______t/status/1582993411069837312/photo/1",
+          "displayUrl": "pic.x.com/ZgQPvTqdVJ",
+          "shortUrl": "https://t.co/ZgQPvTqdVJ"
+        }
+      ]
+    },
+    {
+      "id": "1582991455559512065",
+      "createdAt": "Thu Oct 20 07:05:48 +0000 2022",
+      "text": "been wondering which quantum computing substrate / method (superconducting, trapped ions, silicon, topographical, annealing) will prevail for a while, trapped ion has seemed most likely to me for last few years but I am probably not aware of much of the relevant information",
+      "url": "https://x.com/charlie______t/status/1582991455559512065"
+    },
+    {
+      "id": "1582989205810339840",
+      "createdAt": "Thu Oct 20 06:56:51 +0000 2022",
+      "text": "AGI might eventually perceive the physical universe as software to hack (and it might be right in some way) https://t.co/N3hl69mPo2",
+      "url": "https://x.com/charlie______t/status/1582989205810339840",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/FffoLszWQAAZwix.png",
+          "expandedUrl": "https://x.com/charlie______t/status/1582989205810339840/photo/1",
+          "displayUrl": "pic.x.com/N3hl69mPo2",
+          "shortUrl": "https://t.co/N3hl69mPo2"
+        }
+      ]
+    },
+    {
+      "id": "1582983145099472896",
+      "createdAt": "Thu Oct 20 06:32:46 +0000 2022",
+      "text": "Given events of recent months I think that some form of AGI has a good (&gt;50%) chance of arriving before 2030. Makes the question of how to spend time harder (or maybe easier?). It is against our intuition and evolution to think exponentially but necessary in this case to try",
+      "url": "https://x.com/charlie______t/status/1582983145099472896"
+    },
+    {
+      "id": "1570298963731021827",
+      "createdAt": "Thu Sep 15 06:30:22 +0000 2022",
+      "text": "should be sleeping but had to watch the merge happen",
+      "url": "https://x.com/charlie______t/status/1570298963731021827"
+    },
+    {
+      "id": "1563046714532982784",
+      "createdAt": "Fri Aug 26 06:12:31 +0000 2022",
+      "text": "some drone footage from Banff\n\nMusic: Herewego by Jinsang https://t.co/ZmDI2uxcvs",
+      "url": "https://x.com/charlie______t/status/1563046714532982784",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/ext_tw_video_thumb/1563046628780490753/pu/img/UHfTK0xLFXhMnkhU.jpg",
+          "expandedUrl": "https://x.com/charlie______t/status/1563046714532982784/video/1",
+          "displayUrl": "pic.x.com/ZmDI2uxcvs",
+          "shortUrl": "https://t.co/ZmDI2uxcvs"
+        }
+      ]
+    },
+    {
+      "id": "1552763233433296896",
+      "createdAt": "Thu Jul 28 21:09:38 +0000 2022",
+      "text": "anyway, here is a corgi \"playing rocket league\" and one dressed up in medieval armor... if anyone has any prompts they want to try I'll put them through and sent you the results https://t.co/yd6ryOtKMl",
+      "url": "https://x.com/charlie______t/status/1552763233433296896",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/FYyF5DiVEAAdy2S.jpg",
+          "expandedUrl": "https://x.com/charlie______t/status/1552763233433296896/photo/1",
+          "displayUrl": "pic.x.com/yd6ryOtKMl",
+          "shortUrl": "https://t.co/yd6ryOtKMl"
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/FYyF5EVUYAAzU9R.jpg",
+          "expandedUrl": "https://x.com/charlie______t/status/1552763233433296896/photo/1",
+          "displayUrl": "pic.x.com/yd6ryOtKMl",
+          "shortUrl": "https://t.co/yd6ryOtKMl"
+        }
+      ]
+    },
+    {
+      "id": "1552762106285420544",
+      "createdAt": "Thu Jul 28 21:05:09 +0000 2022",
+      "text": "haven't found many good outputs for these @ctrlcreep  tweets yet but there are a few https://t.co/XtexRR84L5 https://t.co/87Ef7EMW1f",
+      "url": "https://x.com/charlie______t/status/1552762106285420544",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/XtexRR84L5",
+          "expandedUrl": "https://x.com/ctrlcreep/status/1548503667921154050",
+          "displayUrl": "x.com/ctrlcreep/stat…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "1548503667921154050",
+        "url": "https://x.com/ctrlcreep/status/1548503667921154050",
+        "displayUrl": "x.com/ctrlcreep/stat…",
+        "shortUrl": "https://t.co/XtexRR84L5"
+      },
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/FYyEy4qUIAERZlY.jpg",
+          "expandedUrl": "https://x.com/charlie______t/status/1552762106285420544/photo/1",
+          "displayUrl": "pic.x.com/87Ef7EMW1f",
+          "shortUrl": "https://t.co/87Ef7EMW1f"
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/FYyE0FcUYAE3vIq.jpg",
+          "expandedUrl": "https://x.com/charlie______t/status/1552762106285420544/photo/1",
+          "displayUrl": "pic.x.com/87Ef7EMW1f",
+          "shortUrl": "https://t.co/87Ef7EMW1f"
+        }
+      ]
+    },
+    {
+      "id": "1552759319262687232",
+      "createdAt": "Thu Jul 28 20:54:05 +0000 2022",
+      "text": "as @transmissions11 has noted, it seems the full-scale model has less \"cultural knowledge\" than the mini version, which I suspect (?) might be due to less training on \"pop culture\" related things like the faces of specific individuals",
+      "url": "https://x.com/charlie______t/status/1552759319262687232"
+    },
+    {
+      "id": "1552759011170168833",
+      "createdAt": "Thu Jul 28 20:52:51 +0000 2022",
+      "text": "Some of my better DALLE-2 outputs so far https://t.co/zYnlnjoeXZ",
+      "url": "https://x.com/charlie______t/status/1552759011170168833",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/FYyCEFLVEAAfc-S.jpg",
+          "expandedUrl": "https://x.com/charlie______t/status/1552759011170168833/photo/1",
+          "displayUrl": "pic.x.com/zYnlnjoeXZ",
+          "shortUrl": "https://t.co/zYnlnjoeXZ"
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/FYyCEFKVQAESths.jpg",
+          "expandedUrl": "https://x.com/charlie______t/status/1552759011170168833/photo/1",
+          "displayUrl": "pic.x.com/zYnlnjoeXZ",
+          "shortUrl": "https://t.co/zYnlnjoeXZ"
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/FYyCEFMVQAAQwKT.jpg",
+          "expandedUrl": "https://x.com/charlie______t/status/1552759011170168833/photo/1",
+          "displayUrl": "pic.x.com/zYnlnjoeXZ",
+          "shortUrl": "https://t.co/zYnlnjoeXZ"
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/FYyCEFMUUAA1hhO.jpg",
+          "expandedUrl": "https://x.com/charlie______t/status/1552759011170168833/photo/1",
+          "displayUrl": "pic.x.com/zYnlnjoeXZ",
+          "shortUrl": "https://t.co/zYnlnjoeXZ"
+        }
+      ]
+    },
+    {
+      "id": "1548605591399981056",
+      "createdAt": "Sun Jul 17 09:48:39 +0000 2022",
+      "text": "solar geoengineering research should be aggressively accelerated at this point imo\n\nhttps://t.co/IICdrsDHdR",
+      "url": "https://x.com/charlie______t/status/1548605591399981056",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/IICdrsDHdR",
+          "expandedUrl": "https://www.technologyreview.com/2022/07/01/1055324/the-us-government-is-developing-a-solar-geoengineering-research-plan/amp/",
+          "displayUrl": "technologyreview.com/2022/07/01/105…"
+        }
+      ]
+    },
+    {
+      "id": "1544407317462007810",
+      "createdAt": "Tue Jul 05 19:46:12 +0000 2022",
+      "text": "COVID finally sniped me, time to eat melatonin gummies like candy (they sort of are)\n\nhttps://t.co/D3QxGsHwkN",
+      "url": "https://x.com/charlie______t/status/1544407317462007810",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/D3QxGsHwkN",
+          "expandedUrl": "https://link.springer.com/article/10.1007/s00018-022-04390-3",
+          "displayUrl": "link.springer.com/article/10.100…"
+        }
+      ]
+    },
+    {
+      "id": "1535895267353976834",
+      "createdAt": "Sun Jun 12 08:02:21 +0000 2022",
+      "text": "I think the CCP might get bodied this decade by IPFS / Starlink / web3",
+      "url": "https://x.com/charlie______t/status/1535895267353976834"
+    },
+    {
+      "id": "1535176563418877953",
+      "createdAt": "Fri Jun 10 08:26:29 +0000 2022",
+      "text": "crazy good + beautiful movie... manages to be about agi / mania / malware / the question of having children / ____________ at the same time https://t.co/fpuEombYeZ",
+      "url": "https://x.com/charlie______t/status/1535176563418877953",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/FU4K8wlXoAAKJCI.jpg",
+          "expandedUrl": "https://x.com/charlie______t/status/1535176563418877953/photo/1",
+          "displayUrl": "pic.x.com/fpuEombYeZ",
+          "shortUrl": "https://t.co/fpuEombYeZ"
+        }
+      ]
+    },
+    {
+      "id": "1531053490704945159",
+      "createdAt": "Sun May 29 23:22:52 +0000 2022",
+      "text": "some beautiful writing from @ctrlcreep that I stumbled across again today https://t.co/ll8QXuY5XU",
+      "url": "https://x.com/charlie______t/status/1531053490704945159",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/FT9lCIOUsAAoSm7.jpg",
+          "expandedUrl": "https://x.com/charlie______t/status/1531053490704945159/photo/1",
+          "displayUrl": "pic.x.com/ll8QXuY5XU",
+          "shortUrl": "https://t.co/ll8QXuY5XU"
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/FT9lCVjUAAEqJ2e.jpg",
+          "expandedUrl": "https://x.com/charlie______t/status/1531053490704945159/photo/1",
+          "displayUrl": "pic.x.com/ll8QXuY5XU",
+          "shortUrl": "https://t.co/ll8QXuY5XU"
+        }
+      ]
+    },
+    {
+      "id": "1529916339753734159",
+      "createdAt": "Thu May 26 20:04:14 +0000 2022",
+      "text": "been having crazy vivid neurofeedback dreams, last night my brain did some DALL-E video thing and generated what felt like an entire episode of Seinfeld",
+      "url": "https://x.com/charlie______t/status/1529916339753734159"
+    },
+    {
+      "id": "1514298957349990422",
+      "createdAt": "Wed Apr 13 17:46:20 +0000 2022",
+      "text": "someone with #dalle2 access please do us all a favor and feed in some @ctrlcreep tweets https://t.co/mJkuqhkeRh",
+      "url": "https://x.com/charlie______t/status/1514298957349990422",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/mJkuqhkeRh",
+          "expandedUrl": "https://x.com/ctrlcreep/status/1511081929940115456",
+          "displayUrl": "x.com/ctrlcreep/stat…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "1511081929940115456",
+        "url": "https://x.com/ctrlcreep/status/1511081929940115456",
+        "displayUrl": "x.com/ctrlcreep/stat…",
+        "shortUrl": "https://t.co/mJkuqhkeRh"
+      }
+    },
+    {
+      "id": "1510515570017550336",
+      "createdAt": "Sun Apr 03 07:12:30 +0000 2022",
+      "text": "the biographies of a few rare people are almost enough to make destiny seem credible as a concept... Churchill predicted his life when he was young and then the exact date of his own death later on. He was a lover of butterflies too https://t.co/alVbFyNL5x",
+      "url": "https://x.com/charlie______t/status/1510515570017550336",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/FPZt6AxXEAENVT0.jpg",
+          "expandedUrl": "https://x.com/charliethomps0n/status/1510515570017550336/photo/1",
+          "displayUrl": "pic.x.com/alVbFyNL5x",
+          "shortUrl": "https://t.co/alVbFyNL5x"
+        }
+      ]
+    },
+    {
+      "id": "1506121968046600194",
+      "createdAt": "Tue Mar 22 04:13:54 +0000 2022",
+      "text": "surreal, one of my favorite songs of all time... probably listened to it a thousand times, feels priceless https://t.co/PBHYCAHOiI",
+      "url": "https://x.com/charlie______t/status/1506121968046600194",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/PBHYCAHOiI",
+          "expandedUrl": "https://t.co/PBHYCAHOiI",
+          "displayUrl": "t.co/PBHYCAHOiI"
+        }
+      ]
+    },
+    {
+      "id": "1505086076070862848",
+      "createdAt": "Sat Mar 19 07:37:38 +0000 2022",
+      "text": "every time I have a couple drinks I end up collecting more ENS names https://t.co/T62TjVKECy",
+      "url": "https://x.com/charlie______t/status/1505086076070862848",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/FOMjz2gVIAAvIhH.jpg",
+          "expandedUrl": "https://x.com/charliethomps0n/status/1505086076070862848/photo/1",
+          "displayUrl": "pic.x.com/T62TjVKECy",
+          "shortUrl": "https://t.co/T62TjVKECy"
+        }
+      ]
+    },
+    {
+      "id": "1504926381381201928",
+      "createdAt": "Fri Mar 18 21:03:04 +0000 2022",
+      "text": "been reading a bunch of PKD books lately, each is a distinct mindfuck / masterpiece https://t.co/av7UEL3VJe",
+      "url": "https://x.com/charlie______t/status/1504926381381201928",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/FOKSj7hVgAAwGpp.jpg",
+          "expandedUrl": "https://x.com/charliethomps0n/status/1504926381381201928/photo/1",
+          "displayUrl": "pic.x.com/av7UEL3VJe",
+          "shortUrl": "https://t.co/av7UEL3VJe"
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/FOKSkIeVkAA8TIX.jpg",
+          "expandedUrl": "https://x.com/charliethomps0n/status/1504926381381201928/photo/1",
+          "displayUrl": "pic.x.com/av7UEL3VJe",
+          "shortUrl": "https://t.co/av7UEL3VJe"
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/FOKSkZpVgAI24-n.jpg",
+          "expandedUrl": "https://x.com/charliethomps0n/status/1504926381381201928/photo/1",
+          "displayUrl": "pic.x.com/av7UEL3VJe",
+          "shortUrl": "https://t.co/av7UEL3VJe"
+        }
+      ]
+    },
+    {
+      "id": "1501996424866762752",
+      "createdAt": "Thu Mar 10 19:00:28 +0000 2022",
+      "text": "wonder when first ISRIB human trials will take place",
+      "url": "https://x.com/charlie______t/status/1501996424866762752"
+    },
+    {
+      "id": "1495851554766733316",
+      "createdAt": "Mon Feb 21 20:02:56 +0000 2022",
+      "text": "This is a really good book, I had no idea how valuable the U-2 and SR-71 airplanes were to American policymakers during the Cold War. I'm a bit heartbroken that the Blackbird is retired and certain that we need more skunkworks. Thank you Kelly Johnson 🐐 https://t.co/cfmorys5iU",
+      "url": "https://x.com/charlie______t/status/1495851554766733316",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/FMJVD_bVkAEJVv8.jpg",
+          "expandedUrl": "https://x.com/charliethomps0n/status/1495851554766733316/photo/1",
+          "displayUrl": "pic.x.com/cfmorys5iU",
+          "shortUrl": "https://t.co/cfmorys5iU"
+        }
+      ]
+    },
+    {
+      "id": "1465018088802426892",
+      "createdAt": "Sun Nov 28 18:01:45 +0000 2021",
+      "text": "this finally arrived in the mail (RIP) https://t.co/0lItGFNkO9",
+      "url": "https://x.com/charlie______t/status/1465018088802426892",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/FFTKL-aXIAcuzYN.jpg",
+          "expandedUrl": "https://x.com/charliethomps0n/status/1465018088802426892/photo/1",
+          "displayUrl": "pic.x.com/0lItGFNkO9",
+          "shortUrl": "https://t.co/0lItGFNkO9"
+        }
+      ]
+    },
+    {
+      "id": "1463916347654479877",
+      "createdAt": "Thu Nov 25 17:03:50 +0000 2021",
+      "text": "This is a good book, describes the ego/apoplexy to world policy pipeline quite well https://t.co/DUFEn4vNS1",
+      "url": "https://x.com/charlie______t/status/1463916347654479877",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/FFDgKLqXMAIw4Rn.jpg",
+          "expandedUrl": "https://x.com/charliethomps0n/status/1463916347654479877/photo/1",
+          "displayUrl": "pic.x.com/DUFEn4vNS1",
+          "shortUrl": "https://t.co/DUFEn4vNS1"
+        }
+      ]
+    },
+    {
+      "id": "1457931687107698696",
+      "createdAt": "Tue Nov 09 04:42:55 +0000 2021",
+      "text": "thank you ENS❤️delegating votes to @mikedemarais",
+      "url": "https://x.com/charlie______t/status/1457931687107698696"
+    },
+    {
+      "id": "1453039636670988288",
+      "createdAt": "Tue Oct 26 16:43:40 +0000 2021",
+      "text": "good reading by @dumbcontract2 on the issue of USD hyperinflation... I tend to agree that the situation today is less like the 20th century German Republic (and more like the 16th century Spanish Empire)\n\nhttps://t.co/j8QPc9TxXg",
+      "url": "https://x.com/charlie______t/status/1453039636670988288",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/j8QPc9TxXg",
+          "expandedUrl": "https://2501babe.github.io/posts/price-rev.html",
+          "displayUrl": "2501babe.github.io/posts/price-re…"
+        }
+      ]
+    },
+    {
+      "id": "1450788204408360968",
+      "createdAt": "Wed Oct 20 11:37:16 +0000 2021",
+      "text": "Some more drone footage\n\nMusic: S+C+A+R+R (@iam_scarr) - The Rest Of My Days https://t.co/CkQHveCqdI",
+      "url": "https://x.com/charlie______t/status/1450788204408360968",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/ext_tw_video_thumb/1450788000233926662/pu/img/G8hvwukoHzm46JKd.jpg",
+          "expandedUrl": "https://x.com/charliethomps0n/status/1450788204408360968/video/1",
+          "displayUrl": "pic.x.com/CkQHveCqdI",
+          "shortUrl": "https://t.co/CkQHveCqdI"
+        }
+      ]
+    },
+    {
+      "id": "1446195336519749637",
+      "createdAt": "Thu Oct 07 19:26:51 +0000 2021",
+      "text": "my pandemic photo for @QuantumNFT photo contest. Took a lot but this one sums up what COVID has been for me and many others https://t.co/6AvMxzp6iv",
+      "url": "https://x.com/charlie______t/status/1446195336519749637",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/FBHq7e6WYAIL8UW.jpg",
+          "expandedUrl": "https://x.com/charliethomps0n/status/1446195336519749637/photo/1",
+          "displayUrl": "pic.x.com/6AvMxzp6iv",
+          "shortUrl": "https://t.co/6AvMxzp6iv"
+        }
+      ]
+    },
+    {
+      "id": "1445776701682851840",
+      "createdAt": "Wed Oct 06 15:43:21 +0000 2021",
+      "text": "being able to own a piece of art by @pussyrrriot is surreal for me and one of the highlights of my time in the world of NFTs. Thanks to everyone fighting authoritarianism around the world and thx @Pranksy for the cool boxes🌈 https://t.co/qm5jmiS5vz",
+      "url": "https://x.com/charlie______t/status/1445776701682851840",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/FBBuKkoVQBMakZm.jpg",
+          "expandedUrl": "https://x.com/charliethomps0n/status/1445776701682851840/photo/1",
+          "displayUrl": "pic.x.com/qm5jmiS5vz",
+          "shortUrl": "https://t.co/qm5jmiS5vz"
+        }
+      ]
+    },
+    {
+      "id": "1443716945593909252",
+      "createdAt": "Thu Sep 30 23:18:37 +0000 2021",
+      "text": "flew my drone around a bit today, figured out that I can launch it out of my window https://t.co/98m2yhjKDe",
+      "url": "https://x.com/charlie______t/status/1443716945593909252",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://pbs.twimg.com/ext_tw_video_thumb/1443716835266998277/pu/img/j1nlYScOq0pF7dcx.jpg",
+          "expandedUrl": "https://x.com/charliethomps0n/status/1443716945593909252/video/1",
+          "displayUrl": "pic.x.com/98m2yhjKDe",
+          "shortUrl": "https://t.co/98m2yhjKDe"
+        }
+      ]
+    },
+    {
+      "id": "1443654174810443780",
+      "createdAt": "Thu Sep 30 19:09:11 +0000 2021",
+      "text": "The upcoming senate hearings for NFTs are going to birth some of the most potent memes ever unleashed 😂😂😂 https://t.co/kaH5jBbGmL",
+      "url": "https://x.com/charlie______t/status/1443654174810443780",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/kaH5jBbGmL",
+          "expandedUrl": "https://x.com/morroweric/status/1443628623576109065",
+          "displayUrl": "x.com/morroweric/sta…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "1443628623576109065",
+        "url": "https://x.com/morroweric/status/1443628623576109065",
+        "displayUrl": "x.com/morroweric/sta…",
+        "shortUrl": "https://t.co/kaH5jBbGmL"
+      }
+    },
+    {
+      "id": "1441164085513502733",
+      "createdAt": "Thu Sep 23 22:14:28 +0000 2021",
+      "text": "LinkedIn InMail credits should be ERC tokens, I have put off canceling premium for like a year due to sunk-cost fallacy re: losing these things and then just realized they expire after 90 days anyway😂Pulling the plug today, gg @LinkedIn https://t.co/5n1Sej5dsm",
+      "url": "https://x.com/charlie______t/status/1441164085513502733",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/FAAKaXJWEAMpV7u.png",
+          "expandedUrl": "https://x.com/charliethomps0n/status/1441164085513502733/photo/1",
+          "displayUrl": "pic.x.com/5n1Sej5dsm",
+          "shortUrl": "https://t.co/5n1Sej5dsm"
+        }
+      ]
+    },
+    {
+      "id": "1439720914950791170",
+      "createdAt": "Sun Sep 19 22:39:49 +0000 2021",
+      "text": "someone should really outbid me on this one, @cryptofangs1 is underrated and makes a ton of cool art https://t.co/KW76eFFeOe",
+      "url": "https://x.com/charlie______t/status/1439720914950791170",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/KW76eFFeOe",
+          "expandedUrl": "https://x.com/fangsfilms/status/1439462317503221769",
+          "displayUrl": "x.com/fangsfilms/sta…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "1439462317503221769",
+        "url": "https://x.com/fangsfilms/status/1439462317503221769",
+        "displayUrl": "x.com/fangsfilms/sta…",
+        "shortUrl": "https://t.co/KW76eFFeOe"
+      }
+    },
+    {
+      "id": "1436514535075192836",
+      "createdAt": "Sat Sep 11 02:18:48 +0000 2021",
+      "text": "hello @PaperclipDAO , this is my offer for round 4 🙂 📎 ❤️\n\nIncluded in this swap proposal is a collection of the earliest graphics created for the @RadxChange  conference / movement. I am the creator of the below graphics.\n\nhttps://t.co/RGDJtsXoU8",
+      "url": "https://x.com/charlie______t/status/1436514535075192836",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/RGDJtsXoU8",
+          "expandedUrl": "https://sudoswap.xyz/#/swap/N4Igtghg1gpgTgQQM5JgFwCITREAuEABgA8BOAFgGMAzSgEzoHZCXW32POvufPzeBgoQICMw8RIkBWSbLkcx8pbMXK1Q1eq3dN2vW1379Mo6YinTAJksWjAZnO29Um0+0A2R2-Ujy5CIyUAEZS1EHMyuSkoRSMlozujFGUMO7k7tTuABwQlFmUluRZ5K7kUsGMITDeWlk1WpT1aoZNciJZdjBBQYTupCJ2lqmk1BBB7pSkOeQwOSJSdFOE-XSEDOQ9ojqtyi07wnv7godHp2etvv6BIWERSlEx5HEJSaQpaRnZufmFxaXl4Sq53EdWBwkaYOOkPE7U63V6-UGw1G40m01mEHmizqKzWdA2glcnBO0NYJNJhHJpKpFNpdJ0fgCwVC4TUD2osXiiWSqXSmRyeQKRRKLDKFSB9I4oMl7AhMrJ8uJHS6PT6AyGfRREymEBmcwWS1x602vDs20VCotLBpkJtVvtR0uTJurMi0Q5Ty5r3efK+gt+IsIYsBUmqVulFrlirttuV8LVSM1Y216P12OWIlWxsE-C4MfO+bOhdOxYdZacTuuLLu8nZnJePI+-O+Qr+ooBlVD9ojiqj8tLJbjqsRGpGybRuoxWMNmbxBIEJmJDoHOxXF3L9JAABpwNB4MhUGgEGAAPYAVwAdmh8CARNuQDhYIgUOgsDgbyQKDR6Ex7bmrV4VpEhaa5NKB9TAfK-6Rg6fiEJYUiMCIjCkJBsh1NQIgwHQngiLkfTkHYyF0JQiEiKQdA9KQpC6vw7jxHQWEBPaCEbtSjJVrcbLuvW3JvLynwCj8wr-OKXbhg6fYyuBYE9IwMCTNQUiEY0EB0FIWRkfBIjZIU-DYXYoZlO4iR2O4vCWEEUmWlaMneHZbgOWxaj3o++4vkep6XteBB3juMDEAADgAlnA2DBSeF4ACrBWAMAAMoKZFdBIDeZk2H4likHYdj3pAT4IAwcAwCgH7EEOCLqsi446nqmIGjis7Gq5e6IEVJWpQQJCtPe1AwDAABKCnBSFMBXoVdDFaVXXEDMlgcvkpDuDAljqdEEAdAgABiECGVk+0AML+EpWQIJQdiEQAon496oBedD7u101EMQPU7vl8Bbf1H4tU+X0wD9O5IBAAA2Pm3u4RGDDIhSsPeAWUAAFhAF4AOYwBNU2dS9hB1EESliFtB1BFt7RBP0YjKcwkOkDA0TuGI1jZYwSGWLdwWoxe2BnsVZUiPjQQQBA5T5MLYiMFILhZORKGrXYQRZekwtvJDdgJEt6xZTYkMPUkOkoSEjBZBrdh0NQ0tLf16lPNLEx2FkQT7YxMBKUkQQrfthA5VQhnWOTjCMXk1DxKETxKfQIjUGauUAL5AA",
+          "displayUrl": "sudoswap.xyz/#/swap/N4Igtgh…"
+        }
+      ]
+    },
+    {
+      "id": "1435801682345140226",
+      "createdAt": "Thu Sep 09 03:06:11 +0000 2021",
+      "text": "I've been collecting a bunch of cool free art as part of #OBJKT4OBJKT on @hicetnunc2000 and decided to put out some of my own. This is the first of my pictures I've minted as an NFT. A steal of a deal if you ask me, coming in at approximately $0 😊\n\nhttps://t.co/U3YgLMPFrK https://t.co/U2gewrnjAO",
+      "url": "https://x.com/charlie______t/status/1435801682345140226",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/U3YgLMPFrK",
+          "expandedUrl": "https://www.hicetnunc.xyz/objkt/281464",
+          "displayUrl": "hicetnunc.xyz/objkt/281464"
+        }
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/E-z997XXIAU3Bap.jpg",
+          "expandedUrl": "https://x.com/CharlieThomps0n/status/1435801682345140226/photo/1",
+          "displayUrl": "pic.x.com/U2gewrnjAO",
+          "shortUrl": "https://t.co/U2gewrnjAO"
+        }
+      ]
+    },
+    {
+      "id": "1431310951475777544",
+      "createdAt": "Fri Aug 27 17:41:37 +0000 2021",
+      "text": "dealing with the bank feels like some elaborate satire now",
+      "url": "https://x.com/charlie______t/status/1431310951475777544"
+    },
+    {
+      "id": "1430020658361110552",
+      "createdAt": "Tue Aug 24 04:14:28 +0000 2021",
+      "text": "fat punk thesis seems prescient https://t.co/bpsPFYg9AZ https://t.co/0JxOG6ZbSV",
+      "url": "https://x.com/charlie______t/status/1430020658361110552",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/bpsPFYg9AZ",
+          "expandedUrl": "https://blog.usejournal.com/the-fat-cryptopunks-thesis-d397601e5748",
+          "displayUrl": "blog.usejournal.com/the-fat-crypto…"
+        },
+        {
+          "shortUrl": "https://t.co/0JxOG6ZbSV",
+          "expandedUrl": "https://x.com/VisaNews/status/1429745230023208969",
+          "displayUrl": "x.com/VisaNews/statu…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "1429745230023208969",
+        "url": "https://x.com/VisaNews/status/1429745230023208969",
+        "displayUrl": "x.com/VisaNews/statu…",
+        "shortUrl": "https://t.co/0JxOG6ZbSV"
+      }
+    },
+    {
+      "id": "1429357837365387271",
+      "createdAt": "Sun Aug 22 08:20:39 +0000 2021",
+      "text": "Entering the $WRITE RACE 💨 on @viamirror\n\nsig:0xe28f8b628d1576ff8b1d4ad9b218f7480955c6c63feae90a0c8eaa2345f7334d60bc0528f70b3702e3e2c026aa19548f60ef6e60bb5e0fa3fa024b7a454e196801\n\nhttps://t.co/0SY96FEP9D",
+      "url": "https://x.com/charlie______t/status/1429357837365387271",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/0SY96FEP9D",
+          "expandedUrl": "https://mirror.xyz/race?candidate=charliethomps0n",
+          "displayUrl": "mirror.xyz/race?candidate…"
+        }
+      ]
+    },
+    {
+      "id": "1173070197726597121",
+      "createdAt": "Sun Sep 15 03:05:04 +0000 2019",
+      "text": "Verifying myself: I am charlie_thompson on https://t.co/D9NxMk3wYy. kK72yym-4bFd-K5fxtV9KvVzOIg9YcLalxnI / https://t.co/4OOVd7ZLOy",
+      "url": "https://x.com/charlie______t/status/1173070197726597121",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/D9NxMk3wYy",
+          "expandedUrl": "http://Keybase.io",
+          "displayUrl": "Keybase.io"
+        },
+        {
+          "shortUrl": "https://t.co/4OOVd7ZLOy",
+          "expandedUrl": "https://keybase.io/charlie_thompson/sigs/kK72yym-4bFd-K5fxtV9KvVzOIg9YcLalxnI",
+          "displayUrl": "keybase.io/charlie_thomps…"
+        }
+      ]
+    },
+    {
+      "id": "1118601956728111111",
+      "createdAt": "Wed Apr 17 19:47:43 +0000 2019",
+      "text": "The GND will cost a lot less than reacting to economy-destroying disasters every year in 2050\n\nModernizing our energy system and employing millions will not hurt the economy\n\nAmerica is at its best when it is rising to massive challenges, and Climate Change is an enormous one https://t.co/OTGsVBDJ3U",
+      "url": "https://x.com/charlie______t/status/1118601956728111111",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/OTGsVBDJ3U",
+          "expandedUrl": "https://x.com/AOC/status/1118520320653238272",
+          "displayUrl": "x.com/AOC/status/111…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "1118520320653238272",
+        "url": "https://x.com/AOC/status/1118520320653238272",
+        "displayUrl": "x.com/AOC/status/111…",
+        "shortUrl": "https://t.co/OTGsVBDJ3U"
+      }
+    },
+    {
+      "id": "1115660103267639297",
+      "createdAt": "Tue Apr 09 16:57:51 +0000 2019",
+      "text": "Our government should upgrade to new encryption as fast as possible + invest 10x more so that China doesn't get the first QC that can break encryption. Obligatory shill for $QRL, it is the only blockchain that will be 100% safe from quantum computer attack https://t.co/duNYTxkF0i",
+      "url": "https://x.com/charlie______t/status/1115660103267639297",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/duNYTxkF0i",
+          "expandedUrl": "https://x.com/AndrewYang/status/1115654292613009410",
+          "displayUrl": "x.com/AndrewYang/sta…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "1115654292613009410",
+        "url": "https://x.com/AndrewYang/status/1115654292613009410",
+        "displayUrl": "x.com/AndrewYang/sta…",
+        "shortUrl": "https://t.co/duNYTxkF0i"
+      }
+    },
+    {
+      "id": "1103738216966967296",
+      "createdAt": "Thu Mar 07 19:24:32 +0000 2019",
+      "text": "Greta is a hero https://t.co/dRcvXjNZmn",
+      "url": "https://x.com/charlie______t/status/1103738216966967296",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/dRcvXjNZmn",
+          "expandedUrl": "https://x.com/GretaThunberg/status/1103737686949543941",
+          "displayUrl": "x.com/GretaThunberg/…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "1103737686949543941",
+        "url": "https://x.com/GretaThunberg/status/1103737686949543941",
+        "displayUrl": "x.com/GretaThunberg/…",
+        "shortUrl": "https://t.co/dRcvXjNZmn"
+      }
+    },
+    {
+      "id": "1092616358565765121",
+      "createdAt": "Tue Feb 05 02:50:14 +0000 2019",
+      "text": "Mastering Ethereum is a great resource... many thanks to @aantonop and everyone else who worked on it",
+      "url": "https://x.com/charlie______t/status/1092616358565765121"
+    },
+    {
+      "id": "1090490720547495936",
+      "createdAt": "Wed Jan 30 06:03:42 +0000 2019",
+      "text": "made with https://t.co/NRxDOhpZw2 https://t.co/jQA1bGGQFK",
+      "url": "https://x.com/charlie______t/status/1090490720547495936",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/NRxDOhpZw2",
+          "expandedUrl": "http://ganbreeder.app",
+          "displayUrl": "ganbreeder.app"
+        }
+      ],
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/DyIzhgOWwAAghmh.jpg",
+          "expandedUrl": "https://x.com/CharlieThomps0n/status/1090490720547495936/photo/1",
+          "displayUrl": "pic.x.com/jQA1bGGQFK",
+          "shortUrl": "https://t.co/jQA1bGGQFK"
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/DyIzhf_W0AER7Oq.jpg",
+          "expandedUrl": "https://x.com/CharlieThomps0n/status/1090490720547495936/photo/1",
+          "displayUrl": "pic.x.com/jQA1bGGQFK",
+          "shortUrl": "https://t.co/jQA1bGGQFK"
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/DyIzhgbXQAAR1O7.jpg",
+          "expandedUrl": "https://x.com/CharlieThomps0n/status/1090490720547495936/photo/1",
+          "displayUrl": "pic.x.com/jQA1bGGQFK",
+          "shortUrl": "https://t.co/jQA1bGGQFK"
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/DyIzhgqXgAAJcXa.jpg",
+          "expandedUrl": "https://x.com/CharlieThomps0n/status/1090490720547495936/photo/1",
+          "displayUrl": "pic.x.com/jQA1bGGQFK",
+          "shortUrl": "https://t.co/jQA1bGGQFK"
+        }
+      ]
+    },
+    {
+      "id": "1072546356928151552",
+      "createdAt": "Tue Dec 11 17:39:13 +0000 2018",
+      "text": "Inspired by the young people of the @sunrisemvmt putting themselves on the line. The time for climate incrementalism was 30 years ago, we no longer have that option. We need urgent action if we want this planet to be habitable in 30 years.",
+      "url": "https://x.com/charlie______t/status/1072546356928151552"
+    },
+    {
+      "id": "1069113020566159360",
+      "createdAt": "Sun Dec 02 06:16:21 +0000 2018",
+      "text": "Used BAT / Brave today and it felt like the future",
+      "url": "https://x.com/charlie______t/status/1069113020566159360"
+    },
+    {
+      "id": "1047248154549280773",
+      "createdAt": "Tue Oct 02 22:13:11 +0000 2018",
+      "text": "Anyone who works on #NLP #Language #Semantics - Is there any database / classifier software (in cases of multiple possibilities) that exists for pairing verbs with theta roles?",
+      "url": "https://x.com/charlie______t/status/1047248154549280773"
+    },
+    {
+      "id": "1022757767176548353",
+      "createdAt": "Fri Jul 27 08:17:08 +0000 2018",
+      "text": "Sorry To Bother You = instant classic",
+      "url": "https://x.com/charlie______t/status/1022757767176548353"
+    },
+    {
+      "id": "1022639592636211200",
+      "createdAt": "Fri Jul 27 00:27:33 +0000 2018",
+      "text": "Was fortunate enough to meet @glenweyl today - thanks for inviting some random people from twitter to hear your presentation! His message about the possibility of a more humane system which leverages technology and markets is inspiring.\n\nRadical Markets is worth reading! https://t.co/hgDllro48Q",
+      "url": "https://x.com/charlie______t/status/1022639592636211200",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/DjElSEHVAAEIy9J.jpg",
+          "expandedUrl": "https://x.com/CharlieThomps0n/status/1022639592636211200/photo/1",
+          "displayUrl": "pic.x.com/hgDllro48Q",
+          "shortUrl": "https://t.co/hgDllro48Q"
+        }
+      ]
+    },
+    {
+      "id": "1012491986383716352",
+      "createdAt": "Fri Jun 29 00:24:35 +0000 2018",
+      "text": "The book Radical Markets is worth getting just for the section on Quadratic Voting alone. Would be so much better than our current 1-person-1-vote system",
+      "url": "https://x.com/charlie______t/status/1012491986383716352"
+    },
+    {
+      "id": "1011709979386974208",
+      "createdAt": "Tue Jun 26 20:37:10 +0000 2018",
+      "text": "Some research I did on the threat the #quantumcomputers will likely pose to #Bitcoin / $BTC and any other system which relies on ECDSA\n\nhttps://t.co/5WVt6dVszo",
+      "url": "https://x.com/charlie______t/status/1011709979386974208",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/5WVt6dVszo",
+          "expandedUrl": "https://medium.com/@charliethompson_63350/quantum-computers-pose-a-credible-threat-to-the-security-of-bitcoin-4b1dd65944ca",
+          "displayUrl": "medium.com/@charliethomps…"
+        }
+      ]
+    },
+    {
+      "id": "999174969761263616",
+      "createdAt": "Wed May 23 06:27:31 +0000 2018",
+      "text": ".@OpenAI this is brilliant work\n\nAI Safety via Debate https://t.co/SKZgbnT1Lb",
+      "url": "https://x.com/charlie______t/status/999174969761263616",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/SKZgbnT1Lb",
+          "expandedUrl": "https://blog.openai.com/debate/",
+          "displayUrl": "blog.openai.com/debate/"
+        }
+      ]
+    },
+    {
+      "id": "997508523654369280",
+      "createdAt": "Fri May 18 16:05:39 +0000 2018",
+      "text": "We need more scientists in government or we're going to go extinct https://t.co/pGTqes7l6G",
+      "url": "https://x.com/charlie______t/status/997508523654369280",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/DdfctuTUQAIS6Ja.jpg",
+          "expandedUrl": "https://x.com/CharlieThomps0n/status/997508523654369280/photo/1",
+          "displayUrl": "pic.x.com/pGTqes7l6G",
+          "shortUrl": "https://t.co/pGTqes7l6G"
+        }
+      ]
+    },
+    {
+      "id": "996949603961507840",
+      "createdAt": "Thu May 17 03:04:42 +0000 2018",
+      "text": "“... to avoid that failure of nerve for which history exacts so merciless a penalty — we must have the courage to follow all technical extrapolations to their logical conclusion.” - Arthur C. Clarke\n\nAn essay on the subject of trying to predict the future\n\nhttps://t.co/YxSPZCa5kf",
+      "url": "https://x.com/charlie______t/status/996949603961507840",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/YxSPZCa5kf",
+          "expandedUrl": "https://fabiusmaximus.com/2017/12/26/arthur-c-clarke-about-predicting-technology/",
+          "displayUrl": "fabiusmaximus.com/2017/12/26/art…"
+        }
+      ]
+    },
+    {
+      "id": "985396485914316800",
+      "createdAt": "Sun Apr 15 05:56:44 +0000 2018",
+      "text": "this is incredible https://t.co/Cm2Q55vJfh",
+      "url": "https://x.com/charlie______t/status/985396485914316800",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/Cm2Q55vJfh",
+          "expandedUrl": "https://www.youtube.com/watch?v=733YsIlOP3g&feature=youtu.be",
+          "displayUrl": "youtube.com/watch?v=733YsI…"
+        }
+      ]
+    },
+    {
+      "id": "985330184969736192",
+      "createdAt": "Sun Apr 15 01:33:17 +0000 2018",
+      "text": "I think geoengineering (solar and otherwise) will be a giant geopolitical issue in the next 5 years. Which countries have the right to interfere with the environment, and once they do, will they be able to stop / hand over that power to international community?  etc...",
+      "url": "https://x.com/charlie______t/status/985330184969736192"
+    },
+    {
+      "id": "978749723103416321",
+      "createdAt": "Tue Mar 27 21:44:52 +0000 2018",
+      "text": "Interview with @piamancini of @DemocracyEarth and @opencollect for the Virginia Review of Politics by Avital Balwit - Pia is a damn inspiring lady and Avital is too https://t.co/SgzvBFiVUu\n\n#blockchain #voting #liquiddemocracy",
+      "url": "https://x.com/charlie______t/status/978749723103416321",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/SgzvBFiVUu",
+          "expandedUrl": "https://virginiapolitics.org/interviews/2018/3/26/interview-16-pia-mancini",
+          "displayUrl": "virginiapolitics.org/interviews/201…"
+        }
+      ]
+    },
+    {
+      "id": "978747011834023937",
+      "createdAt": "Tue Mar 27 21:34:06 +0000 2018",
+      "text": "some of the most underrated music out there https://t.co/1ByweEFPbf",
+      "url": "https://x.com/charlie______t/status/978747011834023937",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/1ByweEFPbf",
+          "expandedUrl": "https://x.com/DROELOEMUSIC/status/978702786853523456",
+          "displayUrl": "x.com/DROELOEMUSIC/s…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "978702786853523456",
+        "url": "https://x.com/DROELOEMUSIC/status/978702786853523456",
+        "displayUrl": "x.com/DROELOEMUSIC/s…",
+        "shortUrl": "https://t.co/1ByweEFPbf"
+      }
+    },
+    {
+      "id": "978007539387334656",
+      "createdAt": "Sun Mar 25 20:35:42 +0000 2018",
+      "text": "https://t.co/zw3bUoxYBM",
+      "url": "https://x.com/charlie______t/status/978007539387334656",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/DZKUib4WkAAoiAj.jpg",
+          "expandedUrl": "https://x.com/CharlieThomps0n/status/978007539387334656/photo/1",
+          "displayUrl": "pic.x.com/zw3bUoxYBM",
+          "shortUrl": "https://t.co/zw3bUoxYBM"
+        }
+      ]
+    },
+    {
+      "id": "972583006203498496",
+      "createdAt": "Sat Mar 10 21:20:33 +0000 2018",
+      "text": "Thanks for the stickers! Will try to put them to good use @BraveSampson @brave https://t.co/BGLodEcV4e",
+      "url": "https://x.com/charlie______t/status/972583006203498496",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/DX9PFegX4AAKH0N.jpg",
+          "expandedUrl": "https://x.com/CharlieThomps0n/status/972583006203498496/photo/1",
+          "displayUrl": "pic.x.com/BGLodEcV4e",
+          "shortUrl": "https://t.co/BGLodEcV4e"
+        }
+      ]
+    },
+    {
+      "id": "968940751777402884",
+      "createdAt": "Wed Feb 28 20:07:31 +0000 2018",
+      "text": "$QRL mention https://t.co/q2amI9DP8U",
+      "url": "https://x.com/charlie______t/status/968940751777402884",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/q2amI9DP8U",
+          "expandedUrl": "https://x.com/IdaliaFriedson/status/968926223526187011",
+          "displayUrl": "x.com/IdaliaFriedson…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "968926223526187011",
+        "url": "https://x.com/IdaliaFriedson/status/968926223526187011",
+        "displayUrl": "x.com/IdaliaFriedson…",
+        "shortUrl": "https://t.co/q2amI9DP8U"
+      }
+    },
+    {
+      "id": "966029581470851073",
+      "createdAt": "Tue Feb 20 19:19:34 +0000 2018",
+      "text": "I am working on an idea for proof-of-human authentication for #ethereum #smartcontracts - may be hugely flawed but would appreciate any insight or feedback. A similar idea to CAPTCHA for the internet, but using natural language problems resistant to AI\n\nhttps://t.co/rzpwFi8vQA",
+      "url": "https://x.com/charlie______t/status/966029581470851073",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/rzpwFi8vQA",
+          "expandedUrl": "https://github.com/doctor-gonzo/proof-of-human",
+          "displayUrl": "github.com/doctor-gonzo/p…"
+        }
+      ]
+    },
+    {
+      "id": "961724097406390272",
+      "createdAt": "Thu Feb 08 22:11:07 +0000 2018",
+      "text": "Single payer is the only way forward https://t.co/P8RNCBRVvt",
+      "url": "https://x.com/charlie______t/status/961724097406390272",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/P8RNCBRVvt",
+          "expandedUrl": "https://x.com/nowthisnews/status/961394908031430656",
+          "displayUrl": "x.com/nowthisnews/st…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "961394908031430656",
+        "url": "https://x.com/nowthisnews/status/961394908031430656",
+        "displayUrl": "x.com/nowthisnews/st…",
+        "shortUrl": "https://t.co/P8RNCBRVvt"
+      }
+    },
+    {
+      "id": "936707898805284865",
+      "createdAt": "Fri Dec 01 21:25:40 +0000 2017",
+      "text": "my favorite dark-horse project. Great devs and a real problem lurking with quantum computers for all crytpocurrencies which rely on ECDSA https://t.co/5FwePZRm5n",
+      "url": "https://x.com/charlie______t/status/936707898805284865",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/5FwePZRm5n",
+          "expandedUrl": "https://x.com/QRLedger/status/936692646621384705",
+          "displayUrl": "x.com/QRLedger/statu…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "936692646621384705",
+        "url": "https://x.com/QRLedger/status/936692646621384705",
+        "displayUrl": "x.com/QRLedger/statu…",
+        "shortUrl": "https://t.co/5FwePZRm5n"
+      }
+    },
+    {
+      "id": "933211079949168640",
+      "createdAt": "Wed Nov 22 05:50:34 +0000 2017",
+      "text": "Spent my night reading @DemocracyEarth 's \"Social Smart Contract\" and I think it has all the makings of a future historical document. I hope to be able to help one day.",
+      "url": "https://x.com/charlie______t/status/933211079949168640"
+    },
+    {
+      "id": "871465608549879808",
+      "createdAt": "Sun Jun 04 20:36:06 +0000 2017",
+      "text": "ETH/USD 250",
+      "url": "https://x.com/charlie______t/status/871465608549879808"
+    },
+    {
+      "id": "866431150801076225",
+      "createdAt": "Sun May 21 23:10:58 +0000 2017",
+      "text": "ETH/USD 150",
+      "url": "https://x.com/charlie______t/status/866431150801076225"
+    },
+    {
+      "id": "860092011768107008",
+      "createdAt": "Thu May 04 11:21:29 +0000 2017",
+      "text": "ETH/USD 89",
+      "url": "https://x.com/charlie______t/status/860092011768107008"
+    },
+    {
+      "id": "857766277766680576",
+      "createdAt": "Fri Apr 28 01:19:51 +0000 2017",
+      "text": "I think so, and this would imply a price of around $250 (currently $65) https://t.co/Cwt3nO39hP",
+      "url": "https://x.com/charlie______t/status/857766277766680576",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/Cwt3nO39hP",
+          "expandedUrl": "https://x.com/BotGnosis/status/857761354412949505",
+          "displayUrl": "x.com/BotGnosis/stat…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "857761354412949505",
+        "url": "https://x.com/BotGnosis/status/857761354412949505",
+        "displayUrl": "x.com/BotGnosis/stat…",
+        "shortUrl": "https://t.co/Cwt3nO39hP"
+      }
+    },
+    {
+      "id": "857765297914343426",
+      "createdAt": "Fri Apr 28 01:15:58 +0000 2017",
+      "text": "ETH/USD hits 65",
+      "url": "https://x.com/charlie______t/status/857765297914343426"
+    },
+    {
+      "id": "848348377632841728",
+      "createdAt": "Sun Apr 02 01:36:29 +0000 2017",
+      "text": "We need this in the USA and Canada! Flux | Upgrade Democracy https://t.co/inkH9Wcl7y via @voteflux",
+      "url": "https://x.com/charlie______t/status/848348377632841728",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/inkH9Wcl7y",
+          "expandedUrl": "https://voteflux.org/",
+          "displayUrl": "voteflux.org"
+        }
+      ]
+    },
+    {
+      "id": "847199340502278144",
+      "createdAt": "Wed Mar 29 21:30:37 +0000 2017",
+      "text": "My original tweets about ETH USD were at $20 and it is now $54 - incredibly strong fundamentals, think it is still grossly undervalued",
+      "url": "https://x.com/charlie______t/status/847199340502278144"
+    },
+    {
+      "id": "847199147555815424",
+      "createdAt": "Wed Mar 29 21:29:51 +0000 2017",
+      "text": "ETH new ATH's against Euro and USD ATH approaching. Still think there's a 20x gain to be had over next year or two, will make BTC look tame",
+      "url": "https://x.com/charlie______t/status/847199147555815424"
+    },
+    {
+      "id": "846807408731054080",
+      "createdAt": "Tue Mar 28 19:33:13 +0000 2017",
+      "text": "I could obviously be wrong but think ETH is fundamentally mispriced at 4.5B mkt cap. If it fufills 10% of its potential it could be 10x that",
+      "url": "https://x.com/charlie______t/status/846807408731054080"
+    },
+    {
+      "id": "846806613004632064",
+      "createdAt": "Tue Mar 28 19:30:04 +0000 2017",
+      "text": "Parity with Bitcoin mkt cap puts it around 200-250 and it is 10x as useful as Bitcoin in every way. Only a matter of time",
+      "url": "https://x.com/charlie______t/status/846806613004632064"
+    },
+    {
+      "id": "843525835189440512",
+      "createdAt": "Sun Mar 19 18:13:25 +0000 2017",
+      "text": "If Ethereum succeeds it will make the Bitcoin run of 2013 look tame",
+      "url": "https://x.com/charlie______t/status/843525835189440512"
+    },
+    {
+      "id": "843525693925347330",
+      "createdAt": "Sun Mar 19 18:12:52 +0000 2017",
+      "text": "ETH/USD now @ 40 - think it still has 5-6 doublings over next years. Bought in at 20",
+      "url": "https://x.com/charlie______t/status/843525693925347330"
+    },
+    {
+      "id": "842460020633554944",
+      "createdAt": "Thu Mar 16 19:38:15 +0000 2017",
+      "text": "ETH has appreciated 100% in last week - still undervalued",
+      "url": "https://x.com/charlie______t/status/842460020633554944"
+    },
+    {
+      "id": "839800566704295936",
+      "createdAt": "Thu Mar 09 11:30:32 +0000 2017",
+      "text": "https://t.co/g1ARJdra0X",
+      "url": "https://x.com/charlie______t/status/839800566704295936",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/g1ARJdra0X",
+          "expandedUrl": "https://blog.gnosis.pm/how-prediction-markets-can-save-democracy-from-itself-a813a87cf9bd#.jk0yspkgt",
+          "displayUrl": "blog.gnosis.pm/how-prediction…"
+        }
+      ]
+    },
+    {
+      "id": "838264188094959616",
+      "createdAt": "Sun Mar 05 05:45:31 +0000 2017",
+      "text": "https://t.co/NdhMCgzYg6",
+      "url": "https://x.com/charlie______t/status/838264188094959616",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/NdhMCgzYg6",
+          "expandedUrl": "https://blogs.scientificamerican.com/guest-blog/how-to-defeat-those-who-are-waging-war-on-science/",
+          "displayUrl": "blogs.scientificamerican.com/guest-blog/how…"
+        }
+      ]
+    },
+    {
+      "id": "837600677530484736",
+      "createdAt": "Fri Mar 03 09:48:58 +0000 2017",
+      "text": "would rather bet on this guy than against him https://t.co/wUCUNbEvvg",
+      "url": "https://x.com/charlie______t/status/837600677530484736",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/wUCUNbEvvg",
+          "expandedUrl": "https://x.com/VitalikButerin/status/828607043393224705",
+          "displayUrl": "x.com/VitalikButerin…"
+        }
+      ],
+      "quotedTweet": {
+        "id": "828607043393224705",
+        "url": "https://x.com/VitalikButerin/status/828607043393224705",
+        "displayUrl": "x.com/VitalikButerin…",
+        "shortUrl": "https://t.co/wUCUNbEvvg"
+      }
+    },
+    {
+      "id": "837586765774888960",
+      "createdAt": "Fri Mar 03 08:53:41 +0000 2017",
+      "text": "Keep an eye out for AI, advanced genomics, IoT and blockchain - they are coming your way and will very quickly change the world",
+      "url": "https://x.com/charlie______t/status/837586765774888960"
+    },
+    {
+      "id": "837581963598798853",
+      "createdAt": "Fri Mar 03 08:34:36 +0000 2017",
+      "text": "Will be getting college admission results soon - spent my year working and learning to code. Happy it went this way in retrospect",
+      "url": "https://x.com/charlie______t/status/837581963598798853"
+    },
+    {
+      "id": "837580585958715396",
+      "createdAt": "Fri Mar 03 08:29:07 +0000 2017",
+      "text": "The corruption is just unbelievable but blockchain will help with that too eventually ;-)",
+      "url": "https://x.com/charlie______t/status/837580585958715396"
+    },
+    {
+      "id": "837580425220390914",
+      "createdAt": "Fri Mar 03 08:28:29 +0000 2017",
+      "text": "But I am starting to believe that tech is a better way to improve life for the average person compared to govt.",
+      "url": "https://x.com/charlie______t/status/837580425220390914"
+    },
+    {
+      "id": "837579637882413056",
+      "createdAt": "Fri Mar 03 08:25:21 +0000 2017",
+      "text": "If you want something to laugh at, I won $2000 in an Ayn Rand essay contest and bet it on Bernie to win @ 40-1 the summer he announced",
+      "url": "https://x.com/charlie______t/status/837579637882413056"
+    },
+    {
+      "id": "837579423972876288",
+      "createdAt": "Fri Mar 03 08:24:30 +0000 2017",
+      "text": "ETH will be at the top of this chart in the next months/years if nothing goes horrendously wrong. https://t.co/0uKJMDUOj1",
+      "url": "https://x.com/charlie______t/status/837579423972876288",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/C5-uA1ZVAAA83QL.jpg",
+          "expandedUrl": "https://x.com/CharlieThomps0n/status/837579423972876288/photo/1",
+          "displayUrl": "pic.x.com/0uKJMDUOj1",
+          "shortUrl": "https://t.co/0uKJMDUOj1"
+        }
+      ]
+    },
+    {
+      "id": "837578825949028352",
+      "createdAt": "Fri Mar 03 08:22:08 +0000 2017",
+      "text": "Blockchain will give transparency, help combat censorship and drive IoT after it eliminates financial borders / decimates tx costs",
+      "url": "https://x.com/charlie______t/status/837578825949028352"
+    },
+    {
+      "id": "837576650434859008",
+      "createdAt": "Fri Mar 03 08:13:29 +0000 2017",
+      "text": "Ray Kurzweil and Nick Bostrom have great writing on this subject. I am going to study AI and policy and try to make sure we get it right",
+      "url": "https://x.com/charlie______t/status/837576650434859008"
+    },
+    {
+      "id": "837576479420489728",
+      "createdAt": "Fri Mar 03 08:12:48 +0000 2017",
+      "text": "Could go so wrong or so right for humanity as a whole, but will probably be the last thing we invent either way",
+      "url": "https://x.com/charlie______t/status/837576479420489728"
+    },
+    {
+      "id": "837576279800999937",
+      "createdAt": "Fri Mar 03 08:12:01 +0000 2017",
+      "text": "AI is another thing that will fundamentally change the world. Some extremely strange ethical dilemmas on horizon",
+      "url": "https://x.com/charlie______t/status/837576279800999937"
+    },
+    {
+      "id": "837575925923356673",
+      "createdAt": "Fri Mar 03 08:10:36 +0000 2017",
+      "text": "Look into the technical details, look at the people involved (Vitalik Buterin is no mouth breather) and come to your own conclusions",
+      "url": "https://x.com/charlie______t/status/837575925923356673"
+    },
+    {
+      "id": "837575652148588549",
+      "createdAt": "Fri Mar 03 08:09:31 +0000 2017",
+      "text": "Reuters on blockchain consortium (https://t.co/2FMZpNpfj5) Sounds crazy to say it could go up 500x but 10,000BTC bought a pizza not long ago",
+      "url": "https://x.com/charlie______t/status/837575652148588549",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/2FMZpNpfj5",
+          "expandedUrl": "http://www.reuters.com/article/us-ethereum-enterprises-consortium-idUSKBN1662K7",
+          "displayUrl": "reuters.com/article/us-eth…"
+        }
+      ]
+    },
+    {
+      "id": "837574688624693248",
+      "createdAt": "Fri Mar 03 08:05:41 +0000 2017",
+      "text": "Ethereum is going to fundamentally change the world. Snapchat is apparently worth 24B and ETH has 1.8B mkt cap... completely mispriced",
+      "url": "https://x.com/charlie______t/status/837574688624693248"
+    },
+    {
+      "id": "461399042312794112",
+      "createdAt": "Wed Apr 30 06:57:58 +0000 2014",
+      "text": "Jefferson Airplane - White Rabbit: http://t.co/6YaVo1YE6E",
+      "url": "https://x.com/charlie______t/status/461399042312794112",
+      "urls": [
+        {
+          "shortUrl": "http://t.co/6YaVo1YE6E",
+          "expandedUrl": "http://youtu.be/XR8LFNUr3vw",
+          "displayUrl": "youtu.be/XR8LFNUr3vw"
+        }
+      ]
+    },
+    {
+      "id": "455558928764383232",
+      "createdAt": "Mon Apr 14 04:11:27 +0000 2014",
+      "text": "Carl Sagan - Pale Blue Dot: http://t.co/cwVeAA74Wi",
+      "url": "https://x.com/charlie______t/status/455558928764383232",
+      "urls": [
+        {
+          "shortUrl": "http://t.co/cwVeAA74Wi",
+          "expandedUrl": "http://youtu.be/wupToqz1e2g",
+          "displayUrl": "youtu.be/wupToqz1e2g"
+        }
+      ]
+    },
+    {
+      "id": "448577909859446784",
+      "createdAt": "Tue Mar 25 21:51:22 +0000 2014",
+      "text": "If the 15$ pledge was considered an investment it would probably be worth 4-5 figures now",
+      "url": "https://x.com/charlie______t/status/448577909859446784"
+    },
+    {
+      "id": "448576306658025472",
+      "createdAt": "Tue Mar 25 21:45:00 +0000 2014",
+      "text": "The original kickstarter was for like 1.5M if I remember correctly",
+      "url": "https://x.com/charlie______t/status/448576306658025472"
+    },
+    {
+      "id": "448575287551201280",
+      "createdAt": "Tue Mar 25 21:40:57 +0000 2014",
+      "text": "I contributed to the oculus kickstarter",
+      "url": "https://x.com/charlie______t/status/448575287551201280"
+    },
+    {
+      "id": "407074190580129792",
+      "createdAt": "Sun Dec 01 09:10:24 +0000 2013",
+      "text": "the stuxnet story is crazy",
+      "url": "https://x.com/charlie______t/status/407074190580129792"
+    },
+    {
+      "id": "402631114533007360",
+      "createdAt": "Tue Nov 19 02:55:12 +0000 2013",
+      "text": "and where better to go than the internet?",
+      "url": "https://x.com/charlie______t/status/402631114533007360"
+    },
+    {
+      "id": "402631045733814272",
+      "createdAt": "Tue Nov 19 02:54:56 +0000 2013",
+      "text": "it seems like people are trying to get away from government",
+      "url": "https://x.com/charlie______t/status/402631045733814272"
+    },
+    {
+      "id": "402630240960135168",
+      "createdAt": "Tue Nov 19 02:51:44 +0000 2013",
+      "text": "I wouldn't be surprised if it was 250$ again in a week but still that wouldn't take away the impressiveness of it all",
+      "url": "https://x.com/charlie______t/status/402630240960135168"
+    },
+    {
+      "id": "402629965968986112",
+      "createdAt": "Tue Nov 19 02:50:39 +0000 2013",
+      "text": "I believe it could happen honestly (in 20 years)",
+      "url": "https://x.com/charlie______t/status/402629965968986112"
+    },
+    {
+      "id": "402629669956386816",
+      "createdAt": "Tue Nov 19 02:49:28 +0000 2013",
+      "text": "\"new paradigm\"",
+      "url": "https://x.com/charlie______t/status/402629669956386816"
+    },
+    {
+      "id": "402629446093787136",
+      "createdAt": "Tue Nov 19 02:48:35 +0000 2013",
+      "text": "I'm reading the reddit threads where they say BTCUSD will be 50,000$ eventually",
+      "url": "https://x.com/charlie______t/status/402629446093787136"
+    },
+    {
+      "id": "402628487326216192",
+      "createdAt": "Tue Nov 19 02:44:46 +0000 2013",
+      "text": "Those BTCs that the FBI confiscated from the Silk Road guy (DPR?) are probably worth upwards of 250 million $ now too (80 mil $ a week ago)",
+      "url": "https://x.com/charlie______t/status/402628487326216192"
+    },
+    {
+      "id": "402625708729438208",
+      "createdAt": "Tue Nov 19 02:33:44 +0000 2013",
+      "text": "$BTC lowest price in history that I can find is around 0.0025$",
+      "url": "https://x.com/charlie______t/status/402625708729438208"
+    },
+    {
+      "id": "400513361194258432",
+      "createdAt": "Wed Nov 13 06:40:01 +0000 2013",
+      "text": "never take anybody for granted either, you never know if you're talking to a person for the last time",
+      "url": "https://x.com/charlie______t/status/400513361194258432"
+    },
+    {
+      "id": "400512980569178112",
+      "createdAt": "Wed Nov 13 06:38:30 +0000 2013",
+      "text": "be kind to your little (or big) friends and don't take them for granted",
+      "url": "https://x.com/charlie______t/status/400512980569178112"
+    },
+    {
+      "id": "400512342510673920",
+      "createdAt": "Wed Nov 13 06:35:58 +0000 2013",
+      "text": "I truly miss JC and it feels like a little part of me is gone",
+      "url": "https://x.com/charlie______t/status/400512342510673920"
+    },
+    {
+      "id": "400512129666539521",
+      "createdAt": "Wed Nov 13 06:35:07 +0000 2013",
+      "text": "probably the best picture I ever took of him http://t.co/uR4qHy7QLu",
+      "url": "https://x.com/charlie______t/status/400512129666539521",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/BY7nqOdCUAAjoia.jpg",
+          "expandedUrl": "https://x.com/CharlieThomps0n/status/400512129666539521/photo/1",
+          "displayUrl": "pic.x.com/uR4qHy7QLu",
+          "shortUrl": "http://t.co/uR4qHy7QLu"
+        }
+      ]
+    },
+    {
+      "id": "400511224741236736",
+      "createdAt": "Wed Nov 13 06:31:31 +0000 2013",
+      "text": "there's no jingle or sound of little feet walking when I get home and nobody sleeping on the couch waiting for me to say hello",
+      "url": "https://x.com/charlie______t/status/400511224741236736"
+    },
+    {
+      "id": "400510625673392128",
+      "createdAt": "Wed Nov 13 06:29:08 +0000 2013",
+      "text": "My house is too quiet now",
+      "url": "https://x.com/charlie______t/status/400510625673392128"
+    },
+    {
+      "id": "398480476333043712",
+      "createdAt": "Thu Nov 07 16:02:03 +0000 2013",
+      "text": "BTC has made a silent comeback from $60 with seemingly nobody watching - I think it's related to the new SR site",
+      "url": "https://x.com/charlie______t/status/398480476333043712"
+    },
+    {
+      "id": "374557704343134211",
+      "createdAt": "Mon Sep 02 15:41:30 +0000 2013",
+      "text": "- Cat's Cradle",
+      "url": "https://x.com/charlie______t/status/374557704343134211"
+    },
+    {
+      "id": "374555589122076673",
+      "createdAt": "Mon Sep 02 15:33:06 +0000 2013",
+      "text": "\"Peculiar travel suggestions are dancing lessons from god.\"",
+      "url": "https://x.com/charlie______t/status/374555589122076673"
+    },
+    {
+      "id": "371421141283655680",
+      "createdAt": "Sat Aug 24 23:57:55 +0000 2013",
+      "text": "Found this treasure at a garage sale and I've been laughing ever since https://t.co/EsYuEIXpaN",
+      "url": "https://x.com/charlie______t/status/371421141283655680",
+      "urls": [
+        {
+          "shortUrl": "https://t.co/EsYuEIXpaN",
+          "expandedUrl": "https://vine.co/v/hexMOwh0xnH",
+          "displayUrl": "vine.co/v/hexMOwh0xnH"
+        }
+      ]
+    },
+    {
+      "id": "370421179854495744",
+      "createdAt": "Thu Aug 22 05:44:26 +0000 2013",
+      "text": "\"All this happened, more or less.\"",
+      "url": "https://x.com/charlie______t/status/370421179854495744"
+    },
+    {
+      "id": "326550166767288320",
+      "createdAt": "Tue Apr 23 04:16:41 +0000 2013",
+      "text": "Left this $BTC chart open accidentally from a while ago, it looks like it might go if it clears 130... fun to watch http://t.co/g74wcVss64",
+      "url": "https://x.com/charlie______t/status/326550166767288320",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/BIgjpYQCQAI1FVY.png",
+          "expandedUrl": "https://x.com/CharlieThomps0n/status/326550166767288320/photo/1",
+          "displayUrl": "pic.x.com/g74wcVss64",
+          "shortUrl": "http://t.co/g74wcVss64"
+        }
+      ]
+    },
+    {
+      "id": "319613716251410432",
+      "createdAt": "Thu Apr 04 00:53:42 +0000 2013",
+      "text": "People on \"Cash Cab\" get about 200% more excited than they should",
+      "url": "https://x.com/charlie______t/status/319613716251410432"
+    },
+    {
+      "id": "319573490132975616",
+      "createdAt": "Wed Apr 03 22:13:52 +0000 2013",
+      "text": "My toothbrush disappeared mysteriously a couple days ago and I had to go buy a new one ... just found it in a very strange place",
+      "url": "https://x.com/charlie______t/status/319573490132975616"
+    },
+    {
+      "id": "319544607249678336",
+      "createdAt": "Wed Apr 03 20:19:05 +0000 2013",
+      "text": "I've known about bitcoins for like 2 years but I never thought anyone would trade them seriously",
+      "url": "https://x.com/charlie______t/status/319544607249678336"
+    },
+    {
+      "id": "319544149906976768",
+      "createdAt": "Wed Apr 03 20:17:16 +0000 2013",
+      "text": "I think there will be a successful online currency eventually but not for a while",
+      "url": "https://x.com/charlie______t/status/319544149906976768"
+    },
+    {
+      "id": "319544010043703296",
+      "createdAt": "Wed Apr 03 20:16:43 +0000 2013",
+      "text": "The trading volume on MT.GOX for the bitcoins ( $BTC ?) is actually pretty impressive ... a lot of people going to get burned I think",
+      "url": "https://x.com/charlie______t/status/319544010043703296"
+    },
+    {
+      "id": "315564632771276801",
+      "createdAt": "Sat Mar 23 20:44:06 +0000 2013",
+      "text": "I think I just saw Gandhi in downtown Calgary",
+      "url": "https://x.com/charlie______t/status/315564632771276801"
+    },
+    {
+      "id": "315538049469669376",
+      "createdAt": "Sat Mar 23 18:58:28 +0000 2013",
+      "text": "I don't know anything about Cyprus and not much about the Euro Zone but it seems like pure and simple theft to me",
+      "url": "https://x.com/charlie______t/status/315538049469669376"
+    },
+    {
+      "id": "315230855373148160",
+      "createdAt": "Fri Mar 22 22:37:47 +0000 2013",
+      "text": "I don't really care though because I made enough $$$ to buy gas for 2 months this morning on my $DDD trade :-)",
+      "url": "https://x.com/charlie______t/status/315230855373148160"
+    },
+    {
+      "id": "315228633901973504",
+      "createdAt": "Fri Mar 22 22:28:57 +0000 2013",
+      "text": "My phone got confiscated today and the grade 10 principal was very skeptical &amp; unsympathetic towards my stock trading story",
+      "url": "https://x.com/charlie______t/status/315228633901973504"
+    },
+    {
+      "id": "314414283909890048",
+      "createdAt": "Wed Mar 20 16:33:01 +0000 2013",
+      "text": "Trading from school is so hard",
+      "url": "https://x.com/charlie______t/status/314414283909890048"
+    },
+    {
+      "id": "314412587334897664",
+      "createdAt": "Wed Mar 20 16:26:16 +0000 2013",
+      "text": "Long $DDD 29.87",
+      "url": "https://x.com/charlie______t/status/314412587334897664"
+    },
+    {
+      "id": "314374745716047873",
+      "createdAt": "Wed Mar 20 13:55:54 +0000 2013",
+      "text": "today's going to be a good day I can feel it",
+      "url": "https://x.com/charlie______t/status/314374745716047873"
+    }
+  ]
+}

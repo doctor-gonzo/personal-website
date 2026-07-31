@@ -1,0 +1,71 @@
+# agent-manifest.txt for Charlie Thompson
+# Draft agent discovery manifest. It complements robots.txt and llms.txt.
+# Replace https://charliethompson.lol/ with the final public URL before publishing.
+
+Site-Name: Charlie Thompson
+Site-Description: Minimal public profile, resume, work history, public projects, and research notes.
+Site-URL: https://charliethompson.lol/
+Contact: mailto:charlie_thompson@protonmail.com
+
+Allow-Search: yes
+Allow-RAG: yes
+Allow-Training: yes
+Allow-Actions: no
+Preferred-Interface: web
+Auth-Required: no
+
+Robots-Txt: https://charliethompson.lol/robots.txt
+Sitemap: https://charliethompson.lol/sitemap.xml
+LLMS-Txt: https://charliethompson.lol/llms.txt
+Humans-Txt: https://charliethompson.lol/humans.txt
+RSS-Feed: https://charliethompson.lol/feed.xml
+
+[Agent: *]
+Allow: /
+Disallow:
+Auth-Required: no
+Allow-Actions: no
+
+[Capability: read-profile]
+Description: Read public homepage, resume, work history, public projects, and contact links.
+Interface: web
+URL: https://charliethompson.lol/
+
+[Capability: read-resume]
+Description: Read public resume and work history.
+Interface: web
+URL: https://charliethompson.lol/resume.html
+Markdown: https://charliethompson.lol/resume.html.md
+
+[Capability: read-thoughts]
+Description: Choose Tweets or Posts. Tweets provides a newest-first public archive with search and year filtering; Posts is reserved for longer-form writing.
+Interface: web
+URL: https://charliethompson.lol/thoughts.html
+Markdown: https://charliethompson.lol/thoughts.html.md
+
+[Capability: read-links]
+Description: Read public links for Charlie Thompson, including GitHub, LinkedIn, Twitter, and email.
+Interface: web
+URL: https://charliethompson.lol/links.html
+Markdown: https://charliethompson.lol/links.html.md
+
+[Capability: read-2023-talk-map]
+Description: Read the 2023 talk context, static argument explorer, and embedded exported Context Engine AI safety ideas map.
+Interface: web
+URL: https://charliethompson.lol/zuzalu.html
+Markdown: https://charliethompson.lol/zuzalu.html.md
+Interactive-Document: https://charliethompson.lol/assets/ai-safety-map/WebsiteContextEngine_AISafetyIdeasMap_.html
+
+[Capability: read-llm-context]
+Description: Fetch concise or expanded LLM-readable summaries of the site.
+Interface: text
+URL: https://charliethompson.lol/llms.txt
+Alternate-URL: https://charliethompson.lol/llms-full.txt
+
+[Capability: read-quantum-report]
+Description: Read the quantum computing and Bitcoin report as a web page, PDF, HTML transcript, or plain text.
+Interface: web
+URL: https://charliethompson.lol/quantum.html
+PDF: https://charliethompson.lol/assets/reports/QC_BTC_Dec2025.pdf
+HTML-Transcript: https://charliethompson.lol/quantum-report.html
+Plain-Text: https://charliethompson.lol/assets/reports/QC_BTC_Dec2025.txt

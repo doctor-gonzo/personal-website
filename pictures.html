@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Photography and pictures by Charlie Thompson.">
+    <meta name="author" content="Charlie Thompson">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#008080">
+    <link rel="canonical" href="https://charliethompson.lol/pictures.html">
+    <link rel="alternate" type="text/markdown" title="Pictures Markdown" href="./pictures.html.md">
+    <link rel="manifest" href="./manifest.webmanifest">
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="./favicon-32x32.png" type="image/png" sizes="32x32">
+    <link rel="icon" href="./favicon-16x16.png" type="image/png" sizes="16x16">
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png" sizes="180x180">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://charliethompson.lol/pictures.html">
+    <meta property="og:title" content="Charlie Thompson - Pictures">
+    <meta property="og:description" content="Photography and pictures by Charlie Thompson.">
+    <meta name="twitter:card" content="summary">
+    <title>Pictures - Charlie Thompson</title>
+    <link rel="stylesheet" href="./styles.css?v=pictures-spacing-206&_site_release=20260731T204257Z">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "@id": "https://charliethompson.lol/pictures.html#webpage",
+        "url": "https://charliethompson.lol/pictures.html",
+        "name": "Charlie Thompson - Pictures",
+        "description": "Photography and pictures by Charlie Thompson.",
+        "isPartOf": {
+          "@id": "https://charliethompson.lol/#website"
+        },
+        "author": {
+          "@id": "https://charliethompson.lol/#person"
+        },
+        "dateModified": "2026-07-28"
+      }
+    </script>
+  </head>
+  <body data-style-mode="minimal" data-demo-features="off">
+    <header class="site-header">
+        <a class="brand" href="./index.html">Charlie Thompson</a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="./thoughts.html">Thoughts</a>
+        <a href="./pictures.html" aria-current="page">Pictures</a>
+        <details class="nav-dropdown">
+          <summary>Links</summary>
+          <ul>
+            <li><a href="https://github.com/AgalmicSoftware/context-engine/">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/charlie-thompson-2a8293aa/">LinkedIn</a></li>
+            <li><a href="https://x.com/charlie______t">Twitter</a></li>
+            <li><a href="mailto:charlie_thompson@protonmail.com">Email</a></li>
+          </ul>
+        </details>
+      </nav>
+    </header>
+
+    <main class="pictures-page">
+      <div class="pictures-page-heading">
+        <h1 class="pictures-page-intro">Pictures</h1>
+        <div class="picture-filter-bar" role="group" aria-label="Filter pictures by collection">
+          <button class="picture-filter-button is-active" type="button" aria-pressed="true" data-picture-filter="all">
+            All
+          </button>
+          <button class="picture-filter-button" type="button" aria-pressed="false" data-picture-filter="ai">
+            AI
+          </button>
+          <button class="picture-filter-button" type="button" aria-pressed="false" data-picture-filter="camera">
+            Camera
+          </button>
+        </div>
+      </div>
+
+      <section
+        class="picture-carousel"
+        aria-label="Featured pictures"
+        aria-roledescription="carousel"
+        data-picture-carousel
+        tabindex="0"
+      >
+        <div class="picture-carousel-stage">
+          <button
+            class="picture-carousel-control picture-carousel-previous"
+            type="button"
+            aria-label="Previous picture"
+            data-picture-previous
+          >
+            <span aria-hidden="true">&lsaquo;</span>
+          </button>
+
+          <button
+            class="picture-carousel-feature"
+            type="button"
+            aria-label="Open Chromatic profile"
+            data-picture-open
+          >
+            <img
+              class="picture-carousel-image"
+              src="./assets/pictures/ai/midjourney-chromatic-profile.png"
+              alt="Abstract translucent profile in pink, green, blue, and yellow."
+              fetchpriority="high"
+              data-picture-carousel-image
+            >
+          </button>
+
+          <button
+            class="picture-carousel-control picture-carousel-next"
+            type="button"
+            aria-label="Next picture"
+            data-picture-next
+          >
+            <span aria-hidden="true">&rsaquo;</span>
+          </button>
+        </div>
+
+        <div class="picture-carousel-toolbar">
+          <strong class="picture-carousel-title" data-picture-carousel-title>Chromatic profile</strong>
+          <p class="picture-carousel-status" aria-live="polite" aria-atomic="true">
+            <span data-picture-carousel-position>1 / 6</span>
+          </p>
+        </div>
+
+        <ol class="picture-carousel-thumbnails" aria-label="Choose a picture" data-picture-thumbnails>
+          <li class="picture-carousel-thumbnail-loading">Loading gallery&hellip;</li>
+        </ol>
+      </section>
+
+      <details class="picture-grid-browser">
+        <summary>View As Grid</summary>
+        <div class="picture-collection">
+          <h2 data-picture-grid-title>All pictures</h2>
+          <p data-picture-grid-description>AI-assisted images and photography.</p>
+          <ul class="picture-list" id="picture-list">
+            <li class="picture-empty">Loading pictures&hellip;</li>
+          </ul>
+        </div>
+      </details>
+    </main>
+
+    <dialog class="picture-dialog" id="picture-dialog" aria-labelledby="picture-dialog-title">
+      <form method="dialog">
+        <button class="picture-dialog-close" type="submit">Close</button>
+      </form>
+      <img class="picture-dialog-image" id="picture-dialog-image" alt="">
+      <h2 id="picture-dialog-title">Picture</h2>
+      <p id="picture-dialog-details"></p>
+    </dialog>
+
+    <script src="./release-watchdog.js?_site_release=20260731T204257Z" data-site-release="20260731T204257Z"></script>
+    <script src="./pictures.js?v=picture-carousel-2&_site_release=20260731T204257Z"></script>
+    <script src="./site-settings.js?v=xbox-right-blade-hit-6&_site_release=20260731T204257Z"></script>
+  </body>
+</html>
