@@ -15,7 +15,7 @@ The site is intentionally minimal and static. It includes a homepage, public res
 Email: charlie_thompson@protonmail.com
 LinkedIn: https://www.linkedin.com/in/charlie-thompson-2a8293aa/
 Twitter: https://x.com/charlie______t
-Context Engine: https://github.com/AgalmicSoftware/context-engine/
+Context Engine: https://contextengine.sh/about
 Thoughts: https://charliethompson.lol/thoughts.html
 Pictures: https://charliethompson.lol/pictures.html
 Links: https://charliethompson.lol/links.html
@@ -38,7 +38,7 @@ Pictures page with separate AI-generated and camera collections. Images are list
 
 ### Context Engine
 
-URL: https://github.com/AgalmicSoftware/context-engine/
+URL: https://contextengine.sh/about
 
 An open-source toolkit for large-group deliberation and negotiation (for humans and AI agents)
 

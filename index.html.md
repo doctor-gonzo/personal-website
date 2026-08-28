@@ -2,7 +2,7 @@
 
 ## Selected
 
-- 2023-present: [Context Engine](https://github.com/AgalmicSoftware/context-engine/) - An open-source toolkit for large-group deliberation and negotiation (for humans and AI agents)
+- 2023-present: [Context Engine](https://contextengine.sh/about) - An open-source toolkit for large-group deliberation and negotiation (for humans and AI agents)
 - 2018-present: Quantum computing and Bitcoin
   - 2025: [Quantum computing and Bitcoin](https://charliethompson.lol/quantum.html) - report on quantum risk to Bitcoin, Ethereum, ECDSA, and post-quantum migration.
   - 2020: [Prototype for Quantum-Resistant XMSS Signature vault on Ethereum](https://www.theqrl.org/blog/the-qrl-enqlave-project-bringing-post-quantum-security-to-ethereum-and-other-blockchain-platforms/).
@@ -18,7 +18,7 @@
 - Links page: https://charliethompson.lol/links.html
 - Thoughts page: https://charliethompson.lol/thoughts.html
 - Pictures page: https://charliethompson.lol/pictures.html
-- GitHub / Context Engine: https://github.com/AgalmicSoftware/context-engine/
+- Context Engine: https://contextengine.sh/about
 - LinkedIn: https://www.linkedin.com/in/charlie-thompson-2a8293aa/
 - Twitter: https://x.com/charlie______t
 - Email: mailto:charlie_thompson@protonmail.com

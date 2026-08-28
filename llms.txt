@@ -21,7 +21,7 @@ This is a static site designed for GitHub Pages, IPFS, and ENS contenthash hosti
 
 ## Public Projects
 
-- [Context Engine](https://github.com/AgalmicSoftware/context-engine/): An open-source toolkit for large-group deliberation and negotiation (for humans and AI agents)
+- [Context Engine](https://contextengine.sh/about): An open-source toolkit for large-group deliberation and negotiation (for humans and AI agents)
 - [AI Consciousness Report](https://arxiv.org/abs/2308.08708): 2023 graphical assistance for the report.
 - [Zuzalu 2023 talk and AI safety ideas map](https://charliethompson.lol/zuzalu.html): Talk link, static argument explorer, and embedded exported ideas map.
 - [Context Engine AI Safety Ideas Map](https://charliethompson.lol/assets/ai-safety-map/WebsiteContextEngine_AISafetyIdeasMap_.html): Exported interactive document.
