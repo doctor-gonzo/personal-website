@@ -61,6 +61,8 @@ The `.nojekyll` marker tells GitHub Pages to serve the files directly.
 - Confirm that `charlie_thompson@protonmail.com` should remain public.
 - Keep `resume.html` and `resume.html.md` aligned when editing resume content.
 - Keep `thoughts.html` and `thoughts.html.md` aligned when adding posts.
+- Confirm the featured tweet ID in `thoughts.html` matches the featured-tweet
+  descriptions in `thoughts.html.md` and `llms-full.txt`.
 - Add picture files under `assets/pictures/ai/` or `assets/pictures/camera/`
   and list them in the matching collection in `data/pictures.json`.
 - Do not publish the source resume PDF unless you intentionally want to expose
@@ -121,7 +123,7 @@ profile URL. It is less reliable than archive import because X page markup can
 change and headless browsers can be rate-limited.
 
 ```sh
-npm install --save-dev playwright
+npm install --no-save --no-package-lock playwright
 npx playwright install chromium
 node scripts/scrape-x-public-posts.mjs ~/Desktop/Twitter.webloc --limit 100
 node scripts/scrape-x-public-posts.mjs ~/Desktop/Twitter.webloc --limit 100 --write
@@ -146,6 +148,19 @@ The `xbox360` mode recreates the original Blades layout with a full-height activ
 blade and silver side spines on wide screens. On narrow screens, the active
 content becomes a straight, internally scrolling green panel and the same four
 blades form a compact navigation dock at the bottom.
+The homepage uses compact project rows with a shared artwork and link preview.
+Select a row with a pointer or keyboard; Up/Down moves between projects. The
+preview retains additional project links, including the quantum research history.
+The large artwork, title, and description link directly to the selected project;
+additional research links remain below it. The bottom command strip contains a
+yellow **Y** icon and **Change Theme**, which opens the theme picker. No controller
+A/B prompts are shown. Blade labels remain HOME, THOUGHTS, PICTURES, and LINKS,
+with HOME at the far left of the desktop stack.
+On mobile, tapping a project opens its details full screen, with an explicit
+**View project** link beneath the description when a destination exists. A bottom-left Back
+button (or Escape) restores the project list, focus, and scroll position. Desktop
+keeps its side-by-side preview. The header theme control becomes a compact Y
+button on screens narrower than 381px.
 The `windows95desktop` mode turns the homepage into a simulated desktop with a
 Windows 95-style Start menu, taskbar settings, selectable/movable desktop
 icons, marquee selection, multi-icon dragging, and movable, resizable,
@@ -187,7 +202,7 @@ navigation and preview as well as applying and persisting the selected theme.
 ## Local TODO
 
 `TODO/` is gitignored for local improvement plans. It currently includes the
-Twitter/X archive import plan and Arweave/ENS redirect plan.
+archived Twitter/X import plan, the Arweave/ENS redirect plan, and local PRDs.
 
 ## GitHub Pages
 

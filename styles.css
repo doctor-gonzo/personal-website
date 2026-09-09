@@ -2764,12 +2764,15 @@ body[data-style-mode="windows95desktop"] .tweet-dialog::backdrop {
   }
 }
 
-/* Xbox 360 Blades: one scoped launch-era dashboard skin. */
+/* Xbox 360 Blades: one scoped launch-era dashboard skin.
+   Blade identity and stacking selectors below assume that navigation order is
+   Home, Thoughts, Pictures, Links after site-settings.js injects Home. Update
+   the nth-child/:has() rules together if that public order changes. */
 /* Self-hosted Convection-like face (Barlow Semi Condensed, OFL) — used only
    by xbox360-scoped rules, so other modes never request it. */
 @font-face {
   font-family: "Barlow Semi Condensed";
-  src: url("./assets/fonts/barlow-semi-condensed-500.woff2?_site_release=20260731T204257Z") format("woff2");
+  src: url("./assets/fonts/barlow-semi-condensed-500.woff2?_site_release=20260909T233520Z") format("woff2");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -2777,7 +2780,7 @@ body[data-style-mode="windows95desktop"] .tweet-dialog::backdrop {
 
 @font-face {
   font-family: "Barlow Semi Condensed";
-  src: url("./assets/fonts/barlow-semi-condensed-600.woff2?_site_release=20260731T204257Z") format("woff2");
+  src: url("./assets/fonts/barlow-semi-condensed-600.woff2?_site_release=20260909T233520Z") format("woff2");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -2787,7 +2790,7 @@ body[data-style-mode="windows95desktop"] .tweet-dialog::backdrop {
    than Barlow's rounder caps (OFL, latin subset, self-hosted). */
 @font-face {
   font-family: "Saira SemiCondensed";
-  src: url("./assets/fonts/saira-semi-condensed-600.woff2?_site_release=20260731T204257Z") format("woff2");
+  src: url("./assets/fonts/saira-semi-condensed-600.woff2?_site_release=20260909T233520Z") format("woff2");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -2864,14 +2867,14 @@ body[data-style-mode="xbox360"] {
      silhouette. Keep the inset panel separated from the metal shell on every
      side, then taper it into a narrow return that still runs the full blade
      length. Labels remain upright and inactive paint stays grey. */
-  --xbox-cap-right-1: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpath fill='white' d='M97 22.4 C93.53 20.12 85.02 20.07 50.7 18.05 C32.45 16.98 27.05 16.95 4 16.75 V97 H14 C20 89 25 81 34 74 C49 64.5 72 63 97 64.1 Z'/%3E%3C/svg%3E");
+  --xbox-cap-right-1: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpath fill='white' d='M97 22.4 C93.53 20.12 85.02 20.07 50.7 18.05 C32.45 16.98 27.05 16.95 4 16.75 V103 H14 C20 89 25 81 34 74 C49 64.5 72 63 97 64.1 Z'/%3E%3C/svg%3E");
   --xbox-cap-right-2: var(--xbox-cap-right-1);
   --xbox-cap-right-3: var(--xbox-cap-right-1);
   /* Parked/active blades use the same continuous inset panel. The 3-4%
      perimeter reveal exposes the silver shell instead of fusing the color to
      its seam; the broad face then narrows to a 10% molded return at the far
      end rather than stopping partway down the blade. */
-  --xbox-cap-parked-home: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpath fill='white' d='M3 22.4 C6.47 20.12 14.98 20.07 49.3 18.05 C67.55 16.98 72.95 16.95 96 16.75 V97 H86 C80 89 75 81 66 74 C51 64.5 28 63 3 64.1 Z'/%3E%3C/svg%3E");
+  --xbox-cap-parked-home: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpath fill='white' d='M3 22.4 C6.47 20.12 14.98 20.07 49.3 18.05 C67.55 16.98 72.95 16.95 96 16.75 V103 H86 C80 89 75 81 66 74 C51 64.5 28 63 3 64.1 Z'/%3E%3C/svg%3E");
   --xbox-cap-parked-thoughts: var(--xbox-cap-parked-home);
   --xbox-cap-parked-pictures: var(--xbox-cap-parked-home);
   --xbox-cap-parked-links: var(--xbox-cap-parked-home);
@@ -3276,11 +3279,11 @@ body[data-style-mode="xbox360"] main > ul.xbox-link-grid > li::after {
 }
 
 body[data-style-mode="xbox360"] main > ul.xbox-link-grid > li[data-xbox-link-icon="github"] {
-  --xbox-brand-glyph: url("./assets/icons/github.svg?_site_release=20260731T204257Z");
+  --xbox-brand-glyph: url("./assets/icons/github.svg?_site_release=20260909T233520Z");
 }
 
 body[data-style-mode="xbox360"] main > ul.xbox-link-grid > li[data-xbox-link-icon="linkedin"] {
-  --xbox-brand-glyph: url("./assets/icons/linkedin-in.svg?_site_release=20260731T204257Z");
+  --xbox-brand-glyph: url("./assets/icons/linkedin-in.svg?_site_release=20260909T233520Z");
 }
 
 body[data-style-mode="xbox360"] main > ul.xbox-link-grid > li[data-xbox-link-icon="github"]::after,
@@ -3348,43 +3351,49 @@ body[data-style-mode="xbox360"] .xbox-single-link-item {
 
 body[data-style-mode="xbox360"] main > section#work > ul > li[data-xbox-art="context-engine"],
 body[data-style-mode="xbox360"] .xbox-preview-art[data-art="context-engine"] {
-  --xbox-art-image: url("./assets/xbox360/context-engine-midjourney.jpg?_site_release=20260731T204257Z");
+  --xbox-art-image: url("./assets/xbox360/context-engine-midjourney.jpg?_site_release=20260909T233520Z");
   --xbox-art-position: 50% 50%;
+}
+
+body[data-style-mode="xbox360"] main > section#work > ul > li[data-xbox-art="security-research"],
+body[data-style-mode="xbox360"] .xbox-preview-art[data-art="security-research"] {
+  --xbox-art-image: url("./assets/xbox360/security-research.png?_site_release=20260909T233520Z");
+  --xbox-art-position: center;
 }
 
 body[data-style-mode="xbox360"] main > section#work > ul > li[data-xbox-art="quantum-computing"],
 body[data-style-mode="xbox360"] .xbox-preview-art[data-art="quantum-computing"] {
-  --xbox-art-image: url("./assets/xbox360/quantum-computing-midjourney.jpg?_site_release=20260731T204257Z");
+  --xbox-art-image: url("./assets/xbox360/quantum-computing-midjourney.jpg?_site_release=20260909T233520Z");
   --xbox-art-position: 50% 48%;
 }
 
 body[data-style-mode="xbox360"] main > section#work > ul > li[data-xbox-art="ai-consciousness"],
 body[data-style-mode="xbox360"] .xbox-preview-art[data-art="ai-consciousness"] {
-  --xbox-art-image: url("./assets/xbox360/ai-consciousness-midjourney.jpg?_site_release=20260731T204257Z");
+  --xbox-art-image: url("./assets/xbox360/ai-consciousness-midjourney.jpg?_site_release=20260909T233520Z");
   --xbox-art-position: 50% 50%;
 }
 
 body[data-style-mode="xbox360"] main > section#work > ul > li[data-xbox-art="zuzalu-social-infrastructure"],
 body[data-style-mode="xbox360"] .xbox-preview-art[data-art="zuzalu-social-infrastructure"] {
-  --xbox-art-image: url("./assets/xbox360/zuzalu-social-infrastructure-midjourney.png?_site_release=20260731T204257Z");
+  --xbox-art-image: url("./assets/xbox360/zuzalu-social-infrastructure-midjourney.png?_site_release=20260909T233520Z");
   --xbox-art-position: 50% 53%;
 }
 
 body[data-style-mode="xbox360"] main > section#work > ul > li[data-xbox-art="academic-research"],
 body[data-style-mode="xbox360"] .xbox-preview-art[data-art="academic-research"] {
-  --xbox-art-image: url("./assets/xbox360/academic-research-midjourney.jpg?_site_release=20260731T204257Z");
+  --xbox-art-image: url("./assets/xbox360/academic-research-midjourney.jpg?_site_release=20260909T233520Z");
   --xbox-art-position: 50% 48%;
 }
 
 body[data-style-mode="xbox360"] main > section#work > ul > li[data-xbox-art="public-goods"],
 body[data-style-mode="xbox360"] .xbox-preview-art[data-art="public-goods"] {
-  --xbox-art-image: url("./assets/xbox360/public-goods-midjourney.jpg?_site_release=20260731T204257Z");
+  --xbox-art-image: url("./assets/xbox360/public-goods-midjourney.jpg?_site_release=20260909T233520Z");
   --xbox-art-position: 50% 50%;
 }
 
 body[data-style-mode="xbox360"] main > section#work > ul > li[data-xbox-art="proof-of-human"],
 body[data-style-mode="xbox360"] .xbox-preview-art[data-art="proof-of-human"] {
-  --xbox-art-image: url("./assets/xbox360/proof-of-human-midjourney.jpg?_site_release=20260731T204257Z");
+  --xbox-art-image: url("./assets/xbox360/proof-of-human-midjourney.jpg?_site_release=20260909T233520Z");
   --xbox-art-position: 50% 50%;
 }
 
@@ -5116,4 +5125,340 @@ body[data-style-mode="xbox360"] .tweet-profile-image {
     top: 64px;
     z-index: 80;
   }
+}
+
+/* Blades concept: compact project menu and a single command strip. */
+.xbox-preview-display { display: flex; flex-direction: column; gap: 12px; }
+body[data-style-mode="xbox360"] .xbox-preview-display {
+  color: inherit;
+  text-decoration: none;
+  border-radius: 5px;
+}
+body[data-style-mode="xbox360"] .xbox-preview-display[href] { cursor: pointer; }
+body[data-style-mode="xbox360"] .xbox-preview-display[href]:hover .xbox-preview-art {
+  border-color: #e0f4b2;
+}
+body[data-style-mode="xbox360"] .xbox-preview-links:empty { display: none; }
+body[data-style-mode="xbox360"] .settings-toggle-button { display: inline-flex; align-items: center; gap: 10px; }
+body[data-style-mode="xbox360"] .xbox-theme-y {
+  display: inline-grid; place-items: center;
+  width: 28px; height: 28px; flex: 0 0 28px;
+  border-radius: 50%; border: 1px solid #8b6b0c;
+  background: radial-gradient(circle at 35% 25%, #fff4a5, #e7c72b 55%, #aa8112);
+  color: #fffde0; font: 600 22px/1 "Trebuchet MS", sans-serif;
+  text-shadow: 0 1px 2px #795c08;
+  box-shadow: inset 0 1px 1px #ffffd1, 0 2px 3px #18370c80;
+}
+@media (min-width: 841px) {
+  body[data-style-mode="xbox360"]::after {
+    left: calc(var(--xbox-left-offset) + 2px);
+    right: calc(var(--xbox-right-offset) + 2px);
+  }
+  body[data-style-mode="xbox360"] .site-nav > .xbox-home-blade {
+    left: var(--xbox-left-stack-inset); right: auto;
+  }
+  body[data-style-mode="xbox360"] .site-nav > a::before,
+  body[data-style-mode="xbox360"] .site-nav > .nav-dropdown > summary::before,
+  body[data-style-mode="xbox360"] .site-nav > a::after,
+  body[data-style-mode="xbox360"] .site-nav > .nav-dropdown > summary::after {
+    /* Carry the paint and its hem beyond the viewport; the shifted second
+       mask must not expose a horizontal strip at the bottom corners. */
+    inset: 0 0 -16px;
+  }
+}
+
+@media (min-width: 841px) {
+  body[data-style-mode="xbox360"]:has(.home-note-window) {
+    --xbox-cap-parked-home: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpath fill='white' d='M80 -3 H100 V103 H30 C54 84 69 72 47 65 Q38 63 38 59 V20 Q38 18 51 18 H70 Q82 18 80 15 Z'/%3E%3C/svg%3E");
+    --xbox-cap-right-1: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpath fill='white' d='M4 0 H58 L51 16 Q49 19 64 19 H84 Q96 19 97 22 V64 C70 64 48 67 34 76 Q21 87 14 100 H4 Z'/%3E%3C/svg%3E");
+  }
+}
+
+.xbox-project-select, .xbox-theme-label, .xbox-theme-y, .xbox-project-back, .xbox-mobile-project-link { display: none; }
+body[data-style-mode="xbox360"] .xbox-work-original { display: none; }
+body[data-style-mode="xbox360"]:has(.home-note-window) {
+  --xbox-core: #72df24;
+  --xbox-accent: #4fc219;
+  --xbox-accent-dark: #235f0b;
+  --xbox-ink: #142909;
+}
+body[data-style-mode="xbox360"] main.home-note-window > section#work > ul {
+  padding: 3px;
+  margin: 0;
+  border: 1px solid #497c2b;
+  border-radius: 6px;
+  background: linear-gradient(100deg, #ffffff18, #285f1325);
+  box-shadow: inset 0 1px 2px #d2f5b580;
+  backdrop-filter: none;
+}
+body[data-style-mode="xbox360"] main.home-note-window > section#work > ul > li,
+body[data-style-mode="xbox360"] main.home-note-window > section#work > ul > li:first-child:not(:hover):not(:focus-within) {
+  --xbox-work-art-size: clamp(40px, 6.3vh, 72px);
+  min-height: 0;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border-bottom: 1px solid #326d2370;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: 0 1px 0 #cbf7a345;
+  color: var(--xbox-ink);
+}
+body[data-style-mode="xbox360"] main.home-note-window > section#work > ul > li::before {
+  width: var(--xbox-work-art-size);
+  height: var(--xbox-work-art-size);
+  top: 7px;
+  left: 7px;
+  border: 1px solid #abd485;
+  border-radius: 0;
+  box-shadow: 0 1px 3px #1d3a1740;
+  pointer-events: none;
+  z-index: 1;
+}
+body[data-style-mode="xbox360"] main.home-note-window > section#work > ul > li::after { display: none; }
+body[data-style-mode="xbox360"] .xbox-project-select {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  min-height: calc(var(--xbox-work-art-size) + 14px);
+  padding: 8px 12px 8px calc(var(--xbox-work-art-size) + 23px);
+  border: 0;
+  border-radius: 5px;
+  background: transparent;
+  color: inherit;
+  font: 400 clamp(17px, 1.65vw, 25px)/1.2 "Trebuchet MS", sans-serif;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+}
+body[data-style-mode="xbox360"] .xbox-project-date { font-size: .88em; font-weight: 400; margin-top: 4px; }
+body[data-style-mode="xbox360"] .is-xbox-selected > .xbox-project-select {
+  background: linear-gradient(110deg, #c5e6a6 0%, #b0dd88 40%, #7fbd50 100%);
+  box-shadow: inset 0 0 0 1px #d8f2bd, inset 0 2px 5px #ffffff70, 0 3px 5px #244c2280;
+}
+body[data-style-mode="xbox360"] .xbox-project-select:focus-visible { outline-offset: -3px; }
+body[data-style-mode="xbox360"] .xbox-preview {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 3px 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+  backdrop-filter: none;
+}
+body[data-style-mode="xbox360"] .xbox-preview-art {
+  aspect-ratio: 16 / 9;
+  flex-shrink: 0;
+  background: var(--xbox-art-image) var(--xbox-art-position, center) / cover no-repeat;
+  border: 2px solid #53823e;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px #b9ed9070;
+}
+body[data-style-mode="xbox360"] .xbox-preview-title { font-size: clamp(22px, 2.1vw, 30px); }
+body[data-style-mode="xbox360"] .xbox-preview-body { font-size: clamp(17px, 1.55vw, 23px); line-height: 1.38; }
+body[data-style-mode="xbox360"] .xbox-preview-links {
+  display: grid;
+  gap: 10px;
+  margin-top: 0;
+  padding-top: 0;
+}
+body[data-style-mode="xbox360"] .xbox-preview-links a {
+  justify-self: start;
+  color: #15380a;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.4;
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+}
+body[data-style-mode="xbox360"] .xbox-preview-links a::after { content: " ↗"; }
+body[data-style-mode="xbox360"] .xbox-preview-links a:hover,
+body[data-style-mode="xbox360"] .xbox-preview-links a:focus-visible {
+  color: #081c03;
+  background: #e1ffc066;
+  text-decoration-thickness: 2px;
+}
+
+body[data-style-mode="xbox360"] .settings-toggle-button .faCog,
+body[data-style-mode="xbox360"] .settings-toggle-button .sr-only { display: none; }
+body[data-style-mode="xbox360"] .xbox-theme-label { display: inline; }
+body[data-style-mode="xbox360"] .settings-toggle-button {
+  width: auto; height: auto; min-height: 44px;
+  padding: 8px 16px; color: #e7f3df;
+  font: 400 21px/1.2 "Barlow Semi Condensed", "Trebuchet MS", sans-serif;
+  text-shadow: 0 1px 2px #1e4213;
+}
+@media (min-width: 841px) {
+  body[data-style-mode="xbox360"]:has(.home-note-window)::after {
+    background:
+      radial-gradient(ellipse 70% 65% at 50% 45%, #77ed2740, transparent 80%),
+      linear-gradient(100deg, #21550990, transparent 15% 82%, #21550990),
+      linear-gradient(180deg, #205509, #60c52b 22%, #60cd25 64%, #204d10);
+  }
+  body[data-style-mode="xbox360"]:has(.home-note-window) .brand {
+    display: flex; align-items: center; justify-content: flex-start; gap: 20px;
+    padding: 0 30px;
+    min-height: clamp(72px, 11vh, 104px);
+    top: 4.5vh;
+    border: 1px solid #427125;
+    border-radius: 18px 18px 28px 28px;
+    background: linear-gradient(175deg, #97be7370, #4b8e2d 50%, #236204);
+    box-shadow: inset 0 1px 1px #d9f4c650, inset 0 -8px 12px #21540750;
+    filter: none; transform: none; mask: none;
+    font: 400 clamp(22px, 2.5vw, 38px)/1.1 "Trebuchet MS", sans-serif;
+    color: #d7e3cf; text-shadow: 0 2px 2px #25461c;
+  }
+  body[data-style-mode="xbox360"]:has(.home-note-window) .brand::before,
+  body[data-style-mode="xbox360"]:has(.home-note-window) .brand::after { display: none; }
+  body[data-style-mode="xbox360"] main.home-note-window {
+    top: 18vh !important; bottom: 16vh !important;
+    overflow: auto; padding-top: 0; padding-bottom: 6px;
+  }
+  body[data-style-mode="xbox360"] main.home-note-window > section#work {
+    display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 22px;
+  }
+  body[data-style-mode="xbox360"] .xbox-preview { min-height: min(58vh, 620px); }
+  body[data-style-mode="xbox360"]:has(.home-note-window) .site-settings {
+    position: fixed;
+    left: calc(var(--xbox-left-offset) + 28px + var(--xbox-home-left-inset));
+    right: calc(var(--xbox-right-offset) + 28px + var(--xbox-home-right-inset));
+    bottom: 4.5vh; top: auto; width: auto;
+    height: 10vh; min-height: 56px;
+    display: flex; flex-direction: row; align-items: center; padding: 0 22px;
+    border-radius: 24px 24px 14px 14px;
+    background: linear-gradient(170deg, #245c11, #468728 60%, #35731c);
+    box-shadow: inset 0 2px 5px #193f1580, 0 1px 1px #9bcc7245;
+    box-sizing: border-box;
+  }
+  body[data-style-mode="xbox360"] .settings-toggle-button { position: static; }
+  body[data-style-mode="xbox360"] .settings-panel {
+    top: auto; bottom: 16vh;
+    left: calc(var(--xbox-left-offset) + 40px + var(--xbox-home-left-inset));
+    right: auto;
+  }
+  body[data-style-mode="xbox360"] .site-nav > .xbox-blade-label-overlay {
+    font-weight: 600; text-transform: uppercase; letter-spacing: .07em;
+    font-size: 28px;
+  }
+  body[data-style-mode="xbox360"] .site-nav > a,
+  body[data-style-mode="xbox360"] .nav-dropdown > summary {
+    background: linear-gradient(90deg, #71766e, #e1e3de 14%, #b6b9b1 60%, #f0f1ec 90%, #62685e);
+  }
+}
+@media (min-width: 841px) and (max-width: 1100px) {
+  body[data-style-mode="xbox360"] main.home-note-window > section#work { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 14px; }
+  body[data-style-mode="xbox360"] .xbox-project-select { font-size: 17px; }
+}
+/* Keep the label size and inset proportional to the narrower blade faces. */
+@media (min-width: 841px) and (max-width: 1239px) {
+  body[data-style-mode="xbox360"]:has(.home-note-window) {
+    --xbox-parked-label-inset: 40px;
+  }
+  body[data-style-mode="xbox360"] .site-nav > .xbox-blade-label-overlay {
+    font-size: 22px;
+    letter-spacing: .05em;
+  }
+  body[data-style-mode="xbox360"] .site-nav[data-xbox-current-index="1"] > .xbox-blade-label-overlay {
+    top: clamp(174px, 24vh, 270px);
+    transform: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+@media (max-width: 840px) {
+  body[data-style-mode="xbox360"] main.home-note-window > section#work {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  body[data-style-mode="xbox360"] .xbox-preview {
+    display: none;
+    order: -1;
+    margin: 0;
+    position: static;
+  }
+  body[data-style-mode="xbox360"]:has(.home-note-window) .brand {
+    padding-right: 158px;
+    font-size: clamp(18px, 4.2vw, 25px);
+  }
+  body[data-style-mode="xbox360"] .settings-toggle-button {
+    top: 19px;
+    right: 22px;
+    height: 34px;
+    min-height: 34px;
+    width: auto;
+    padding: 4px 10px 4px 5px;
+    gap: 7px;
+    border: 1px solid #d5eeae75;
+    border-radius: 18px;
+    background: linear-gradient(180deg, #b8de8b45, #24580c45);
+    box-shadow: inset 0 1px 1px #efffc340, 0 1px 2px #25490c50;
+    font-size: 14px;
+    color: #f3f9e7;
+  }
+  body[data-style-mode="xbox360"] .xbox-theme-y {
+    width: 24px;
+    height: 24px;
+    flex-basis: 24px;
+    font-size: 19px;
+  }
+  body[data-style-mode="xbox360"] .xbox-preview-links { padding-top: 0; }
+  body[data-style-mode="xbox360"].xbox-project-open .site-header,
+  body[data-style-mode="xbox360"].xbox-project-open .site-settings,
+  body[data-style-mode="xbox360"].xbox-project-open #work > ul { display: none; }
+  body[data-style-mode="xbox360"].xbox-project-open main.home-note-window {
+    position: fixed;
+    box-sizing: border-box;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    inset: 0 !important;
+    width: auto !important;
+    height: 100dvh !important;
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+    padding: max(20px, env(safe-area-inset-top)) 20px calc(96px + env(safe-area-inset-bottom));
+    z-index: 90;
+  }
+  body[data-style-mode="xbox360"].xbox-project-open .xbox-preview { display: flex; }
+  body[data-style-mode="xbox360"].xbox-project-open .xbox-mobile-project-link[href] {
+    display: inline-flex;
+    align-self: flex-start;
+    align-items: center;
+    min-height: 44px;
+    color: #15380a;
+    font: 600 20px/1.4 "Trebuchet MS", sans-serif;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+  }
+  body[data-style-mode="xbox360"] .xbox-mobile-project-link:hover { color: #081c03; }
+  body[data-style-mode="xbox360"].xbox-project-open .xbox-preview:focus { outline: none; box-shadow: none; }
+  body[data-style-mode="xbox360"].xbox-project-open .xbox-project-back {
+    display: block;
+    position: fixed;
+    left: max(16px, env(safe-area-inset-left));
+    bottom: calc(16px + env(safe-area-inset-bottom));
+    min-width: 112px;
+    min-height: 52px;
+    padding: 12px 20px;
+    border: 1px solid #c4e99d;
+    border-radius: 12px;
+    background: linear-gradient(#508f2f, #24570e);
+    box-shadow: inset 0 1px 1px #eaffc870, 0 3px 10px #16380960;
+    color: #f0f9e7;
+    font: 600 20px/1.2 "Trebuchet MS", sans-serif;
+    cursor: pointer;
+    z-index: 100;
+  }
+}
+@media (max-width: 380px) {
+  body[data-style-mode="xbox360"]:has(.home-note-window) .brand { padding-right: 62px; }
+  body[data-style-mode="xbox360"] .settings-toggle-button { padding: 4px; }
+  body[data-style-mode="xbox360"] .xbox-theme-label { display: none; }
 }
