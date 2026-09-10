@@ -293,15 +293,39 @@
       date.textContent = projects[index][1];
       button.append(name, date);
       item.appendChild(button);
-      button.addEventListener("click", () => {
+      const quickLinks = document.createElement("div");
+      quickLinks.className = "xbox-project-quick-links";
+      const primary = original.querySelector("a[href]");
+      const quickLabels = ["Live site", "QRL Hall of Fame", "Report", "Paper", "Presentation", "", "Paper", "GitHub"];
+      if (primary) {
+        const quickLink = primary.cloneNode(false);
+        quickLink.textContent = quickLabels[index];
+        quickLinks.appendChild(quickLink);
+      }
+      if (item.dataset.xboxArt === "context-engine") {
+        const github = document.createElement("a");
+        github.href = "https://github.com/AgalmicSoftware/context-engine/";
+        github.textContent = "GitHub";
+        quickLinks.appendChild(github);
+      }
+      const expand = document.createElement("button");
+      expand.type = "button";
+      expand.className = "xbox-project-expand";
+      expand.textContent = "→";
+      expand.setAttribute("aria-label", "Open details: " + projects[index][0]);
+      expand.setAttribute("aria-controls", aside.id);
+      item.append(quickLinks, expand);
+      function openProject(event) {
         setFrom(item);
         if (root.dataset.styleMode !== "xbox360" || !mobileViewport.matches) return;
-        returnButton = button;
+        returnButton = event.currentTarget;
         listScrollTop = main.scrollTop;
         root.classList.add("xbox-project-open");
         main.scrollTop = 0;
         aside.focus({ preventScroll: true });
-      });
+      }
+      button.addEventListener("click", openProject);
+      expand.addEventListener("click", openProject);
       button.addEventListener("focus", () => setFrom(item));
       item.addEventListener("mouseenter", () => {
         if (root.dataset.styleMode === "xbox360" && !aside.contains(document.activeElement)) setFrom(item);

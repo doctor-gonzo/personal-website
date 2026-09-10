@@ -2772,7 +2772,7 @@ body[data-style-mode="windows95desktop"] .tweet-dialog::backdrop {
    by xbox360-scoped rules, so other modes never request it. */
 @font-face {
   font-family: "Barlow Semi Condensed";
-  src: url("./assets/fonts/barlow-semi-condensed-500.woff2?_site_release=20260909T233520Z") format("woff2");
+  src: url("./assets/fonts/barlow-semi-condensed-500.woff2?_site_release=20260909Tmobile-links22") format("woff2");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -2780,7 +2780,7 @@ body[data-style-mode="windows95desktop"] .tweet-dialog::backdrop {
 
 @font-face {
   font-family: "Barlow Semi Condensed";
-  src: url("./assets/fonts/barlow-semi-condensed-600.woff2?_site_release=20260909T233520Z") format("woff2");
+  src: url("./assets/fonts/barlow-semi-condensed-600.woff2?_site_release=20260909Tmobile-links22") format("woff2");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -2790,7 +2790,7 @@ body[data-style-mode="windows95desktop"] .tweet-dialog::backdrop {
    than Barlow's rounder caps (OFL, latin subset, self-hosted). */
 @font-face {
   font-family: "Saira SemiCondensed";
-  src: url("./assets/fonts/saira-semi-condensed-600.woff2?_site_release=20260909T233520Z") format("woff2");
+  src: url("./assets/fonts/saira-semi-condensed-600.woff2?_site_release=20260909Tmobile-links22") format("woff2");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -3279,11 +3279,11 @@ body[data-style-mode="xbox360"] main > ul.xbox-link-grid > li::after {
 }
 
 body[data-style-mode="xbox360"] main > ul.xbox-link-grid > li[data-xbox-link-icon="github"] {
-  --xbox-brand-glyph: url("./assets/icons/github.svg?_site_release=20260909T233520Z");
+  --xbox-brand-glyph: url("./assets/icons/github.svg?_site_release=20260909Tmobile-links22");
 }
 
 body[data-style-mode="xbox360"] main > ul.xbox-link-grid > li[data-xbox-link-icon="linkedin"] {
-  --xbox-brand-glyph: url("./assets/icons/linkedin-in.svg?_site_release=20260909T233520Z");
+  --xbox-brand-glyph: url("./assets/icons/linkedin-in.svg?_site_release=20260909Tmobile-links22");
 }
 
 body[data-style-mode="xbox360"] main > ul.xbox-link-grid > li[data-xbox-link-icon="github"]::after,
@@ -3351,49 +3351,49 @@ body[data-style-mode="xbox360"] .xbox-single-link-item {
 
 body[data-style-mode="xbox360"] main > section#work > ul > li[data-xbox-art="context-engine"],
 body[data-style-mode="xbox360"] .xbox-preview-art[data-art="context-engine"] {
-  --xbox-art-image: url("./assets/xbox360/context-engine-midjourney.jpg?_site_release=20260909T233520Z");
+  --xbox-art-image: url("./assets/xbox360/context-engine-midjourney.jpg?_site_release=20260909Tmobile-links22");
   --xbox-art-position: 50% 50%;
 }
 
 body[data-style-mode="xbox360"] main > section#work > ul > li[data-xbox-art="security-research"],
 body[data-style-mode="xbox360"] .xbox-preview-art[data-art="security-research"] {
-  --xbox-art-image: url("./assets/xbox360/security-research.png?_site_release=20260909T233520Z");
+  --xbox-art-image: url("./assets/xbox360/security-research.png?_site_release=20260909Tmobile-links22");
   --xbox-art-position: center;
 }
 
 body[data-style-mode="xbox360"] main > section#work > ul > li[data-xbox-art="quantum-computing"],
 body[data-style-mode="xbox360"] .xbox-preview-art[data-art="quantum-computing"] {
-  --xbox-art-image: url("./assets/xbox360/quantum-computing-midjourney.jpg?_site_release=20260909T233520Z");
+  --xbox-art-image: url("./assets/xbox360/quantum-computing-midjourney.jpg?_site_release=20260909Tmobile-links22");
   --xbox-art-position: 50% 48%;
 }
 
 body[data-style-mode="xbox360"] main > section#work > ul > li[data-xbox-art="ai-consciousness"],
 body[data-style-mode="xbox360"] .xbox-preview-art[data-art="ai-consciousness"] {
-  --xbox-art-image: url("./assets/xbox360/ai-consciousness-midjourney.jpg?_site_release=20260909T233520Z");
+  --xbox-art-image: url("./assets/xbox360/ai-consciousness-midjourney.jpg?_site_release=20260909Tmobile-links22");
   --xbox-art-position: 50% 50%;
 }
 
 body[data-style-mode="xbox360"] main > section#work > ul > li[data-xbox-art="zuzalu-social-infrastructure"],
 body[data-style-mode="xbox360"] .xbox-preview-art[data-art="zuzalu-social-infrastructure"] {
-  --xbox-art-image: url("./assets/xbox360/zuzalu-social-infrastructure-midjourney.png?_site_release=20260909T233520Z");
+  --xbox-art-image: url("./assets/xbox360/zuzalu-social-infrastructure-midjourney.png?_site_release=20260909Tmobile-links22");
   --xbox-art-position: 50% 53%;
 }
 
 body[data-style-mode="xbox360"] main > section#work > ul > li[data-xbox-art="academic-research"],
 body[data-style-mode="xbox360"] .xbox-preview-art[data-art="academic-research"] {
-  --xbox-art-image: url("./assets/xbox360/academic-research-midjourney.jpg?_site_release=20260909T233520Z");
+  --xbox-art-image: url("./assets/xbox360/academic-research-midjourney.jpg?_site_release=20260909Tmobile-links22");
   --xbox-art-position: 50% 48%;
 }
 
 body[data-style-mode="xbox360"] main > section#work > ul > li[data-xbox-art="public-goods"],
 body[data-style-mode="xbox360"] .xbox-preview-art[data-art="public-goods"] {
-  --xbox-art-image: url("./assets/xbox360/public-goods-midjourney.jpg?_site_release=20260909T233520Z");
+  --xbox-art-image: url("./assets/xbox360/public-goods-midjourney.jpg?_site_release=20260909Tmobile-links22");
   --xbox-art-position: 50% 50%;
 }
 
 body[data-style-mode="xbox360"] main > section#work > ul > li[data-xbox-art="proof-of-human"],
 body[data-style-mode="xbox360"] .xbox-preview-art[data-art="proof-of-human"] {
-  --xbox-art-image: url("./assets/xbox360/proof-of-human-midjourney.jpg?_site_release=20260909T233520Z");
+  --xbox-art-image: url("./assets/xbox360/proof-of-human-midjourney.jpg?_site_release=20260909Tmobile-links22");
   --xbox-art-position: 50% 50%;
 }
 
@@ -5174,7 +5174,65 @@ body[data-style-mode="xbox360"] .xbox-theme-y {
   }
 }
 
-.xbox-project-select, .xbox-theme-label, .xbox-theme-y, .xbox-project-back, .xbox-mobile-project-link { display: none; }
+.xbox-project-select, .xbox-theme-label, .xbox-theme-y, .xbox-project-back, .xbox-mobile-project-link, .xbox-project-quick-links, .xbox-project-expand { display: none; }
+@media (max-width: 840px) {
+  body[data-style-mode="xbox360"] main.home-note-window > section#work > ul > li {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(84px, 24%) 44px;
+    align-items: center;
+  }
+  body[data-style-mode="xbox360"] .xbox-project-quick-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 4px 6px;
+  }
+  body[data-style-mode="xbox360"] .xbox-project-quick-links a {
+    display: flex;
+    align-items: center;
+    min-height: 44px;
+    color: #173c0c;
+    font: 600 15px/1.2 "Trebuchet MS", sans-serif;
+    text-decoration: none;
+    opacity: .5;
+    gap: 6px;
+  }
+  body[data-style-mode="xbox360"] .xbox-project-quick-links a::after {
+    content: "";
+    flex: 0 0 12px;
+    width: 12px;
+    height: 12px;
+    background: currentColor;
+    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='none' stroke='black' stroke-width='3' stroke-linecap='round' stroke-linejoin='round' d='M14 3h7v7M21 3 10 14M10 4H4v16h16v-6'/%3E%3C/svg%3E") center / contain no-repeat;
+  }
+  body[data-style-mode="xbox360"] .xbox-project-expand {
+    display: block;
+    width: 44px;
+    min-height: 48px;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+    color: #173c0c;
+    font-size: 0;
+    cursor: pointer;
+  }
+  body[data-style-mode="xbox360"] .xbox-project-expand::before {
+    content: "";
+    display: block;
+    width: 28px;
+    height: 24px;
+    margin: auto;
+    background: currentColor;
+    clip-path: polygon(0 38%, 59% 38%, 59% 0, 100% 50%, 59% 100%, 59% 62%, 0 62%);
+  }
+}
+@media (min-width: 600px) and (max-width: 840px) {
+  body[data-style-mode="xbox360"] main.home-note-window > section#work > ul > li {
+    grid-template-columns: minmax(0, 52%) minmax(0, 1fr) 44px;
+  }
+}
 body[data-style-mode="xbox360"] .xbox-work-original { display: none; }
 body[data-style-mode="xbox360"]:has(.home-note-window) {
   --xbox-core: #72df24;

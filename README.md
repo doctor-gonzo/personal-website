@@ -156,7 +156,8 @@ additional research links remain below it. The bottom command strip contains a
 yellow **Y** icon and **Change Theme**, which opens the theme picker. No controller
 A/B prompts are shown. Blade labels remain HOME, THOUGHTS, PICTURES, and LINKS,
 with HOME at the far left of the desktop stack.
-On mobile, tapping a project opens its details full screen, with an explicit
+On mobile, project rows offer primary links in the middle and a right-hand arrow
+to open details full screen. Tapping the project title also opens details, with an explicit
 **View project** link beneath the description when a destination exists. A bottom-left Back
 button (or Escape) restores the project list, focus, and scroll position. Desktop
 keeps its side-by-side preview. The header theme control becomes a compact Y
