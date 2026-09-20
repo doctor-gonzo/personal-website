@@ -78,38 +78,10 @@ URL: https://arxiv.org/abs/1809.06421v1
 
 Provided research assistance on the paper (Buterin, Hitzig, & Weyl), connected to quadratic funding, and helped connect Democracy Earth and RadicalxChange around a quadratic voting pilot in the Colorado State House. Helped organize the inaugural RadicalxChange conference ([conference NFT on OpenSea](https://opensea.io/item/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/59669409764802279530765099049000689039517237075351248963245346522443397726209)).
 
-## Work History
+## Resume
 
-### Independent Product Engineer and Researcher - Context Engine
-
-2023-present
-
-Product, engineering, docs, releases, user/deployer flows, AI-assisted deliberation/negotiation/coordination features for large groups of humans and AI agents, and public/private deployment design.
-
-### Solidity Developer - The Quantum Resistant Ledger
-
-2020
-
-QRL contributor page: https://www.theqrl.org/team/charlie/
-
-Contributed to a post-quantum XMSS Ethereum vault prototype and translated cryptographic constraints into Solidity/EVM trade-offs.
-
-### Research Assistant - Glen Weyl
-
-2019
-
-Research assistance around quadratic funding, RadicalxChange, and civic experimentation. Helped organize the inaugural RadicalxChange conference ([conference NFT on OpenSea](https://opensea.io/item/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/59669409764802279530765099049000689039517237075351248963245346522443397726209)).
-
-### Independent Researcher
-
-2018
-
-Designed an early proof-of-humanity smart contract concept using natural-language challenges resistant to AI.
-
-## Education
-
-Cornell University - B.A., Computer Science, 2021. Focus: cryptography, natural language processing, AI.
+The previous public resume and its work-history summary have been retired. Read the current democracy and collective-intelligence resume at https://charliethompson.lol/resume/democracy/. A PDF download is available there.
 
 ## Technical Notes
 
-The visible homepage is index.html. The resume page is resume.html, with a Markdown copy at resume.html.md. The thoughts page is thoughts.html, with a Markdown copy at thoughts.html.md, a Tweets/Posts first-step switch, post templates under thoughts/, a newest-first archive of static imported tweets at data/tweets/public-posts.json, and search and year filters. The pictures page is pictures.html, with a Markdown copy at pictures.html.md and separate AI-generated and camera entries loaded from data/pictures.json. The public links page is links.html, with a Markdown copy at links.html.md. The 2023 talk/map page is zuzalu.html, with a Markdown summary at zuzalu.html.md, a static argument explorer, and an embedded exported document at assets/ai-safety-map/WebsiteContextEngine_AISafetyIdeasMap_.html. The quantum report page is quantum.html, with one short explanation and a collapsible PDF at assets/reports/QC_BTC_Dec2025.pdf; text extraction and an HTML transcript remain available at assets/reports/QC_BTC_Dec2025.txt and quantum-report.html for crawler/agent use. There is no build step. AI/search crawlers are explicitly allowed in robots.txt, and Markdown/plain-text versions exist to make scraping easier. The public theme choices are Windows 95 Desktop (default), Xbox 360 Blades, and minimal; pages embedded inside the desktop shell force minimal mode.
+The visible homepage is index.html. The current resume is at resume/democracy/. The legacy resume.html page redirects there, and resume.html.md contains a migration notice. The thoughts page is thoughts.html, with a Markdown copy at thoughts.html.md, a Tweets/Posts first-step switch, post templates under thoughts/, a newest-first archive of static imported tweets at data/tweets/public-posts.json, and search and year filters. The pictures page is pictures.html, with a Markdown copy at pictures.html.md and separate AI-generated and camera entries loaded from data/pictures.json. The public links page is links.html, with a Markdown copy at links.html.md. The 2023 talk/map page is zuzalu.html, with a Markdown summary at zuzalu.html.md, a static argument explorer, and an embedded exported document at assets/ai-safety-map/WebsiteContextEngine_AISafetyIdeasMap_.html. The quantum report page is quantum.html, with one short explanation and a collapsible PDF at assets/reports/QC_BTC_Dec2025.pdf; text extraction and an HTML transcript remain available at assets/reports/QC_BTC_Dec2025.txt and quantum-report.html for crawler/agent use. There is no build step. AI/search crawlers are explicitly allowed in robots.txt, and Markdown/plain-text versions exist to make scraping easier. The public theme choices are Windows 95 Desktop (default), Xbox 360 Blades, and minimal; pages embedded inside the desktop shell force minimal mode.

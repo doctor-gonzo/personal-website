@@ -32,7 +32,6 @@ Sitemap: https://charliethompson.lol/sitemap.xml
 # https://charliethompson.lol/llms.txt
 # https://charliethompson.lol/llms-full.txt
 # https://charliethompson.lol/index.html.md
-# https://charliethompson.lol/resume.html.md
 # https://charliethompson.lol/thoughts.html.md
 # https://charliethompson.lol/links.html.md
 # https://charliethompson.lol/agents.txt

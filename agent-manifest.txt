@@ -34,8 +34,7 @@ URL: https://charliethompson.lol/
 [Capability: read-resume]
 Description: Read public resume and work history.
 Interface: web
-URL: https://charliethompson.lol/resume.html
-Markdown: https://charliethompson.lol/resume.html.md
+URL: https://charliethompson.lol/resume/democracy/
 
 [Capability: read-thoughts]
 Description: Choose Tweets or Posts. Tweets provides a newest-first public archive with search and year filtering; Posts is reserved for longer-form writing.

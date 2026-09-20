@@ -17,14 +17,13 @@ Robots-Txt: https://charliethompson.lol/robots.txt
 Sitemap: https://charliethompson.lol/sitemap.xml
 LLMS-Txt: https://charliethompson.lol/llms.txt
 Agent-Manifest: https://charliethompson.lol/agent-manifest.txt
-Resume: https://charliethompson.lol/resume.html
+Resume: https://charliethompson.lol/resume/democracy/
 Thoughts: https://charliethompson.lol/thoughts.html
 Links: https://charliethompson.lol/links.html
 
 [Agent: *]
 Allow: /
-Allow: /resume.html
-Allow: /resume.html.md
+Allow: /resume/democracy/
 Allow: /thoughts.html
 Allow: /thoughts.html.md
 Allow: /links.html

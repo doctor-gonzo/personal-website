@@ -9,8 +9,8 @@ The `.nojekyll` marker tells GitHub Pages to serve the files directly.
 ## Main Files
 
 - `index.html` - public homepage with Xbox 360 Blades and Windows 95 Desktop modes.
-- `resume.html` - public resume and work history.
-- `resume.html.md` - Markdown resume for LLMs, agents, and plain-text reuse.
+- `resume.html` - temporary redirect from the retired public resume to `/resume/democracy/`.
+- `resume.html.md` - migration notice for the retired Markdown resume.
 - `resume/democracy/` - shareable democracy resume at `/resume/democracy`, with
   a mobile-friendly reading view and PDF download. The public PDF omits the phone number and links
   to the QRL Bug Bounty Hall of Fame.
@@ -62,7 +62,8 @@ The `.nojekyll` marker tells GitHub Pages to serve the files directly.
   ID into every public page and local CSS/JavaScript URL, and writes the matching
   `release.json` used by already-open tabs.
 - Confirm that `charlie_thompson@protonmail.com` should remain public.
-- Keep `resume.html` and `resume.html.md` aligned when editing resume content.
+- Keep the web resume and PDF under `resume/democracy/` aligned. The legacy
+  `resume.html` and `resume.html.md` routes should not contain the retired resume.
 - Keep `thoughts.html` and `thoughts.html.md` aligned when adding posts.
 - Confirm the featured tweet ID in `thoughts.html` matches the featured-tweet
   descriptions in `thoughts.html.md` and `llms-full.txt`.
@@ -188,7 +189,7 @@ navigation and preview as well as applying and persisting the selected theme.
   `PerplexityBot`.
 - `sitemap.xml` and `sitemap.txt` expose canonical pages.
 - `llms.txt` and `llms-full.txt` provide LLM-readable summaries.
-- `index.html.md`, `resume.html.md`, `thoughts.html.md`, `pictures.html.md`, and
+- `index.html.md`, `thoughts.html.md`, `pictures.html.md`, and
   `quantum.html.md` provide Markdown copies/summaries.
 - `agents.txt` and `agent-manifest.txt` expose agent-oriented site policy and
   discovery hints.
