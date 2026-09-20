@@ -11,6 +11,9 @@ The `.nojekyll` marker tells GitHub Pages to serve the files directly.
 - `index.html` - public homepage with Xbox 360 Blades and Windows 95 Desktop modes.
 - `resume.html` - public resume and work history.
 - `resume.html.md` - Markdown resume for LLMs, agents, and plain-text reuse.
+- `resume/democracy/` - shareable democracy resume at `/resume/democracy`, with
+  a mobile-friendly reading view and PDF download. The public PDF omits the phone number and links
+  to the QRL Bug Bounty Hall of Fame.
 - `thoughts.html` - a mixed Featured landing view plus separate static tweet
   archive and longer-form post views.
 - `thoughts.js` - renders the local static tweet archive on `thoughts.html`,

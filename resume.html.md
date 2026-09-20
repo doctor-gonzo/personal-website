@@ -47,7 +47,7 @@ Ideas map: https://charliethompson.lol/assets/ai-safety-map/WebsiteContextEngine
 
 2019
 
-Provided research assistance on "A Flexible Design for Funding Public Goods" (Buterin, Hitzig, & Weyl) and helped connect Democracy Earth and RadicalxChange around a Colorado State House quadratic voting pilot.
+Provided research assistance on "A Flexible Design for Funding Public Goods" (Buterin, Hitzig, & Weyl) and helped connect Democracy Earth and RadicalxChange around a Colorado State House quadratic voting pilot. Helped organize the inaugural RadicalxChange conference ([conference NFT on OpenSea](https://opensea.io/item/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/59669409764802279530765099049000689039517237075351248963245346522443397726209)).
 
 Paper: https://arxiv.org/abs/1809.06421v1
 
@@ -71,7 +71,7 @@ Contributed to a post-quantum XMSS Ethereum vault prototype and translated crypt
 
 2019
 
-Research assistance around quadratic funding, RadicalxChange, and civic experimentation.
+Research assistance around quadratic funding, RadicalxChange, and civic experimentation. Helped organize the inaugural RadicalxChange conference ([conference NFT on OpenSea](https://opensea.io/item/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/59669409764802279530765099049000689039517237075351248963245346522443397726209)).
 
 ### Independent Researcher
 
