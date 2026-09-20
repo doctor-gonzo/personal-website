@@ -11,7 +11,7 @@
 - 2023: Graphical assistance for [AI Consciousness Report](https://arxiv.org/abs/2308.08708).
 - 2023: Zuzalu Talk: [Social Infrastructure for AI on Ethereum](./zuzalu.html) · [Zuzalu speakers](https://aixzuzalu.splashthat.com/)
 - 2021: Cornell University - B.A., Computer Science.
-- 2019: [A Flexible Design for Funding Public Goods — Vitalik Buterin, Zoe Hitzig, and E. Glen Weyl](https://arxiv.org/abs/1809.06421) - research assistance connected to quadratic funding and civic experiments. Helped organize the inaugural RadicalxChange conference ([RadicalxChange conference NFTs](https://opensea.io/item/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/59669409764802279530765099049000689039517237075351248963245346522443397726209)).
+- 2019: Research assistance on [A Flexible Design for Funding Public Goods — Vitalik Buterin, Zoe Hitzig, and E. Glen Weyl](https://arxiv.org/abs/1809.06421). Helped organize the [inaugural](https://opensea.io/item/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/59669409764802279530765099049000689039517237075351248963245346522443397726209) [RadicalxChange](https://www.radicalxchange.org/) conference.
 - 2018: [Proof of Human](https://github.com/doctor-gonzo/proof-of-human) - Winograd Schema Challenge concept for proving humanity of smart-contract callers.
 
 ## Links

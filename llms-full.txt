@@ -76,7 +76,7 @@ Presented at Zuzalu AI x Crypto in 2023, with a static argument explorer and an 
 
 URL: https://arxiv.org/abs/1809.06421v1
 
-Provided research assistance on the paper (Buterin, Hitzig, & Weyl), connected to quadratic funding, and helped connect Democracy Earth and RadicalxChange around a quadratic voting pilot in the Colorado State House. Helped organize the inaugural RadicalxChange conference ([RadicalxChange conference NFTs](https://opensea.io/item/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/59669409764802279530765099049000689039517237075351248963245346522443397726209)).
+Provided research assistance on the paper (Buterin, Hitzig, & Weyl), connected to quadratic funding, and helped connect Democracy Earth and RadicalxChange around a quadratic voting pilot in the Colorado State House. Helped organize the [inaugural](https://opensea.io/item/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/59669409764802279530765099049000689039517237075351248963245346522443397726209) [RadicalxChange](https://www.radicalxchange.org/) conference.
 
 ## Resume
 
