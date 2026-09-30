@@ -1,14 +1,17 @@
 # Charlie Thompson Personal Site
 
 Minimal static personal site for public work, thoughts/posts, resume/work history, and research notes.
-There is no build step: open `index.html` directly, publish the folder with
-GitHub Pages, or upload the folder to IPFS and point an ENS contenthash at it.
+There is no build step: publish the folder with GitHub Pages, or upload the
+folder to IPFS and point an ENS contenthash at it. To preview locally, serve the
+folder (for example `python3 -m http.server`); opening `index.html` directly
+shows the homepage, but Thoughts and Pictures need a server to load their JSON.
 
 The `.nojekyll` marker tells GitHub Pages to serve the files directly.
 
 ## Main Files
 
-- `index.html` - public homepage with Xbox 360 Blades and Windows 95 Desktop modes.
+- `index.html` - public homepage; minimal by default, with optional Xbox 360
+  Blades and Windows 95 Desktop modes.
 - `resume.html` - temporary redirect from the retired public resume to `/resume/democracy/`.
 - `resume.html.md` - migration notice for the retired Markdown resume.
 - `resume/democracy/` - shareable democracy resume at `/resume/democracy`, with
@@ -34,7 +37,8 @@ The `.nojekyll` marker tells GitHub Pages to serve the files directly.
 - `assets/xbox360/*-midjourney.jpg` and
   `assets/xbox360/zuzalu-social-infrastructure-midjourney.png` - the active
   Xbox 360 homepage artwork set, balancing black fields with broad acid-lime
-  surfaces and reflective glass.
+  surfaces and reflective glass. `assets/xbox360/security-research.png` is the
+  Security Research row's artwork.
 - `thoughts/` - static post templates and future post files.
 - `data/tweets/public-posts.json` - public, reviewed subset of imported
   tweets. This is safe to publish when populated intentionally.
@@ -55,8 +59,8 @@ The `.nojekyll` marker tells GitHub Pages to serve the files directly.
 
 ## Before Publishing
 
-- Use `scripts/prepare-public-release.sh` and publish its clean snapshot rather
-  than pushing this working repository's full history. The snapshot excludes
+- Follow [Updating the live site](#updating-the-live-site) to publish the clean
+  snapshot. Never push this working repository. The snapshot excludes
   local prototypes, NFT experiments, private scratch files, editor state, and
   raw social-media archives. It also generates a unique release ID, stamps that
   ID into every public page and local CSS/JavaScript URL, and writes the matching
@@ -175,6 +179,15 @@ desktop windows use `?embed=desktop-window` so they do not render a nested
 site header, settings cog, or desktop shell. Heavy embedded pages and documents
 load only when their desktop window is opened for the first time.
 
+The identical inline theme boot snippet lives immediately after the opening
+`body` tag in `index.html`, `thoughts.html`, `pictures.html`, `links.html`,
+`zuzalu.html`, and `quantum.html`. Keep all six copies identical. Its saved
+non-default mode list must match `PUBLIC_STYLE_MODES` in `site-settings.js`
+with `minimal` excluded. It applies the saved mode and uses `theme-pending`
+to hide the page until `DOMContentLoaded`, with a two-second fail-safe.
+Embedded pages and the default minimal theme stay visible. Do not copy it to
+pages without `site-settings.js`.
+
 ## Demo Controls
 
 The demo-feature hook is off by default and no public demo toggle is currently
@@ -189,8 +202,8 @@ navigation and preview as well as applying and persisting the selected theme.
   `PerplexityBot`.
 - `sitemap.xml` and `sitemap.txt` expose canonical pages.
 - `llms.txt` and `llms-full.txt` provide LLM-readable summaries.
-- `index.html.md`, `thoughts.html.md`, `pictures.html.md`, and
-  `quantum.html.md` provide Markdown copies/summaries.
+- `index.html.md`, `thoughts.html.md`, `pictures.html.md`, `links.html.md`,
+  `zuzalu.html.md`, and `quantum.html.md` provide Markdown copies/summaries.
 - `agents.txt` and `agent-manifest.txt` expose agent-oriented site policy and
   discovery hints.
 - `feed.xml` provides an RSS feed for updates.
@@ -209,10 +222,43 @@ navigation and preview as well as applying and persisting the selected theme.
 `TODO/` is gitignored for local improvement plans. It currently includes the
 archived Twitter/X import plan, the Arweave/ENS redirect plan, and local PRDs.
 
-## GitHub Pages
+`unpublished/` holds unused artwork and screenshots tracked in the local
+source repository. It is never published and must never be referenced from
+pages. To publish a file, move it back under `assets/` and update its references.
+
+## Updating the live site
+
+The source checkout and the public repository have separate histories. Keep
+editable source in the main checkout and publish only generated snapshots.
+
+1. Edit and commit on local `main` in the source checkout (the main working
+   copy of this repository). Never push this repository. Update Markdown and
+   LLM mirrors in the same commit as the page they describe.
+2. Run `bash scripts/prepare-public-release.sh` from the source checkout.
+   Review the stamped snapshot and release ID printed by the script.
+3. Run `rsync -a --delete --exclude .git <snapshot>/ <clean clone of origin/main>/`.
+   The current clone is `.codex/scratch/publish-democracy-20260920/` inside the
+   source checkout. Confirm it is clean, on `main`, and up to date before
+   syncing.
+4. In the clone, run `git add -A` and review the deletions and additions.
+5. Commit the release, then run `git push origin main` from the clone.
+6. Confirm the live `https://charliethompson.lol/release.json` shows the new
+   release ID.
+
+Never hand-edit or force-push the clone. Make corrections in source and create
+a new snapshot; preserve the public history. Source pages retain
+`data-site-release="development"`; only snapshots receive release stamps.
+
+Sitemap `lastmod` and JSON-LD `dateModified` track the last change to a page's
+visible text or links. RSS `lastBuildDate` tracks feed rebuilds. Do not refresh
+page dates merely because a release changes scripts, styles, or stamps.
+
+## GitHub Pages — one-time setup (already done)
 
 The canonical public URL is `https://charliethompson.lol/`; `CNAME` and the
 discovery metadata are already configured for it.
+The steps below record the completed initial setup. For subsequent releases,
+follow [Updating the live site](#updating-the-live-site).
 
 1. Run `bash scripts/prepare-public-release.sh` and review the generated clean
    snapshot under `.codex/scratch/public-release-*/`.
@@ -248,7 +294,7 @@ If the canonical site is GitHub Pages but the ENS content should live on
 Arweave, generate a tiny HTML redirect and upload that file to Arweave:
 
 ```sh
-node scripts/build-arweave-redirect.mjs https://<user>.github.io/<repo>/
+node scripts/build-arweave-redirect.mjs https://charliethompson.lol/
 ```
 
 The script writes `arweave-redirect/generated/index.html`. Upload that file to

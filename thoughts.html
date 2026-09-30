@@ -22,7 +22,7 @@
     <meta property="og:description" content="Featured tweets and longer-form posts by Charlie Thompson, plus a searchable public tweet archive.">
     <meta name="twitter:card" content="summary">
     <title>Thoughts - Charlie Thompson</title>
-    <link rel="stylesheet" href="./styles.css?v=xbox-label-align-203&_site_release=20260909Tmobile-links22">
+    <link rel="stylesheet" href="./styles.css?v=xbox-blades-labels-215&_site_release=20260930T142122Z">
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -37,11 +37,28 @@
         "author": {
           "@id": "https://charliethompson.lol/#person"
         },
-        "dateModified": "2026-07-29"
+        "dateModified": "2026-09-28"
       }
     </script>
   </head>
   <body data-style-mode="minimal" data-demo-features="off">
+    <script>
+      (function () {
+        // Hold a saved non-default theme hidden until page scripts finish, avoiding a minimal-theme flash.
+        try {
+          var mode = localStorage.getItem("charlie-site-style-mode");
+          if ((mode !== "xbox360" && mode !== "windows95desktop") || new URLSearchParams(location.search).get("embed")) return;
+          var body = document.body;
+          var reveal = function () { body.classList.remove("theme-pending"); };
+          body.dataset.styleMode = mode;
+          body.classList.add("theme-pending");
+          document.addEventListener("DOMContentLoaded", reveal);
+          setTimeout(reveal, 2000);
+        } catch {
+          // Storage can be unavailable; site-settings.js then falls back to minimal.
+        }
+      })();
+    </script>
     <header class="site-header">
         <a class="brand" href="./index.html">Charlie Thompson</a>
       <nav class="site-nav" aria-label="Main navigation">
@@ -122,7 +139,7 @@
           <article class="featured-post">
             <a
               class="featured-post-image-link"
-              href="https://contextengine.xyz/posts/agent-village-wrapped-2026"
+              href="https://contextengine.sh/posts/agent-village-wrapped-2026"
               aria-label="Read Agent Village Wrapped 2026 on Context Engine"
             >
               <img
@@ -134,7 +151,7 @@
             </a>
             <p class="featured-thought-label">Featured post</p>
             <h2>
-              <a href="https://contextengine.xyz/posts/agent-village-wrapped-2026">
+              <a href="https://contextengine.sh/posts/agent-village-wrapped-2026">
                 Agent Village Wrapped 2026
               </a>
             </h2>
@@ -182,18 +199,31 @@
         data-thought-panel="posts"
         hidden
       >
-        <ul>
-          <li>
-            <a href="https://contextengine.xyz/posts/agent-village-wrapped-2026">
+        <article class="featured-post">
+          <a
+            class="featured-post-image-link"
+            href="https://contextengine.sh/posts/agent-village-wrapped-2026"
+            aria-label="Read Agent Village Wrapped 2026 on Context Engine"
+          >
+            <img
+              class="featured-post-image"
+              src="https://contextengine.sh/posts/agent-village-wrapped/attachments/header.jpg"
+              alt="Two illustrated robots sit at an outdoor table reading papers."
+              loading="lazy"
+            >
+          </a>
+          <h2>
+            <a href="https://contextengine.sh/posts/agent-village-wrapped-2026">
               Agent Village Wrapped 2026
             </a>
-          </li>
-        </ul>
+          </h2>
+          <p>Read the full post on Context Engine.</p>
+        </article>
       </section>
     </main>
 
-    <script src="./release-watchdog.js?_site_release=20260909Tmobile-links22" data-site-release="20260909Tmobile-links22"></script>
-    <script src="./thoughts.js?v=featured-thoughts-1&_site_release=20260909Tmobile-links22"></script>
-    <script src="./site-settings.js?v=xbox-right-blade-hit-6&_site_release=20260909Tmobile-links22"></script>
+    <script src="./release-watchdog.js?_site_release=20260930T142122Z" data-site-release="20260930T142122Z"></script>
+    <script src="./thoughts.js?v=featured-thoughts-1&_site_release=20260930T142122Z"></script>
+    <script src="./site-settings.js?v=xbox-clickable-display-9&_site_release=20260930T142122Z"></script>
   </body>
 </html>

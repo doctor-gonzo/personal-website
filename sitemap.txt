@@ -1,4 +1,5 @@
 https://charliethompson.lol/
+https://charliethompson.lol/index.html.md
 https://charliethompson.lol/resume/democracy/
 https://charliethompson.lol/thoughts.html
 https://charliethompson.lol/thoughts.html.md
@@ -10,5 +11,6 @@ https://charliethompson.lol/zuzalu.html
 https://charliethompson.lol/zuzalu.html.md
 https://charliethompson.lol/assets/ai-safety-map/WebsiteContextEngine_AISafetyIdeasMap_.html
 https://charliethompson.lol/quantum.html
+https://charliethompson.lol/quantum.html.md
 https://charliethompson.lol/quantum-report.html
 https://charliethompson.lol/assets/reports/QC_BTC_Dec2025.pdf

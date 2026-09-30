@@ -9,4 +9,4 @@ Twitter: https://x.com/charlie______t
 Language: English
 Standards: HTML, CSS, JavaScript, JSON-LD, RSS, robots.txt, sitemap.xml, llms.txt, agents.txt
 Hosting: Static files, GitHub Pages compatible, IPFS/ENS compatible
-Last update: 2026-07-22
+Last update: 2026-09-28

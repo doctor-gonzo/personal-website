@@ -8,10 +8,11 @@ repo as the website.
 1. Copy `_template.html` to a dated file such as `2026-06-10-post-title.html`.
 2. Edit the title, canonical URL, publish date, body, and robots meta tag.
    For published posts, change `noindex, nofollow` to `index, follow`.
-3. Add the post link to `../thoughts.html`.
+3. Add the post link to `../thoughts.html` and `../thoughts.html.md`.
 4. Add the post URL to `../sitemap.xml`, `../sitemap.txt`, and optionally
    `../feed.xml`, `../llms.txt`, and `../llms-full.txt`.
-5. Commit and push the change to the GitHub Pages repo.
+5. Publish through `../scripts/prepare-public-release.sh` as described in the
+   root README rather than pushing this working repository directly.
 
 The site intentionally has no build step. GitHub Pages can publish it directly
 from the repo root because `.nojekyll` is present.

@@ -182,7 +182,7 @@
     function setFrom(item) {
       if (selected === item) return;
       selected = item;
-      const project = projects[items.indexOf(item)];
+      const project = projectFor(item);
       items.forEach((row) => {
         row.classList.toggle("is-xbox-selected", row === item);
         row.querySelector(".xbox-project-select").setAttribute("aria-pressed", String(row === item));
@@ -248,12 +248,26 @@
         }
         const copy = link.cloneNode(true);
         copy.className = "xbox-project-link";
+        // Inline links can read oddly out of their sentence; markup may supply a label.
+        if (link.dataset.xboxPreviewLabel) {
+          copy.textContent = link.dataset.xboxPreviewLabel;
+        }
         previewLinks.appendChild(copy);
       });
     }
 
     const items = Array.from(list.querySelectorAll(":scope > li"));
     if (!items.length) return;
+
+    // Rows without a projects-table entry fall back to their own text.
+    function projectFor(item) {
+      const project = projects[items.indexOf(item)];
+      if (project) return project;
+      const source = item.querySelector(".xbox-work-original") || item;
+      const text = source.textContent.trim().replace(/\s+/g, " ");
+      return [text, "", text];
+    }
+
     const mobileViewport = window.matchMedia("(max-width: 840px)");
     const main = list.closest("main");
     const back = document.createElement("button");
@@ -278,6 +292,7 @@
     mobileViewport.addEventListener("change", closeProject);
     root.addEventListener("xbox-close-project", closeProject);
     items.forEach((item, index) => {
+      const project = projectFor(item);
       const original = document.createElement("div");
       original.className = "xbox-work-original";
       while (item.firstChild) original.appendChild(item.firstChild);
@@ -287,10 +302,10 @@
       button.className = "xbox-project-select";
       button.setAttribute("aria-controls", aside.id);
       const name = document.createElement("span");
-      name.textContent = projects[index][0];
+      name.textContent = project[0];
       const date = document.createElement("span");
       date.className = "xbox-project-date";
-      date.textContent = projects[index][1];
+      date.textContent = project[1];
       button.append(name, date);
       item.appendChild(button);
       const quickLinks = document.createElement("div");
@@ -299,7 +314,7 @@
       const quickLabels = ["Live site", "QRL Hall of Fame", "Report", "Paper", "Presentation", "", "Paper", "GitHub"];
       if (primary) {
         const quickLink = primary.cloneNode(false);
-        quickLink.textContent = quickLabels[index];
+        quickLink.textContent = quickLabels[index] || primary.textContent.trim();
         quickLinks.appendChild(quickLink);
       }
       if (item.dataset.xboxArt === "context-engine") {
@@ -312,7 +327,7 @@
       expand.type = "button";
       expand.className = "xbox-project-expand";
       expand.textContent = "→";
-      expand.setAttribute("aria-label", "Open details: " + projects[index][0]);
+      expand.setAttribute("aria-label", "Open details: " + project[0]);
       expand.setAttribute("aria-controls", aside.id);
       item.append(quickLinks, expand);
       function openProject(event) {

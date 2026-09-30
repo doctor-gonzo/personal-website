@@ -2,7 +2,7 @@
 
 Canonical URL: https://charliethompson.lol/
 Language: en-US
-Last updated: 2026-07-29
+Last updated: 2026-09-27
 
 ## Summary
 
@@ -27,7 +27,7 @@ Links: https://charliethompson.lol/links.html
 URL: https://charliethompson.lol/thoughts.html
 Markdown: https://charliethompson.lol/thoughts.html.md
 
-Public writing page with a mixed Featured landing view, including the selected November 26, 2025 quantum-security tweet and Agent Village Wrapped 2026. Tweets contains a newest-first archive from data/tweets/public-posts.json with profile portraits plus search and year filtering. Posts is reserved for longer-form static files added under thoughts/ and linked from the Posts view.
+Public writing page with a mixed Featured landing view, including the selected April 8, 2024 tweet about the difficulty of migrating Bitcoin to post-quantum signatures and Agent Village Wrapped 2026. Tweets contains a newest-first archive from data/tweets/public-posts.json with profile portraits plus search and year filtering. Posts is reserved for longer-form static files added under thoughts/ and linked from the Posts view.
 
 ### Pictures
 
@@ -84,4 +84,4 @@ The previous public resume and its work-history summary have been retired. Read 
 
 ## Technical Notes
 
-The visible homepage is index.html. The current resume is at resume/democracy/. The legacy resume.html page redirects there, and resume.html.md contains a migration notice. The thoughts page is thoughts.html, with a Markdown copy at thoughts.html.md, a Tweets/Posts first-step switch, post templates under thoughts/, a newest-first archive of static imported tweets at data/tweets/public-posts.json, and search and year filters. The pictures page is pictures.html, with a Markdown copy at pictures.html.md and separate AI-generated and camera entries loaded from data/pictures.json. The public links page is links.html, with a Markdown copy at links.html.md. The 2023 talk/map page is zuzalu.html, with a Markdown summary at zuzalu.html.md, a static argument explorer, and an embedded exported document at assets/ai-safety-map/WebsiteContextEngine_AISafetyIdeasMap_.html. The quantum report page is quantum.html, with one short explanation and a collapsible PDF at assets/reports/QC_BTC_Dec2025.pdf; text extraction and an HTML transcript remain available at assets/reports/QC_BTC_Dec2025.txt and quantum-report.html for crawler/agent use. There is no build step. AI/search crawlers are explicitly allowed in robots.txt, and Markdown/plain-text versions exist to make scraping easier. The public theme choices are Windows 95 Desktop (default), Xbox 360 Blades, and minimal; pages embedded inside the desktop shell force minimal mode.
+The visible homepage is index.html. The current resume is at resume/democracy/. The legacy resume.html page redirects there, and resume.html.md contains a migration notice. The thoughts page is thoughts.html, with a Markdown copy at thoughts.html.md, a Featured/Tweets/Posts switch that opens on Featured, post templates under thoughts/, a newest-first archive of static imported tweets at data/tweets/public-posts.json, and search and year filters. The pictures page is pictures.html, with a Markdown copy at pictures.html.md and separate AI-generated and camera entries loaded from data/pictures.json. The public links page is links.html, with a Markdown copy at links.html.md. The 2023 talk/map page is zuzalu.html, with a Markdown summary at zuzalu.html.md, a static argument explorer, and an embedded exported document at assets/ai-safety-map/WebsiteContextEngine_AISafetyIdeasMap_.html. The quantum report page is quantum.html, with one short explanation and a collapsible PDF at assets/reports/QC_BTC_Dec2025.pdf; text extraction and an HTML transcript remain available at assets/reports/QC_BTC_Dec2025.txt and quantum-report.html for crawler/agent use. There is no build step. AI/search crawlers are explicitly allowed in robots.txt, and Markdown/plain-text versions exist to make scraping easier. The public theme choices are minimal (default), Xbox 360 Blades, and Windows 95 Desktop; pages embedded inside the desktop shell force minimal mode.

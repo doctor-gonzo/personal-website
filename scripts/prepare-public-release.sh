@@ -5,6 +5,11 @@ ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 DEST="${1:-$ROOT/.codex/scratch/public-release-$(date +%Y%m%d-%H%M%S)}"
 RELEASE_ID="${SITE_RELEASE_ID:-$(date -u +%Y%m%dT%H%M%SZ)}"
 
+command -v rg >/dev/null 2>&1 || {
+  echo "rg is required for the release content scan" >&2
+  exit 1
+}
+
 if [[ -e "$DEST" ]]; then
   echo "Destination already exists; choose a new empty path: $DEST" >&2
   exit 1
@@ -14,7 +19,7 @@ mkdir -p "$DEST"
 
 while IFS= read -r -d '' path; do
   case "$path" in
-    future/*|TODO/*|.codex/*|.claude/*|.vscode/*|nfts/*|nfts.html|nfts.html.md|featured-nfts.js)
+    unpublished/*|future/*|TODO/*|.codex/*|.claude/*|.vscode/*|node_modules/*|package.json|package-lock.json|nfts/*|nfts.html|nfts.html.md|featured-nfts.js)
       continue
       ;;
   esac

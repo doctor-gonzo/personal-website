@@ -152,6 +152,9 @@
       previousButton.disabled = true;
       nextButton.disabled = true;
       carouselOpen.disabled = true;
+      carouselOpen.setAttribute("aria-label", "No picture to open");
+      carouselImage.removeAttribute("src");
+      carouselImage.alt = "";
       carouselPosition.textContent = "0 / 0";
       carouselTitle.textContent = "No pictures available";
       return;
@@ -253,8 +256,7 @@
       visiblePictures = [];
       renderThumbnails();
       renderGrid();
-      previousButton.disabled = true;
-      nextButton.disabled = true;
+      showPicture(0);
       carouselTitle.textContent = "Pictures unavailable";
     });
 }());

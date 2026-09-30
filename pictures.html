@@ -20,7 +20,7 @@
     <meta property="og:description" content="Photography and pictures by Charlie Thompson.">
     <meta name="twitter:card" content="summary">
     <title>Pictures - Charlie Thompson</title>
-    <link rel="stylesheet" href="./styles.css?v=pictures-spacing-206&_site_release=20260909Tmobile-links22">
+    <link rel="stylesheet" href="./styles.css?v=xbox-blades-labels-215&_site_release=20260930T142122Z">
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -40,6 +40,23 @@
     </script>
   </head>
   <body data-style-mode="minimal" data-demo-features="off">
+    <script>
+      (function () {
+        // Hold a saved non-default theme hidden until page scripts finish, avoiding a minimal-theme flash.
+        try {
+          var mode = localStorage.getItem("charlie-site-style-mode");
+          if ((mode !== "xbox360" && mode !== "windows95desktop") || new URLSearchParams(location.search).get("embed")) return;
+          var body = document.body;
+          var reveal = function () { body.classList.remove("theme-pending"); };
+          body.dataset.styleMode = mode;
+          body.classList.add("theme-pending");
+          document.addEventListener("DOMContentLoaded", reveal);
+          setTimeout(reveal, 2000);
+        } catch {
+          // Storage can be unavailable; site-settings.js then falls back to minimal.
+        }
+      })();
+    </script>
     <header class="site-header">
         <a class="brand" href="./index.html">Charlie Thompson</a>
       <nav class="site-nav" aria-label="Main navigation">
@@ -118,7 +135,7 @@
         <div class="picture-carousel-toolbar">
           <strong class="picture-carousel-title" data-picture-carousel-title>Chromatic profile</strong>
           <p class="picture-carousel-status" aria-live="polite" aria-atomic="true">
-            <span data-picture-carousel-position>1 / 6</span>
+            <span data-picture-carousel-position>&mdash;</span>
           </p>
         </div>
 
@@ -148,8 +165,8 @@
       <p id="picture-dialog-details"></p>
     </dialog>
 
-    <script src="./release-watchdog.js?_site_release=20260909Tmobile-links22" data-site-release="20260909Tmobile-links22"></script>
-    <script src="./pictures.js?v=picture-carousel-2&_site_release=20260909Tmobile-links22"></script>
-    <script src="./site-settings.js?v=xbox-right-blade-hit-6&_site_release=20260909Tmobile-links22"></script>
+    <script src="./release-watchdog.js?_site_release=20260930T142122Z" data-site-release="20260930T142122Z"></script>
+    <script src="./pictures.js?v=picture-carousel-2&_site_release=20260930T142122Z"></script>
+    <script src="./site-settings.js?v=xbox-clickable-display-9&_site_release=20260930T142122Z"></script>
   </body>
 </html>

@@ -5,6 +5,7 @@ twitter-archive/
 x-archive/
 data/tweets/raw/
 x-scrape-profile/
+/node_modules/
 
 # Private/local NFT experiments. Keep these available for future work without
 # publishing them as part of the static site.

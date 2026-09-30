@@ -1,5 +1,4 @@
 # robots.txt for Charlie Thompson
-# Replace https://charliethompson.lol/ with the final public URL before publishing.
 
 User-agent: *
 Allow: /

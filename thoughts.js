@@ -258,7 +258,7 @@
     const href = media.expandedUrl || media.url;
 
     image.src = media.url || "";
-    image.alt = media.displayUrl || "Tweet attachment";
+    image.alt = "Tweet attachment";
     title.textContent = media.type ? `Attachment: ${media.type}` : "Attachment";
     details.textContent = media.displayUrl || "";
     details.hidden = !details.textContent;
@@ -399,7 +399,8 @@
       const mediaGrid = document.createElement("div");
       mediaGrid.className = `tweet-media tweet-media-${Math.min(tweet.media.length, 4)}`;
 
-      tweet.media.slice(0, 4).forEach((media) => {
+      const mediaItems = tweet.media.slice(0, 4);
+      mediaItems.forEach((media, index) => {
         const link = document.createElement("a");
         link.href = media.expandedUrl || media.url;
         link.className = "tweet-media-link";
@@ -410,7 +411,10 @@
 
         const image = document.createElement("img");
         image.src = media.url;
-        image.alt = media.displayUrl || "Tweet image";
+        // The archive has no image descriptions; a URL is not a useful alternative.
+        image.alt = mediaItems.length > 1
+          ? `Tweet image ${index + 1} of ${mediaItems.length}`
+          : "Tweet image";
         image.loading = "lazy";
         image.referrerPolicy = "no-referrer";
         image.className = "tweet-image";
@@ -545,7 +549,7 @@
       renderFilteredTweets();
     })
     .catch(() => {
-      appendEmpty("No imported tweets yet.");
+      appendEmpty("Tweets could not be loaded.");
       if (featuredList) {
         appendEmpty("Featured tweet unavailable.", featuredList);
       }

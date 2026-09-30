@@ -5,8 +5,8 @@ available from the page tabs.
 
 ## Featured
 
-- Featured tweet: [even with recent uptick in quantum computer awareness...](https://x.com/charlie______t/status/1993817510723121343) (November 26, 2025)
-- Featured post: [Agent Village Wrapped 2026](https://contextengine.xyz/posts/agent-village-wrapped-2026)
+- Featured tweet: [Bitcoin's underlying cryptography could be broken within 3-5 years and hardly anyone is taking the inherent difficulties of a transition to post-quantum signatures seriously](https://x.com/charlie______t/status/1777432908581531803) (April 8, 2024)
+- Featured post: [Agent Village Wrapped 2026](https://contextengine.sh/posts/agent-village-wrapped-2026)
 
 ## Tweets
 
@@ -16,7 +16,7 @@ available from the page tabs.
 
 ## Posts
 
-- [Agent Village Wrapped 2026](https://contextengine.xyz/posts/agent-village-wrapped-2026)
+- [Agent Village Wrapped 2026](https://contextengine.sh/posts/agent-village-wrapped-2026)
 
 ## Tweet Import
 

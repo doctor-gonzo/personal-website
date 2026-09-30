@@ -5,14 +5,14 @@
     <link>https://charliethompson.lol/</link>
     <description>Public work, resume, and research notes for Charlie Thompson.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Jul 2026 21:49:20 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 21:36:11 GMT</lastBuildDate>
     <atom:link href="https://charliethompson.lol/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Thoughts</title>
       <link>https://charliethompson.lol/thoughts.html</link>
       <guid isPermaLink="true">https://charliethompson.lol/thoughts.html</guid>
       <pubDate>Fri, 17 Jul 2026 21:49:20 GMT</pubDate>
-      <description>Separate Tweets and Posts views, with a newest-first searchable tweet archive and space for longer-form writing.</description>
+      <description>A mixed Featured view with a selected tweet and post, plus a newest-first searchable tweet archive and space for longer-form writing.</description>
     </item>
     <item>
       <title>Public links</title>

@@ -12,7 +12,8 @@
   let dragState = null;
   let resizeState = null;
   let lastIconClick = null;
-  let topZ = 8;
+  // Windows stack in the band 6..(6 + count - 1), below the z-index 30 taskbar.
+  const WINDOW_Z_BASE = 6;
 
   const selectionBox = document.createElement("div");
   selectionBox.className = "desktop-selection-box";
@@ -34,8 +35,13 @@
   const windowsByKey = new Map(windows.map((node) => [windowKey(node), node]));
 
   function bringToFront(node) {
-    topZ += 1;
-    node.style.zIndex = String(topZ);
+    windows
+      .filter((other) => other !== node)
+      .sort((a, b) => Number(a.style.zIndex) - Number(b.style.zIndex))
+      .concat(node)
+      .forEach((item, index) => {
+        item.style.zIndex = String(WINDOW_Z_BASE + index);
+      });
   }
 
   function loadDeferredFrames(node) {
@@ -53,11 +59,17 @@
     loadDeferredFrames(node);
     node.classList.remove("is-closed", "is-minimized");
     bringToFront(node);
+    node.tabIndex = -1;
+    node.focus({ preventScroll: true });
   }
 
   function closeWindow(node) {
+    const hadFocus = node.contains(document.activeElement);
     node.classList.add("is-closed");
     node.classList.remove("is-minimized");
+    if (hadFocus) {
+      document.querySelector(`[data-desktop-icon="${windowKey(node)}"]`)?.focus();
+    }
   }
 
   function minimizeWindow(node) {
@@ -103,6 +115,19 @@
 
       icon.style.left = `${position.left}px`;
       icon.style.top = `${position.top}px`;
+    });
+  }
+
+  // Positions saved on a larger screen must stay reachable; the clamp is not saved.
+  function clampIconPositions() {
+    if (!desktopModeEnabled()) return;
+
+    icons.forEach((icon) => {
+      if (!icon.style.left && !icon.style.top) return;
+
+      const rect = icon.getBoundingClientRect();
+      icon.style.left = `${clamp(rect.left, 0, Math.max(0, window.innerWidth - rect.width))}px`;
+      icon.style.top = `${clamp(rect.top, 0, Math.max(0, window.innerHeight - 54 - rect.height))}px`;
     });
   }
 
@@ -177,6 +202,16 @@
       node.style.top = `${top}px`;
       node.style.width = `${width}px`;
       node.style.height = `${height}px`;
+    });
+  }
+
+  // Drag/resize geometry is inline, so it must not outlive desktop mode.
+  function resetWindowGeometry() {
+    windows.forEach((node, index) => {
+      ["left", "top", "width", "height"].forEach((property) => node.style.removeProperty(property));
+      node.style.zIndex = String(WINDOW_Z_BASE + index);
+      node.classList.remove("has-custom-size");
+      node.removeAttribute("tabindex");
     });
   }
 
@@ -534,7 +569,7 @@
   }
 
   windows.forEach((node, index) => {
-    node.style.zIndex = String(6 + index);
+    node.style.zIndex = String(WINDOW_Z_BASE + index);
 
     const handle = node.querySelector("[data-window-drag-handle]");
     const closeButton = node.querySelector("[data-window-close]");
@@ -573,6 +608,7 @@
 
   applySavedWindowLayouts();
   applySavedIconPositions();
+  clampIconPositions();
 
   icons.forEach((icon) => {
     icon.addEventListener("pointerdown", (event) => startIconDrag(event, icon));
@@ -613,7 +649,7 @@
   document.addEventListener("pointerdown", (event) => {
     if (!desktopModeEnabled() || event.target.closest("[data-desktop-icon]")) return;
 
-    if (event.target.closest("[data-desktop-window], .desktop-taskbar, .desktop-start-panel, .site-settings")) {
+    if (event.target.closest("[data-desktop-window], .site-header, .desktop-start-panel, .site-settings")) {
       clearIconSelection();
       return;
     }
@@ -634,4 +670,15 @@
   window.addEventListener("pointerup", endResize);
   window.addEventListener("pointercancel", endResize);
   window.addEventListener("resize", constrainCustomWindows);
+  window.addEventListener("resize", clampIconPositions);
+
+  // site-settings.js switches themes by rewriting body[data-style-mode].
+  new MutationObserver(() => {
+    if (desktopModeEnabled()) {
+      applySavedWindowLayouts();
+      clampIconPositions();
+    } else {
+      resetWindowGeometry();
+    }
+  }).observe(root, { attributes: true, attributeFilter: ["data-style-mode"] });
 })();

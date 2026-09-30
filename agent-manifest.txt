@@ -1,6 +1,5 @@
 # agent-manifest.txt for Charlie Thompson
 # Draft agent discovery manifest. It complements robots.txt and llms.txt.
-# Replace https://charliethompson.lol/ with the final public URL before publishing.
 
 Site-Name: Charlie Thompson
 Site-Description: Minimal public profile, resume, work history, public projects, and research notes.
@@ -37,7 +36,7 @@ Interface: web
 URL: https://charliethompson.lol/resume/democracy/
 
 [Capability: read-thoughts]
-Description: Choose Tweets or Posts. Tweets provides a newest-first public archive with search and year filtering; Posts is reserved for longer-form writing.
+Description: Open a mixed Featured view with a selected tweet and post, browse a newest-first public tweet archive with search and year filtering, or read longer-form Posts.
 Interface: web
 URL: https://charliethompson.lol/thoughts.html
 Markdown: https://charliethompson.lol/thoughts.html.md

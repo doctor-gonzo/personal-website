@@ -1,6 +1,5 @@
 # agents.txt for Charlie Thompson
 # Compatibility file. For the richer draft manifest, see /agent-manifest.txt.
-# Replace https://charliethompson.lol/ with the final public URL before publishing.
 
 Site-Name: Charlie Thompson
 Site-Description: Minimal public profile, resume, work history, public projects, and research notes.

@@ -24,7 +24,7 @@ Options:
   --write                  Write output. Without this, the script is a dry run.
 
 Requires Playwright:
-  npm install --save-dev playwright
+  npm install --no-save --no-package-lock playwright
   npx playwright install chromium
 `;
 }
@@ -157,7 +157,7 @@ async function loadPlaywright() {
     return await import("playwright");
   } catch {
     throw new Error(
-      "Playwright is not installed. Run: npm install --save-dev playwright && npx playwright install chromium"
+      "Playwright is not installed. Run: npm install --no-save --no-package-lock playwright && npx playwright install chromium"
     );
   }
 }
