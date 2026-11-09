@@ -2,7 +2,7 @@
 
 Canonical URL: https://charliethompson.lol/
 Language: en-US
-Last updated: 2026-09-27
+Last updated: 2026-11-09
 
 ## Summary
 
@@ -21,6 +21,16 @@ Pictures: https://charliethompson.lol/pictures.html
 Links: https://charliethompson.lol/links.html
 
 ## Public Projects
+
+### Foresight 2026 introduction
+
+URL: https://charliethompson.lol/foresight-2026/
+Markdown: https://charliethompson.lol/foresight-2026/index.html.md
+
+A standalone introduction page with a copyable prompt to find concrete overlaps
+between a visitor’s work and Charlie’s public projects. Includes website,
+LinkedIn, Twitter, Foresight profile, and email links. The prompt can be read
+without JavaScript and copied into the visitor’s own AI assistant.
 
 ### Thoughts
 

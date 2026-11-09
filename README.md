@@ -12,6 +12,9 @@ The `.nojekyll` marker tells GitHub Pages to serve the files directly.
 
 - `index.html` - public homepage; minimal by default, with optional Xbox 360
   Blades and Windows 95 Desktop modes.
+- `foresight-2026/` - standalone Foresight introduction page at `/foresight-2026`
+  (served as `/foresight-2026/`), with a copyable overlap prompt and personal
+  links. Its appearance is independent of the saved homepage theme.
 - `resume.html` - temporary redirect from the retired public resume to `/resume/democracy/`.
 - `resume.html.md` - migration notice for the retired Markdown resume.
 - `resume/democracy/` - shareable democracy resume at `/resume/democracy`, with
