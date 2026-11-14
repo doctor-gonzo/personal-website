@@ -35,5 +35,6 @@ Be candid if the overlap is weak. Do not manufacture a connection, investment re
 - Website: https://charliethompson.lol/
 - LinkedIn: https://www.linkedin.com/in/charlie-thompson-2a8293aa/
 - Twitter: https://x.com/charlie______t
+- Context Engine: https://contextengine.sh/about
 - Foresight profile: https://foresight.org/people/charles-thompson/
 - Email: mailto:charlie_thompson@protonmail.com
