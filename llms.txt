@@ -8,7 +8,7 @@ This is a static site designed for GitHub Pages, IPFS, and ENS contenthash hosti
 
 - [Homepage](https://charliethompson.lol/): One-list public profile.
 - [Homepage Markdown](https://charliethompson.lol/index.html.md): Clean Markdown copy of the homepage.
-- [Foresight 2026](https://charliethompson.lol/foresight-2026/): A copyable prompt for finding overlaps with Charlie’s work, plus personal links.
+- [Foresight 2026](https://charliethompson.lol/foresight-2026/): A copyable overlap prompt, Context Engine link, project email signup, and personal links.
 - [Resume](https://charliethompson.lol/resume/democracy/): Public resume and work history.
 - [Thoughts](https://charliethompson.lol/thoughts.html): A mixed Featured landing view opens with a selected tweet and post; Tweets contains a newest-first archive from `data/tweets/public-posts.json` with search and year filtering, while Posts is reserved for longer-form writing.
 - [Thoughts Markdown](https://charliethompson.lol/thoughts.html.md): LLM-readable posts index.
