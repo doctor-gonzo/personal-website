@@ -31,7 +31,11 @@
   const status = document.getElementById('signup-status');
   const submit = form.querySelector('button[type="submit"]');
   let pending = false;
-  const reveal = () => { options.hidden = !email.value.trim(); };
+  const reveal = () => {
+    options.hidden = !email.value.trim();
+    status.textContent = '';
+    status.classList.remove('error');
+  };
   form.hidden = false;
   document.getElementById('signup-fallback').hidden = true;
   email.addEventListener('input', reveal);
