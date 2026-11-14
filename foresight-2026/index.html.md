@@ -34,8 +34,13 @@ Be candid if the overlap is weak. Do not manufacture a connection, investment re
 
 - Website: https://charliethompson.lol/
 - Context Engine: https://contextengine.sh/about
-- Context Engine and ZK Ads email updates: https://charlie-project-updates.coral-okapi-4075.chatgpt.site
 - Foresight profile: https://foresight.org/people/charles-thompson/
+
+The page includes an email signup. Entering an email reveals Context Engine and
+ZK Ads choices; nothing is submitted until you choose at least one and press
+“Keep me posted.” Your email and choices are stored for Charlie’s project updates
+and aren’t shown to visitors. You can unsubscribe by emailing Charlie.
+The same signup is also available at https://charlie-project-updates.coral-okapi-4075.chatgpt.site.
 
 Contact icons at the bottom of the page:
 
