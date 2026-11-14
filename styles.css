@@ -2777,7 +2777,7 @@ body[data-style-mode="windows95desktop"] .tweet-dialog::backdrop {
    by xbox360-scoped rules, so other modes never request it. */
 @font-face {
   font-family: "Barlow Semi Condensed";
-  src: url("./assets/fonts/barlow-semi-condensed-500.woff2?_site_release=20261114-foresight-06b435e") format("woff2");
+  src: url("./assets/fonts/barlow-semi-condensed-500.woff2?_site_release=20261114-foresight-icons-5b673d6") format("woff2");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -2785,7 +2785,7 @@ body[data-style-mode="windows95desktop"] .tweet-dialog::backdrop {
 
 @font-face {
   font-family: "Barlow Semi Condensed";
-  src: url("./assets/fonts/barlow-semi-condensed-600.woff2?_site_release=20261114-foresight-06b435e") format("woff2");
+  src: url("./assets/fonts/barlow-semi-condensed-600.woff2?_site_release=20261114-foresight-icons-5b673d6") format("woff2");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -2795,7 +2795,7 @@ body[data-style-mode="windows95desktop"] .tweet-dialog::backdrop {
    than Barlow's rounder caps (OFL, latin subset, self-hosted). */
 @font-face {
   font-family: "Saira SemiCondensed";
-  src: url("./assets/fonts/saira-semi-condensed-600.woff2?_site_release=20261114-foresight-06b435e") format("woff2");
+  src: url("./assets/fonts/saira-semi-condensed-600.woff2?_site_release=20261114-foresight-icons-5b673d6") format("woff2");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -3284,11 +3284,11 @@ body[data-style-mode="xbox360"] main > ul.xbox-link-grid > li::after {
 }
 
 body[data-style-mode="xbox360"] main > ul.xbox-link-grid > li[data-xbox-link-icon="github"] {
-  --xbox-brand-glyph: url("./assets/icons/github.svg?_site_release=20261114-foresight-06b435e");
+  --xbox-brand-glyph: url("./assets/icons/github.svg?_site_release=20261114-foresight-icons-5b673d6");
 }
 
 body[data-style-mode="xbox360"] main > ul.xbox-link-grid > li[data-xbox-link-icon="linkedin"] {
-  --xbox-brand-glyph: url("./assets/icons/linkedin-in.svg?_site_release=20261114-foresight-06b435e");
+  --xbox-brand-glyph: url("./assets/icons/linkedin-in.svg?_site_release=20261114-foresight-icons-5b673d6");
 }
 
 body[data-style-mode="xbox360"] main > ul.xbox-link-grid > li[data-xbox-link-icon="github"]::after,
@@ -3356,49 +3356,49 @@ body[data-style-mode="xbox360"] .xbox-single-link-item {
 
 body[data-style-mode="xbox360"] main > section#work > ul > li[data-xbox-art="context-engine"],
 body[data-style-mode="xbox360"] .xbox-preview-art[data-art="context-engine"] {
-  --xbox-art-image: url("./assets/xbox360/context-engine-midjourney.jpg?_site_release=20261114-foresight-06b435e");
+  --xbox-art-image: url("./assets/xbox360/context-engine-midjourney.jpg?_site_release=20261114-foresight-icons-5b673d6");
   --xbox-art-position: 50% 50%;
 }
 
 body[data-style-mode="xbox360"] main > section#work > ul > li[data-xbox-art="security-research"],
 body[data-style-mode="xbox360"] .xbox-preview-art[data-art="security-research"] {
-  --xbox-art-image: url("./assets/xbox360/security-research.png?_site_release=20261114-foresight-06b435e");
+  --xbox-art-image: url("./assets/xbox360/security-research.png?_site_release=20261114-foresight-icons-5b673d6");
   --xbox-art-position: center;
 }
 
 body[data-style-mode="xbox360"] main > section#work > ul > li[data-xbox-art="quantum-computing"],
 body[data-style-mode="xbox360"] .xbox-preview-art[data-art="quantum-computing"] {
-  --xbox-art-image: url("./assets/xbox360/quantum-computing-midjourney.jpg?_site_release=20261114-foresight-06b435e");
+  --xbox-art-image: url("./assets/xbox360/quantum-computing-midjourney.jpg?_site_release=20261114-foresight-icons-5b673d6");
   --xbox-art-position: 50% 48%;
 }
 
 body[data-style-mode="xbox360"] main > section#work > ul > li[data-xbox-art="ai-consciousness"],
 body[data-style-mode="xbox360"] .xbox-preview-art[data-art="ai-consciousness"] {
-  --xbox-art-image: url("./assets/xbox360/ai-consciousness-midjourney.jpg?_site_release=20261114-foresight-06b435e");
+  --xbox-art-image: url("./assets/xbox360/ai-consciousness-midjourney.jpg?_site_release=20261114-foresight-icons-5b673d6");
   --xbox-art-position: 50% 50%;
 }
 
 body[data-style-mode="xbox360"] main > section#work > ul > li[data-xbox-art="zuzalu-social-infrastructure"],
 body[data-style-mode="xbox360"] .xbox-preview-art[data-art="zuzalu-social-infrastructure"] {
-  --xbox-art-image: url("./assets/xbox360/zuzalu-social-infrastructure-midjourney.png?_site_release=20261114-foresight-06b435e");
+  --xbox-art-image: url("./assets/xbox360/zuzalu-social-infrastructure-midjourney.png?_site_release=20261114-foresight-icons-5b673d6");
   --xbox-art-position: 50% 53%;
 }
 
 body[data-style-mode="xbox360"] main > section#work > ul > li[data-xbox-art="academic-research"],
 body[data-style-mode="xbox360"] .xbox-preview-art[data-art="academic-research"] {
-  --xbox-art-image: url("./assets/xbox360/academic-research-midjourney.jpg?_site_release=20261114-foresight-06b435e");
+  --xbox-art-image: url("./assets/xbox360/academic-research-midjourney.jpg?_site_release=20261114-foresight-icons-5b673d6");
   --xbox-art-position: 50% 48%;
 }
 
 body[data-style-mode="xbox360"] main > section#work > ul > li[data-xbox-art="public-goods"],
 body[data-style-mode="xbox360"] .xbox-preview-art[data-art="public-goods"] {
-  --xbox-art-image: url("./assets/xbox360/public-goods-midjourney.jpg?_site_release=20261114-foresight-06b435e");
+  --xbox-art-image: url("./assets/xbox360/public-goods-midjourney.jpg?_site_release=20261114-foresight-icons-5b673d6");
   --xbox-art-position: 50% 50%;
 }
 
 body[data-style-mode="xbox360"] main > section#work > ul > li[data-xbox-art="proof-of-human"],
 body[data-style-mode="xbox360"] .xbox-preview-art[data-art="proof-of-human"] {
-  --xbox-art-image: url("./assets/xbox360/proof-of-human-midjourney.jpg?_site_release=20261114-foresight-06b435e");
+  --xbox-art-image: url("./assets/xbox360/proof-of-human-midjourney.jpg?_site_release=20261114-foresight-icons-5b673d6");
   --xbox-art-position: 50% 50%;
 }
 

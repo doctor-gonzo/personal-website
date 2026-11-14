@@ -95,8 +95,10 @@ h2 { margin: 0 0 42px; font-size: clamp(36px, 3.5vw, 52px); font-weight: 400; li
 .personal-links { display: flex; flex-direction: column; align-items: flex-start; gap: 24px; font-size: clamp(16px, 1.5vw, 21px); line-height: 1.5; letter-spacing: -.025em; }
 .personal-links a { max-width: 100%; padding: 4px 0; }
 .personal-links a span { display: inline-block; margin-left: 4px; font-size: .85em; text-decoration: none; }
-.social-links { display: flex; flex-wrap: wrap; gap: 16px 26px; }
-.email-link { overflow-wrap: anywhere; font-size: clamp(14px, 1.3vw, 19px); }
+.social-links { display: flex; gap: 10px; margin-top: 4px; }
+.personal-links .icon-link { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; padding: 10px; border-radius: 4px; color: #44453e; text-decoration: none; }
+.icon-link svg { display: block; width: 24px; height: 24px; flex: none; }
+.personal-links .icon-link:hover { background: #e7e7dd; color: #191a17; }
 .visually-hidden { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
 
 @media (max-width: 700px) {
@@ -110,5 +112,4 @@ h2 { margin: 0 0 42px; font-size: clamp(36px, 3.5vw, 52px); font-weight: 400; li
   .personal { padding: 32px 0 0; border-left: 0; border-top: 1px solid #191a17; }
   h2 { font-size: 36px; margin-bottom: 24px; }
   .personal-links { gap: 16px; font-size: 18px; }
-  .email-link { font-size: 16px; }
 }
