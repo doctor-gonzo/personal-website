@@ -4,7 +4,7 @@ Charlie Thompson · Foresight 2026
 
 Paste this into your AI assistant to find connections between your work and mine.
 
-The desktop page includes [Charlie’s Paradigm Frontiers badge](https://charliethompson.lol/assets/foresight/charlie-frontiers-badge.jpg), with the same tilt and sheen as the ZK Ads About page. The badge stays hidden on mobile.
+The desktop page shows [Charlie’s Paradigm Frontiers badge](https://charliethompson.lol/assets/foresight/charlie-frontiers-badge.jpg) above “Where do we overlap?”, with the same tilt and sheen as the ZK Ads About page. The badge stays hidden on mobile.
 
 ## Intro prompt
 

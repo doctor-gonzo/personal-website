@@ -90,7 +90,7 @@ textarea {
   resize: vertical;
 }
 
-.frontiers-badge { width: min(220px, 58%); margin: 36px auto 0; }
+.frontiers-badge { width: min(220px, 58%); margin: 0 auto 36px; }
 .badge-fig { position: relative; margin: 0; border-radius: 6px; transform: perspective(900px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)); transition: transform .6s cubic-bezier(.2, .8, .2, 1), box-shadow .6s; box-shadow: var(--sx, 0px) var(--sy, 18px) 44px -18px rgb(20 20 19 / .5); }
 .badge-fig.tilting { transition: transform .08s linear, box-shadow .08s linear; }
 .badge-fig img { display: block; width: 100%; height: auto; aspect-ratio: 572 / 854; border-radius: inherit; }
