@@ -26,7 +26,7 @@ main {
 h1, h2 { font-family: Georgia, 'Times New Roman', serif; letter-spacing: -.065em; }
 h1 { margin: 0 0 28px; font-size: clamp(60px, 6.6vw, 100px); font-weight: 700; line-height: .99; }
 .intro { max-width: 550px; margin: 0 0 32px; color: #44453e; font-size: clamp(19px, 1.75vw, 25px); line-height: 1.5; letter-spacing: -.02em; }
-.prompt { --control-height: 64px; --read-width: 100px; position: relative; max-width: 670px; padding-top: var(--control-height); }
+.prompt { --control-height: 64px; --read-width: 64px; position: relative; max-width: 670px; padding-top: var(--control-height); }
 #copy-prompt {
   position: absolute;
   top: 0;
@@ -74,7 +74,7 @@ summary {
 }
 summary::-webkit-details-marker { display: none; }
 summary:hover { background: #d3f52c; border-color: #191a17; }
-summary svg { width: 16px; height: 16px; flex: none; }
+summary svg { width: 28px; height: 28px; flex: none; }
 details[open] summary { border-bottom-right-radius: 0; }
 details[open] summary svg { transform: rotate(180deg); }
 textarea {
@@ -90,16 +90,24 @@ textarea {
   resize: vertical;
 }
 
-.personal { padding: 0 0 24px clamp(32px, 3.3vw, 52px); border-left: 1px solid #191a17; }
+.frontiers-badge { width: min(220px, 58%); margin: 36px auto 0; }
+.badge-fig { position: relative; margin: 0; border-radius: 6px; transform: perspective(900px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)); transition: transform .6s cubic-bezier(.2, .8, .2, 1), box-shadow .6s; box-shadow: var(--sx, 0px) var(--sy, 18px) 44px -18px rgb(20 20 19 / .5); }
+.badge-fig.tilting { transition: transform .08s linear, box-shadow .08s linear; }
+.badge-fig img { display: block; width: 100%; height: auto; aspect-ratio: 572 / 854; border-radius: inherit; }
+.badge-fig .glare { position: absolute; inset: 0; border-radius: inherit; pointer-events: none; background: radial-gradient(circle at var(--gx, 30%) var(--gy, 20%), rgb(255 255 255 / .5), rgb(255 255 255 / 0) 55%), linear-gradient(135deg, rgb(255 255 255 / .16), rgb(255 255 255 / 0) 45%, rgb(0 0 0 / .12)); mix-blend-mode: soft-light; opacity: .55; transition: opacity .5s; }
+.badge-fig.tilting .glare { opacity: 1; }
+
+.personal { display: grid; grid-template-areas: "name" "links" "signup" "social"; grid-template-columns: minmax(0, 1fr); align-content: start; padding: 0 0 24px clamp(32px, 3.3vw, 52px); border-left: 1px solid #191a17; }
+.personal h2 { grid-area: name; }
 h2 { margin: 0 0 42px; font-size: clamp(36px, 3.5vw, 52px); font-weight: 400; line-height: 1.04; letter-spacing: -.045em; }
-.personal-links { display: flex; flex-direction: column; align-items: flex-start; gap: 24px; font-size: clamp(16px, 1.5vw, 21px); line-height: 1.5; letter-spacing: -.025em; }
+.personal-links { grid-area: links; display: flex; flex-direction: column; align-items: flex-start; gap: 24px; font-size: clamp(16px, 1.5vw, 21px); line-height: 1.5; letter-spacing: -.025em; }
 .personal-links a { max-width: 100%; padding: 4px 0; }
 .personal-links a span { display: inline-block; margin-left: 4px; font-size: .85em; text-decoration: none; }
-.social-links { display: flex; gap: 10px; margin-top: 24px; }
+.social-links { grid-area: social; display: flex; gap: 10px; margin-top: 24px; }
 .social-links .icon-link { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; padding: 10px; border-radius: 4px; color: #44453e; text-decoration: none; }
-.icon-link svg { display: block; width: 24px; height: 24px; flex: none; }
+.icon-link svg, .icon-link img { display: block; width: 24px; height: 24px; flex: none; }
 .social-links .icon-link:hover { background: #e7e7dd; color: #191a17; }
-.project-signup, .signup-fallback { margin-top: 28px; }
+.project-signup, .signup-fallback { grid-area: signup; min-width: 0; margin-top: 28px; padding: 20px; border: 1px solid #93948a; border-radius: 4px; }
 .signup-fallback { display: inline-block; }
 .project-signup[hidden], .signup-fallback[hidden], #signup-options[hidden] { display: none; }
 .signup-label { display: block; margin-bottom: 12px; font-size: clamp(16px, 1.5vw, 21px); letter-spacing: -.025em; }
@@ -121,13 +129,24 @@ h2 { margin: 0 0 42px; font-size: clamp(36px, 3.5vw, 52px); font-weight: 400; li
 @media (max-width: 700px) {
   main { grid-template-columns: 1fr; margin: 44px 0 40px; }
   .overlap { padding: 0 0 36px; }
+  .frontiers-badge { display: none; }
   h1 { font-size: clamp(54px, 12.7vw, 78px); margin-bottom: 24px; }
   .intro { font-size: 19px; margin-bottom: 28px; }
-  .prompt { --control-height: 60px; --read-width: 88px; }
+  .prompt { --control-height: 60px; --read-width: 60px; }
   #copy-prompt { padding: 16px 8px; gap: 8px; font-size: 16px; }
   #copy-prompt svg { width: 20px; height: 20px; }
-  .personal { padding: 32px 0 0; border-left: 0; border-top: 1px solid #191a17; }
+  .personal { grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: "name social" "links links" "signup signup"; column-gap: 12px; padding: 32px 0 0; border-left: 0; border-top: 1px solid #191a17; }
   h2 { font-size: 36px; margin-bottom: 24px; }
+  .social-links { align-self: start; justify-self: end; gap: 0; margin-top: 0; }
   .personal-links { gap: 16px; font-size: 18px; }
   .signup-label { font-size: 18px; }
+}
+
+@media (max-width: 480px) {
+  .social-links { display: grid; grid-template-columns: repeat(2, 44px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .badge-fig { transform: none; transition: none; }
+  .badge-fig .glare { transition: none; }
 }

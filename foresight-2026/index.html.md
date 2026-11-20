@@ -4,6 +4,8 @@ Charlie Thompson · Foresight 2026
 
 Paste this into your AI assistant to find connections between your work and mine.
 
+The desktop page includes [Charlie’s Paradigm Frontiers badge](https://charliethompson.lol/assets/foresight/charlie-frontiers-badge.jpg), with the same tilt and sheen as the ZK Ads About page. The badge stays hidden on mobile.
+
 ## Intro prompt
 
 Help me find useful overlap between my work and interests and Charlie Thompson's. Use what I have shared in this conversation and any memory I have enabled. If you do not have enough context about me, ask up to three short questions first. Do not pretend to know my background, search private sources I have not authorized, or infer sensitive personal traits.
@@ -41,8 +43,9 @@ ZK Ads choices; nothing is submitted until you choose at least one and press
 “Keep me posted.”
 The same signup is also available at https://charlie-project-updates.coral-okapi-4075.chatgpt.site.
 
-Contact icons at the bottom of the page:
+Contact icons sit beside Charlie’s name on mobile and below the signup on desktop:
 
 - Email: mailto:charlie_thompson@protonmail.com
 - LinkedIn: https://www.linkedin.com/in/charlie-thompson-2a8293aa/
 - Twitter: https://x.com/charlie______t
+- GitHub: https://github.com/doctor-gonzo

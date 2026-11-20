@@ -24,6 +24,35 @@
   });
 })();
 
+// Reuse the Frontiers badge's tilt, sheen and shadow from the ZK Ads About page.
+(() => {
+  const stage = document.getElementById('frontiers-badge');
+  const figure = stage.querySelector('.badge-fig');
+  const motion = matchMedia('(min-width: 701px) and (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference)');
+  const reset = () => {
+    figure.classList.remove('tilting');
+    for (const name of ['--rx', '--ry', '--gx', '--gy', '--sx', '--sy']) figure.style.removeProperty(name);
+  };
+  stage.addEventListener('pointermove', event => {
+    if (!motion.matches) return;
+    const box = stage.getBoundingClientRect();
+    if (!box.width || !box.height) return;
+    const x = Math.min(Math.max((event.clientX - box.left) / box.width, 0), 1) - .5;
+    const y = Math.min(Math.max((event.clientY - box.top) / box.height, 0), 1) - .5;
+    const set = (name, value) => figure.style.setProperty(name, value);
+    set('--rx', `${(-y * 16).toFixed(2)}deg`);
+    set('--ry', `${(x * 18).toFixed(2)}deg`);
+    set('--gx', `${((x + .5) * 100).toFixed(1)}%`);
+    set('--gy', `${((y + .5) * 100).toFixed(1)}%`);
+    set('--sx', `${(-x * 28).toFixed(1)}px`);
+    set('--sy', `${(22 - y * 18).toFixed(1)}px`);
+    figure.classList.add('tilting');
+  });
+  stage.addEventListener('pointerleave', reset);
+  stage.addEventListener('pointercancel', reset);
+  motion.addEventListener('change', reset);
+})();
+
 (() => {
   const form = document.getElementById('project-signup');
   const email = document.getElementById('signup-email');
