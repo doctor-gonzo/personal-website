@@ -3,6 +3,8 @@
 ## Selected
 
 - 2023-present: [Context Engine](https://contextengine.sh/about) - An open-source toolkit for large-group deliberation and negotiation (for humans and AI agents)
+  - [Foresight](https://foresight.org/people/charles-thompson/) and [Cosmos](https://blog.cosmos-institute.org/p/announcing-80-new-cosmos-grantees) × [FIRE](https://www.fire.org/news/fire-and-cosmos-institute-launch-1-million-grant-program-ai-advances-truth-seeking) grants.
+  - Live trial at RadicalxChange’s [Reverse Alignment: Democracy Deep Dive salon](https://luma.com/6ls6lr33) (November 24, 2026) — participants review AI-drafted responses and explore group agreement and differences.
 - 2025: [Security Research](https://www.theqrl.org/bug-bounty/) - Listed at the top of QRL’s bug bounty Hall of Fame.
 - 2018-present: Quantum computing and Bitcoin
   - 2025: [Quantum computing and Bitcoin](https://charliethompson.lol/quantum.html) - report on quantum risk to Bitcoin, Ethereum, ECDSA, and post-quantum migration.

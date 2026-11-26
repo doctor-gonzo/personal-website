@@ -195,7 +195,9 @@
       mobileProjectLink.removeAttribute("href");
       mobileProjectLink.removeAttribute("aria-label");
       previewLinks.replaceChildren();
-      item.querySelectorAll(".xbox-work-original a").forEach((link, index) => {
+      Array.from(item.querySelectorAll(".xbox-work-original a"))
+        .filter(link => !link.closest(".project-details"))
+        .forEach((link, index) => {
         if (index === 0) {
           display.href = link.href;
           display.setAttribute("aria-label", "Open " + project[0]);
@@ -220,17 +222,11 @@
             githubLink.className = "xbox-project-link";
             githubLink.href = "https://github.com/AgalmicSoftware/context-engine/";
             githubLink.textContent = "GitHub";
-            previewLinks.append(liveLink, githubLink);
-            for (const [label, href] of [
-              ["Cosmos: 80 new grantees", "https://blog.cosmos-institute.org/p/announcing-80-new-cosmos-grantees"],
-              ["RadicalxChange: Methods & Tools", "https://www.radicalxchange.org/tools/"],
-            ]) {
-              const recognitionLink = document.createElement("a");
-              recognitionLink.className = "xbox-project-link";
-              recognitionLink.href = href;
-              recognitionLink.textContent = label;
-              previewLinks.appendChild(recognitionLink);
-            }
+            const toolsLink = document.createElement("a");
+            toolsLink.className = "xbox-project-link";
+            toolsLink.href = "https://www.radicalxchange.org/tools/";
+            toolsLink.textContent = "RadicalxChange: Methods & Tools";
+            previewLinks.append(liveLink, githubLink, toolsLink);
           }
           if (item.dataset.xboxArt === "security-research") {
             const bountyLink = link.cloneNode(false);
@@ -254,6 +250,12 @@
         }
         previewLinks.appendChild(copy);
       });
+      const details = item.querySelector(".project-details");
+      if (details) {
+        const copy = details.cloneNode(true);
+        copy.className = "xbox-preview-details";
+        previewLinks.prepend(copy);
+      }
     }
 
     const items = Array.from(list.querySelectorAll(":scope > li"));
